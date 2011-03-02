@@ -1,0 +1,1909 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NAVT Plugin for WordPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-07-11 08:03-0500\n"
+"PO-Revision-Date: 2008-07-11 08:03-0500\n"
+"Last-Translator: Greg Bellucci <greg@gbellucci.us>\n"
+"Language-Team:  <mikael@mishkin.se>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Swedish\n"
+"X-Poedit-Country: Sweden\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: c:/www/wpsvn/wp-content/plugins/navt/app\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ../js\n"
+
+# identifies the group of pages listed in the Asset SELECT box
+#: navt-display.php:135
+msgid "pages"
+msgstr "sidor"
+
+#: navt-display.php:138
+msgid "Sort By Title"
+msgstr "Sortera efter titel"
+
+#: navt-display.php:140
+msgid "Sort By Menu Order"
+msgstr "Sortera efter menyordning"
+
+# identifies the group of categories listed in the Asset SELECT box
+#: navt-display.php:145
+msgid "categories"
+msgstr "kategorier"
+
+#: navt-display.php:148
+msgid "Sort By Name"
+msgstr "Sortera efter namn"
+
+#: navt-display.php:150
+msgid "Sort By ID"
+msgstr "Sortera efter ID"
+
+# identifies the group of users listed in the Asset SELECT box
+#: navt-display.php:155
+msgid "users"
+msgstr "användare"
+
+# identifies the group of misc items listed in the Asset SELECT box
+#: navt-display.php:167
+msgid "other"
+msgstr "andra"
+
+#: navt-display.php:194
+msgid "assets"
+msgstr "tillgångar"
+
+# anchor title
+#: navt-display.php:196
+msgid "asset panel help"
+msgstr "Hjälp för tillgångspanel"
+
+# Name of the 'unassigned' group of items
+#: navt-display.php:200
+msgid "unassigned"
+msgstr "oassignerad"
+
+# Asset instructions
+#: navt-display.php:201
+msgid "Move unassigned elements into a navigation group."
+msgstr "Flytta alla oassignerade element till en navigationsgrupp."
+
+# Asset instructions
+#: navt-display.php:207
+msgid "To create a new item, click an element from one of the groups listed below."
+msgstr "Klicka på ett element i en av grupperna nedan för att skapa ett nytt objekt."
+
+# anchor title
+#: navt-display.php:246
+msgid "group options"
+msgstr "Gruppalternativ"
+
+# anchor title
+#: navt-display.php:249
+msgid "remove group"
+msgstr "Radera grupp"
+
+# anchor title
+#: navt-display.php:252
+msgid "click to lock/unlock group"
+msgstr "Klicka för att låsa/låsa upp grupp"
+
+# refers to one of the divider option types
+#: navt-display.php:346
+#: navtajx.php:1928
+#: navtajx.php:2224
+#: ../js/navtadmin.js.php:1557
+msgid "empty space"
+msgstr "tomrum"
+
+# refers to one of the divider option types
+#: navt-display.php:349
+#: navtajx.php:1925
+#: navtajx.php:2221
+#: ../js/navtadmin.js.php:1553
+msgid "horizontal rule"
+msgstr "Horisontell linje"
+
+# anchor title for the right arrow hierarchy button
+#: navt-display.php:370
+msgid "move higher"
+msgstr "flytta upp"
+
+# anchor title for the left arrow hierarchy button
+#: navt-display.php:374
+msgid "move lower"
+msgstr "flytta ned"
+
+#: navt-display.php:379
+msgid "click to connect/disconnect item from list"
+msgstr "Klicka för att koppla/koppla bort objektet från listan"
+
+#: navt-display.php:383
+msgid "click to remove item"
+msgstr "Klicka för att radera objektet"
+
+#: navt.php:210
+msgid "NAVT Lists"
+msgstr "NAVT-listor"
+
+#: navt.php:227
+msgid "Access Denied"
+msgstr "Åtkomst nekad"
+
+#: navt.php:433
+#: navt.php:814
+#: navt.php:817
+#: navtajx.php:1783
+msgid "User defined URI"
+msgstr "Användardefinierad URI"
+
+#: navt.php:438
+#: navt.php:439
+#: navt.php:821
+#: navt.php:822
+#: navt.php:825
+msgid "List divider"
+msgstr "Listavdelare"
+
+#: navt.php:444
+#: navt.php:445
+#: navt.php:837
+#: navt.php:838
+#: navt.php:841
+msgid "Home"
+msgstr "Hem"
+
+#: navt.php:450
+#: navt.php:451
+#: navt.php:845
+#: navt.php:846
+#: navt.php:849
+msgid "Sign in"
+msgstr "Logga in"
+
+#: navt.php:569
+#: navt.php:570
+#: navt.php:829
+#: navt.php:830
+#: navt.php:833
+#: navtajx.php:1972
+#: navtajx.php:2009
+#: navtajx.php:2016
+#: navtajx.php:2025
+msgid "Code block"
+msgstr "Kod"
+
+#: navt.php:889
+#: navt.php:923
+msgid "no title"
+msgstr "ingen titel"
+
+#: navt.php:1193
+msgid " - Sets all NAVT created database options to their default values. This will cause any previously created Navigation Groups to be removed."
+msgstr " - Nollställer alla värden i databasen för NAVT till sina ursprungsvärden. Detta gör att allt som tidigare skapats tas bort."
+
+#: navt.php:1194
+msgid " - Removes all NAVT created database options and automatically deactivates the plugin."
+msgstr " - Tar bort alla värden i databasen för NAVT och avaktiverar pluginen."
+
+#: navt.php:1202
+msgid "Reset this plugin"
+msgstr "Nollställ denna plugin"
+
+#: navt.php:1202
+msgid "Reset"
+msgstr "Nollställ"
+
+#: navt.php:1203
+msgid "Uninstall this plugin"
+msgstr "Avinstallera denna plugin"
+
+#: navt.php:1203
+msgid "Uninstall"
+msgstr "Avinstallera"
+
+#: navt.php:1478
+msgid "WordPress Navigation Management"
+msgstr "WordPress Navigation Management"
+
+#: navt.php:1479
+msgid "Navigation Tool for WordPress v"
+msgstr "Navigeringsverktyg för WordPress v"
+
+#: navt.php:1484
+#: navt_sbm_module.php:67
+msgid "Navigation Group"
+msgstr "Navigationsgrupp"
+
+#: navt.php:1488
+msgid "group help"
+msgstr "hjälp för grupper"
+
+#: navt.php:1493
+msgid "group name"
+msgstr "gruppnamn"
+
+#: navt.php:1496
+msgid "create new group"
+msgstr "skapa ny grupp"
+
+#: navt.php:1496
+msgid "create"
+msgstr "skapa"
+
+#: navt.php:1502
+msgid "Backup-Restore"
+msgstr "Backup-Återställ"
+
+#: navt.php:1506
+msgid "backup/restore help"
+msgstr "hjälp för backup-återställ"
+
+#: navt.php:1511
+msgid "backup/restore navigation groups"
+msgstr "backup/återställ navigationsgrupper"
+
+#: navt.php:1512
+msgid "restore"
+msgstr "återställ"
+
+#: navt.php:1513
+msgid "backup"
+msgstr "backup"
+
+#: navt.php:1518
+msgid "Change Log"
+msgstr "Versionslog"
+
+#: navt.php:1574
+msgid "copyright"
+msgstr "copyright"
+
+#: navt.php:1575
+msgid "navt forum"
+msgstr "navt forum"
+
+#: navt.php:1576
+msgid "atalaya studio"
+msgstr "atalaya studio"
+
+#: navt.php:1577
+msgid "donations"
+msgstr "donationer"
+
+#: navt.php:1578
+msgid "the mit license"
+msgstr "the mit license"
+
+#: navtajx.php:34
+msgid "unknown request"
+msgstr "okänd förfrågan"
+
+#: navtajx.php:245
+msgid "** Help does not exist for that subject **"
+msgstr "** Ingen hjälp finns för den rubriken **"
+
+#: navtajx.php:253
+msgid "NAVT Assets"
+msgstr "NAVT-tillgångar"
+
+#: navtajx.php:256
+msgid "The Asset Panel"
+msgstr "Tillgångspanelen"
+
+#: navtajx.php:256
+msgid "The NAVT asset panel gives you the ability to create navigation items from the various resources you've created in Word Press. NAVT refers to your pages, categories, user's and other items as assets. The panel places each resource into the appropriate asset group. Groups are identified by type."
+msgstr "Tillgångspanelen ger dig möjlighet att skapa objekt i navigeringen från olika källor du skapat i WordPress. NAVT refererar till dina sidor, kategorier, användare och andra objekt som tillgångar. Denna panel placerar alla dina källor i respektive tillgångsgrupp. Grupper identifieras efter typ."
+
+#: navtajx.php:256
+msgid "The location where unassigned assets are created. This area is typically grayed out until one or more navigation items are created. All newly created items will appear in this section."
+msgstr "Platsen där oassignerade tillgångar skapas. Denna plats är vanligtvis inaktiverad till en eller flera navigationsobjekt har skapats. Alla nyligen skapade objekt placera här."
+
+#: navtajx.php:256
+msgid "Icons indicate the type of resource contained in the listbox below it. Icons and listboxes exist for Pages, Categories, User's and Other items."
+msgstr "Ikoner indikerar vilken typ av "
+
+#: navtajx.php:256
+msgid "The list of assets of the type indicated. Clicking an item within the listbox will create a copy of the item and place it in the unassigned area at the top."
+msgstr "Listan över tillgångar av typen är markerad. Genom att klicka på ett objekt i list skapas en kopia av objektet och placeras i platsen för oassignerade objekt högst upp."
+
+#: navtajx.php:259
+msgid "Creating Assets"
+msgstr "Skapa tillgångar"
+
+#: navtajx.php:259
+msgid "This example illustrates what happened when the About page entry was selected."
+msgstr "Detta exempel visar vad som händer då Om-sidan valts."
+
+#: navtajx.php:259
+msgid "About Page selected by clicking the name in the listbox."
+msgstr "Om-sidan valdes genom att klicka på namnet i listan."
+
+#: navtajx.php:259
+msgid "A copy of the About Page navigation item is created."
+msgstr "En kopia av Om-sidans navigationsobjekt skapades."
+
+#: navtajx.php:259
+msgid "The navigation item appears in the unassigned area."
+msgstr "Navigationsobjektet visas under oassignerade."
+
+#: navtajx.php:259
+msgid "The About Page navigation item can be deleted by clicking the item's delete button."
+msgstr "Om-sidans navigationsobjekt kan raderas genom att klicka på objektets raderaknapp."
+
+#: navtajx.php:259
+msgid "The navigation item can be dragged and dropped to a navigation group by moving the item from the unassigned group."
+msgstr "Navigationsobjektet kan dra och släppas i en navigationsgrupp genom att flytta den från den oassignerade gruppen."
+
+#: navtajx.php:259
+msgid "Any number of the same navigation items may be created and placed into different navigation groups. Each item (even if they represent identicle items) have separately configurable options. Item option setting for one item will not effect the option settings for another."
+msgstr "Du kan skapa flera upplagor av samma navigationsobjekt och placera dem i olika navigationsgrupper. Varje objekt (även om de representerar samma källa) kan konfigureras olika. Inställningarna för de olika objekten påverkar inte varandra."
+
+#: navtajx.php:264
+msgid "NAVT Groups and Items"
+msgstr "NAVT-grupper och objekt"
+
+#: navtajx.php:267
+msgid "Navigation Groups"
+msgstr "Navigationsgrupper"
+
+#: navtajx.php:267
+msgid "NAVT groups are a simple collection of navigation items composed from the pages, categories, users and other items that you've created in your WordPress blog. All available items are shown in the assets panel on the left side of the screen (see asset help). Items are divided into types and appear within separate lists."
+msgstr "NAVT-grupper är en samling objekt bestående av sidor, kategorier, användare och andra objekt från din WordPress-blogg. Alla tillgängliga objekt visas i tillgångspanelen på vänstra sidan av skärmen (see hjälpen för tillgångar). Objekten delas in efter typ och visas i respektive lista."
+
+#: navtajx.php:267
+msgid "Creating Groups"
+msgstr "Skapa grupper"
+
+#: navtajx.php:267
+msgid "Navigation groups are created by entering a group name into the group name textbox in the NAVT toolbar at the top of the screen. After entering the name, click the create button. The group name you enter must begin with an alphabetic character and it cannot contain spaces. Group names are limited in size to no more than 10 characters. All group names must be unique. After creating the group, a new (and empty) group container will appear to the right of the assets panel. The group name will appear at the top of the group container."
+msgstr "Navigationsgrupper skapas genom att ange ett gruppnamn i textboxen i verktygslisten för NAVT längst upp i fönstret och klicka på skapa-knappen. Gruppnamnet måste börja med en bokstav, får inte innehålla mellanslag och maximalt bestå av tio tecken. Samtliga namn måste vara unika. Efter att en grupp skapats visas en ny (och tom) gruppyta i tillgångarna till höger. Namnet visas högs upp i ytan."
+
+#: navtajx.php:267
+msgid "Group Toolbar"
+msgstr "Verktygslist för grupper"
+
+#: navtajx.php:267
+msgid "The group toolbar (shown on the right) contains three icons in addition to the area for the group name:"
+msgstr "Verktygslisten för grupper (till höger) innehåller tre ikoner utöver ytan för gruppnamnet:"
+
+#: navtajx.php:267
+msgid "<strong>A lock icon</strong> - used to prevent group changes."
+msgstr "<strong>Låsikon</strong> - används för att förhindra gruppförändringar."
+
+#: navtajx.php:267
+msgid "The name of the navigation group."
+msgstr "Namnet på navigationsgruppen."
+
+#: navtajx.php:267
+msgid "<strong>A trashcan</strong> - used to delete the entire group."
+msgstr "<strong>Papperskorg</strong> - används för att radera hela gruppen."
+
+#: navtajx.php:267
+msgid "<strong>A gear icon</strong> - used for setting group options."
+msgstr "<strong>Verktygsikon</strong> - används för att ändra inställningarna för gruppen."
+
+#: navtajx.php:267
+msgid "group toolbar"
+msgstr "verktygslist för grupper"
+
+#: navtajx.php:270
+msgid "Creating Items"
+msgstr "Skapa objekt"
+
+#: navtajx.php:270
+msgid "Navigation items are created by clicking on the name of an item listed in the Pages, Categories, User's and Others listboxes in the assets panel. When you select and item, a copy of the item will appear in unassigned section at the top of the assets panel. The item may then be dragged and dropped into any one of the group containers you previously created."
+msgstr "Navigationsobjekt skapas genom att klicka på namnet på en källa i listorna för sidor, kategorier, användare eller annat i tillgångspanelen. När du väljer ett objekt skapas en kopia under oassignerade objekt högst upp under tillgångar. Dessa kan dra och släppas i en tidigare skapad gruppyta."
+
+#: navtajx.php:270
+msgid "More than one of the same item may be created and placed into the same or into a different group. Every item (even the same items) may be configured to have different options."
+msgstr "Flera objekt kan skapas från samma källa och placeras i olika grupper. Varje objekt kan konfigureras på olika sätt och ha olika inställningar."
+
+#: navtajx.php:270
+msgid "Item Tools"
+msgstr "Objektverktyg"
+
+#: navtajx.php:270
+msgid "Each item contains a number of management tools."
+msgstr "Varje objekt innehåller ett antal verktyg."
+
+#: navtajx.php:270
+msgid "item tools"
+msgstr "objektverktyg"
+
+#: navtajx.php:270
+msgid "<strong>The item alias</strong> - the name of the item as it will appear in the navigation list. Click the item alias to open the item's option box."
+msgstr "<strong>Objektalias</strong> - det namn som objektet kommer att ha i navigationslistan. Klicka på ett objekts alias för att visa dess inställningar."
+
+#: navtajx.php:270
+msgid "<strong>The item icon</strong> - represents the type of item (page, category, user or other). The icon is used to move the item from group to group."
+msgstr "<strong>Objektikon</strong> - representerar objektets typ (sida, kategori, användare eller annat). Ikonen används för att flytta ett objekt från en grupp till en annan."
+
+#: navtajx.php:270
+msgid "<strong>Connect/Disconnect icon</strong> - disconnecting the item means that the item remains in the group, however, the item will not be included in the output navigation list created for the web site. Connecting the item means that the item will be included in the output navigation list. This feature is used for temporarily eliminating an item without removing it from the group."
+msgstr "<strong>Koppla/Koppla från-ikon</strong> - koppla från innebär att objektet fortfarande tillhör gruppen men visas inte i navigationslistan på webbplatsen. Genom att koppla objektet till gruppen visas det i listan. Detta används för att tillfälligt kunna ta bort ett alternativ ur en lista utan att behöva ta bort objektet ur gruppen."
+
+#: navtajx.php:270
+msgid "<strong>Item removal icon</strong> - this icon is used to delete the item from the group."
+msgstr "<strong>Radera objekt-ikon</strong> - ikonen används för att radera ett objekt från en grupp."
+
+#: navtajx.php:270
+msgid "<strong>Hierarchical control arrows</strong> - used for moving the item to the left or right to indicate parent/child relationships."
+msgstr "<strong>Pilar för att kontrollera hierarki</strong> - används för att flytta objekt åt vänster och höger för att ange undersidor."
+
+#: navtajx.php:275
+#: navtajx.php:278
+msgid "Backup/Restore"
+msgstr "Backup/Återställ"
+
+#: navtajx.php:278
+msgid "Selecting the <strong>Backup</strong> button will cause NAVT to create a XML file containing the configuration information for all of your navigation groups. The XML backup file is stored on your local computer. Restore the backup by selecting the <strong>Restore</strong> button. The restore function merges your current navigation groups with the contents of the backup file; restore can be used to create placeholders for missing categories, pages or users if they were removed after the backup was created. Full instructions are provided on the restore page."
+msgstr "Genom att välja <strong>Backup</strong>-knappen skapar NAVT en XML-fil som innehåller dina inställningar för samtliga navigationsgrupper. Denna fil sparas lokalt på din dator. Din konfiguration kan återskapas genom att klicka på <strong>Återställ</strong>-knappen. Återställningsfunktionen låter dig sammanfoga dina navigationsgrupper men backup-filens innehåll och återskapa sidor, kategorier eller användare som tagits bort sedan backupen gjordes.  Fullständiga instruktioner finns på sidan för återställning."
+
+#: navtajx.php:284
+msgid "Configuring Group Options"
+msgstr "Konfigurera gruppinställningar"
+
+#: navtajx.php:287
+msgid "Show only top-level anchors on page"
+msgstr "Visa endast högsta nivån av länkar på sidan"
+
+#: navtajx.php:287
+msgid "When checked, the option Show only top-level anchors on page (hide hierarchy) will display only the links to the child pages of the current page. If a child page contains children of it's own, those anchors will only be shown when the child page is viewed. For example, if you created the following navigation group:"
+msgstr "När alternativet Visa endast länkar i högsta nivå (dölj sidhierarkin) är valt visas endast länkar till sidor som ligger direkt under nuvarande sidan. Om en undersida har egna undersidor visas dessa endast då den undersidan visas. Om du till exempel skapar följande navigationsgrupp:"
+
+#: navtajx.php:287
+#: navtajx.php:290
+msgid "Item 1"
+msgstr "Objekt 1"
+
+#: navtajx.php:287
+msgid "Item 1a"
+msgstr "Objekt 1a"
+
+#: navtajx.php:287
+msgid "Item 1b"
+msgstr "Objekt 1b"
+
+#: navtajx.php:287
+#: navtajx.php:290
+msgid "Item 2"
+msgstr "Objekt 2"
+
+#: navtajx.php:287
+msgid "Item 2a"
+msgstr "Objekt 2a"
+
+#: navtajx.php:287
+msgid "The Home Page would only display a navigation list containing Item 1 and Item 2. Their respective child links would not be visible. If you clicked Item 1, the newly displayed blog page would show the navigation links for Item 1a and Item 1b. The navigation list shown for Item 2 would contain only Item 2a."
+msgstr "Förstasidan skulle endast visa en navigationslista innehållande Objekt 1 och Objekt 2. Deras respektive undersidor skulle inte vara synliga. Om Objekt 1 klickas skulle den nya sidan visa länkar till Objekt 1a och Objekt 2a. Navigationslistan för Objekt 2 skulle bara innehålla Objekt 2a."
+
+#: navtajx.php:287
+msgid "The option has an additional feature: Add page return to list. If this is checked, NAVT will add an additional link to the child navigation list allowing the user to return to the parent page."
+msgstr "Inställningarna har en ytterligare tillägg: Lägg till återgångslänk till listan. Med detta valt lägger NAVT till en länk till varje undersidas navigationslista som låter användare återgå till sidans modersida."
+
+#: navtajx.php:287
+#: navtajx.php:1644
+msgid "Show breadcrumb navigation"
+msgstr "Visa breadcrumb-navigation"
+
+#: navtajx.php:287
+msgid "Selecting this option will cause NAVT to add a breadcrumb path to the currently displayed page above the navigation list. For example, a user currently viewing blog page Item 1a would see the breadcrumb trail Home  &raquo; Item 1 &raquo; Item 1a. Selecting a link in the breadcrumb trail will take the user to the previously viewed blog page. The path can be easily styled (using CSS) to appear anywhere on the page using absolute positioning."
+msgstr "Detta alternativ gör att NAVT visar hela vägen fram till den sida som för nuvarande visas. Om en användare till exempel tittar på sidan Objekt 1a skulle denne även se vägen tillbaka till förstasidan: Hem &raquo; Objekt 1 &raquo; Objekt 1a. Genom att klicka på länkarna tas användaren till den tidigare besökta sidan. Utseendet kan enkelt påverkas med hjälp av CSS och på det viset visas vart som helst på sidan genom absolut positionering."
+
+#: navtajx.php:290
+msgid "Create navigation list using HTML select"
+msgstr "Skapa navigationslista med hjälp av HTMLs select"
+
+#: navtajx.php:290
+msgid "Selecting this option will turn your navigation list into a Drop Down list of navigation items constructed using a HTML SELECT statement. This should not be confused with Drop Down lists produced by CSS. A typical Drop Down would appear as:"
+msgstr "Genom att välja detta alternativ visas din navigationslista som en dropdownmeny med hjälp av HTMLs SELECT-objekt. Detta bör inte förväxlas med dropdownmenyer som skapats med hjälp av CSS. En typisk dropdown ser ut som följer:"
+
+#: navtajx.php:290
+msgid "Item 3"
+msgstr "Objekt 3"
+
+#: navtajx.php:290
+msgid "Item 4"
+msgstr "Objekt 4"
+
+#: navtajx.php:290
+msgid "Item 5"
+msgstr "Objekt 5"
+
+#: navtajx.php:290
+msgid "Item 6"
+msgstr "Objekt 6"
+
+#: navtajx.php:290
+msgid "This option has the additional feature:  Display: 'N' item(s) in list. This is used to force the SELECT to show a maximum number of entries. The default is 1. For example, entering the number 3 in the box will cause the Drop Down to appear as:"
+msgstr "Detta alternativ har ett ytterligare tillägg: Visa: 'N' objekt i listan. Valt antal objekt visas i dropdownmenyn. Standardvärde är 1. Om värdet skulle sättas till 3 skulle meny istället se ut som följer:"
+
+#: navtajx.php:290
+msgid "Here we can see the first three available selections. In this case, the box contains more than three items so the browser adds a scrollbar on the right. This Drop Down box does not support multiple selections."
+msgstr "Här visas de tre första alternativen. I detta fallet innehåller listan fler än tre alternativ totalt så webbläsare lägger automatiskt till scrollbars på höger sida. Denna meny tillåter inte att man väljer flera alternativ."
+
+#: navtajx.php:290
+msgid "Set navigation group to private"
+msgstr "Gör navigationsgruppen privat"
+
+#: navtajx.php:290
+msgid "This option enables you to hide all navigation items from casual viewing if the viewer is not signed into your web site. Hiding the members of navigation lists can also be done by selecting the individual privacy option for each of the navigation items. Selecting this option will also change the color of the group heading (only in the NAVT List Page) to indicate the group is set to private."
+msgstr "Detta alternativ gör att du kan dölja alla navigationsobjekt från vanliga användare som inte är inloggad på din webbplats. Delar av navigationslistor kan också döljas genom att detta ställs in på varje enskilt objekt. Om alternativet väljs kommer färgen på gruppens rubrik att ändras (på administratörssidorna för NAVT) för att visa att sidorna är privata."
+
+#: navtajx.php:295
+msgid "Configuring Display Options"
+msgstr "Konfigurera inställningar för visning"
+
+#: navtajx.php:298
+msgid "Controlling Where Navigation Groups are Displayed"
+msgstr "Kontrollera var navigationsgrupperna visas"
+
+#: navtajx.php:298
+msgid "The display of any Navigation group can be controlled by specifying the page types where the navigation group should appear. The Show navigation group on... area allows you to indicate whether or not the navigation group is to appear on:"
+msgstr "Visningen av varje navigationsgrupp kan kontrolleras genom att ange på vilken typ av sidor gruppen ska visas. Alternativet Visa navigationsgrupp på... låter dig ange om gruppen ska visas på:"
+
+#: navtajx.php:298
+msgid "The Home Page"
+msgstr "Förstasidan"
+
+#: navtajx.php:298
+msgid "A Static Front Page (if configured)"
+msgstr "En statisk förstasidan (om detta används)"
+
+#: navtajx.php:298
+msgid "An archive page (categories, user pages, date pages, etc)"
+msgstr "En arkivsida (kategorier, användare, datum, m.m.)"
+
+#: navtajx.php:298
+msgid "The search results page"
+msgstr "Sida för sökresultat"
+
+#: navtajx.php:298
+msgid "The 'page not found' page (404 errors)"
+msgstr "Sidan för \"sidan kunde inte hittas\"-fel (Fel 404)"
+
+#: navtajx.php:298
+msgid "Settings for Available Posts/Pages"
+msgstr "Inställningar för tillgängliga inlägg/sidor"
+
+#: navtajx.php:298
+msgid "Navigation groups can also be displayed (or not displayed) on all or on individually selected posts and/or pages. To display a navigation group on one or more selected posts or pages:"
+msgstr "Navigationsgrupper kan också visas (eller inte visas) på alla eller på vissa valda inlägg eller sidor. För att visa en grupp på valda inlägg och sidor gör följande:"
+
+#: navtajx.php:298
+msgid "Check Settings for available posts and/or Settings for available pages. If these options are not checked, the navigation group will be displayed on all single pages and single post pages."
+msgstr "Kontrollera Inställningar för tillgängliga inlägg och/eller Inställningar för tillgängliga sidor. Om dessa inställningar inte är gjorda kommer navigationsgruppen visas på samtliga inlägg och sidor."
+
+#: navtajx.php:298
+msgid "Select Display this navigation group only on selected posts (or pages) or Do Not Display this navigation group only on selected posts (or pages). Selecting one of these radio buttons determines whether or not the Navigation group is to be shown on or not shown on the posts or pages that you select in the relevant list box."
+msgstr "Välj Visa endast denna grupp på valda inlägg (eller sidor) eller Visa inte denna grupp på valda inlägg (eller sidor). Att välja en av dessa alternativknappar bestämmer om navigationsgruppen visas eller inte på de valda inläggen eller sidorna."
+
+#: navtajx.php:298
+msgid "Pages and posts are listed by their respective titles."
+msgstr "Sidor och inlägg sorteras efter deras respektive namn."
+
+#: navtajx.php:303
+msgid "Styling Navigation Groups"
+msgstr "Stilar för navigationsgrupper"
+
+#: navtajx.php:306
+msgid "CSS Styles"
+msgstr "CSS-stilar"
+
+#: navtajx.php:306
+msgid "NAVT provides several CSS classes to the HTML it creates for your web site. Classes are used to assist you in styling your navigation groups. In addition, you have the choice of either applying native Word Press styles or not using any styles at all. Your own styles can exclusively used by selecting 'Do not apply CSS classes' and adding 'Apply the CSS information below to this navigation group"
+msgstr "NAVT tillhandahåller flera CSS-klasser för att påverka hur navigationslistorna visas på din webbplats. Utöver detta kan du välja att använda WordPress egna stilmallar eller inga stilmallar alls. Egna stilmallar kan användas genom att välja 'Använd inte några CSS-klasser' och sedan 'Använd CSS-reglerna nedan för denna navigationsgrupp"
+
+#: navtajx.php:306
+msgid "User Styles"
+msgstr "Användarstilar"
+
+#: navtajx.php:306
+msgid "By default, NAVT constructs navigation groups for your web site by building one or more unordered lists from the contents of the group. The number of unordered tag groups is dependent on whether or not parent/child relationships exist amoung the various navigation items in the list. Lists begin with a standard UL tag followed by one or more LI tags or nested UL tags contained within an LI tag."
+msgstr "Som standard skapar NAVT navigationsgrupper för din webbplats genom att sätta samman en eller flera osorterade listor från respektive grupps innehåll. Antalet osorterade grupper beror på om det finns något inbördes förhållande mellan de olika objekten (om någon sida är undersida till någon annen eller liknande). Listorna börjar med en vanlig UL-tagg följd av en eller flera LI-taggar eller nestlade UL-taggar innesluten i en LI-tagg."
+
+#: navtajx.php:306
+msgid "To add CSS classes, enter the class names in the textboxes provided. Multiple class names can be entered (per tag) by separating each class name with a space. No more than one selector name can be entered into the UL Selector ID textbox."
+msgstr "För att lägga till CSS-klasser skriver du in namnen på klasserna i respektive textruta. Flera klasser kan anges för varje tagg genom att separera namnen med ett mellanslag. Dock kan bara ett namn anges i extrutan för UL-selektorns ID."
+
+#: navtajx.php:306
+msgid "<strong>UL selector ID</strong> - The selector ID given to the parent UL tag."
+msgstr "<strong>UL-selektor ID</strong> - ID som tilldelas UL-taggen."
+
+#: navtajx.php:306
+msgid "<strong>UL tag CSS class</strong> - The class applied to the parent UL tag."
+msgstr "<strong>CSS-klass för UL-taggen</strong> - CSS-klass som påverkar UL-taggen"
+
+#: navtajx.php:306
+msgid "<strong>LI tag CSS class</strong> - The class applied to all LI tags."
+msgstr "<strong>CSS-klass för LI-taggar</strong> - CSS-klass som påverkar samtliga LI-taggar."
+
+#: navtajx.php:306
+msgid "<strong>LI active page CSS class</strong> - The class applied to the active LI tag."
+msgstr "<strong>CSS-klass för LI-tagg aktiv sida</strong> - CSS-klass som påverkar den LI-tagg som representerar den nuvarande sidan."
+
+#: navtajx.php:306
+msgid "<strong>LI tag parent container</strong> - The class applied to the LI parent of a nested UL tag."
+msgstr "<strong>CSS-klass för LI-tagg modersida</strong> - CSS-klass som påverkar LI-taggar med underliggande nestlade UL-taggar."
+
+#: navtajx.php:306
+msgid "<strong>LI tag parent container (active)</strong> - The class applied to the parent container of the active LI tag."
+msgstr "<strong>CSS-klass för LI-tagg modersida (aktiv)</strong> - The class applied to the parent container of the active LI tag."
+
+#: navtajx.php:311
+#: navtajx.php:314
+#: navtajx.php:1588
+msgid "Theme Integration"
+msgstr "Integration med tema"
+
+#: navtajx.php:314
+msgid "This section enables you to integrate navigation groups into a Word Press theme by combining an <a class='definition' href='http://docs.jquery.com/DOM/Traversing/Selectors' title='xpath expressions'>xpath expression</a> with one of the actions from the action list.</p><p>For example, if you wanted to insert the navigation group above a division in your theme where the id of the division were named <strong>header</strong> then you would enter: <strong>#header</strong> into the xpath textbox. A hash character <strong>must proceed the id</strong> to indicate that the xpath contains a selector id. The navigation group can be inserted above, below, at the top or at the bottom of the location expressed in the xpath text box.</p><p>The navigation group can be preceeded by any number of additional HTML tags. HTML tags can contain an id and/or CSS classes. Selector ids and class names <strong>must be enclosed within double quotes</strong>. Ending tags must be entered if beginning tags are used."
+msgstr "Denna sektion låter dig integrera navigationsgrupper med ditt WordPress-tema genom en kombination av <a class='definition' href='http://docs.jquery.com/DOM/Traversing/Selectors' title='xpath expressions'>xpath</a> och en av de funktioner som finns i listan.</p><p>Om du till exempel vill infoga navigationsgruppen ovanför den del av ditt tema som har ID-taggen <strong>huvud</strong> skriver du: <strong>#huvud</strong> i xpath-textrutan. Ett hash-tecken <strong>måste anges före delens id</strong> för att visa din xpath innehåller ett selektor-id. Navigationsgruppen kan infogas före, efter elleri början eller slutet av den position som beskrivs i textrutan.</p><p>Navigationsgruppen kan föregås av flera ytterligare HTML-taggar som alla kan ha tilldelade ID-taggar och CSS-klasser. Selektor-ID och namn på CSS-klasser <strong>måste inteslutas med citationstecken</strong>. Sluttaggar måste anges om taggar använts tidigare."
+
+#: navtajx.php:319
+msgid "Configuring Page Options"
+msgstr "Konfigrura inställningar för sidor"
+
+#: navtajx.php:322
+#: navtajx.php:333
+#: navtajx.php:344
+#: navtajx.php:355
+#: navtajx.php:366
+#: navtajx.php:377
+#: navtajx.php:388
+#: navtajx.php:399
+msgid "Item Alias"
+msgstr "Objektalias"
+
+#: navtajx.php:322
+msgid "The label that is given to a link is called a menu item alias. The alias is what the user sees in the navigation list on the web page. The alias may differ from the title of a page. In the diagram, A points to the item alias and B points to the item's title. The title is the name you gave the page when it was created. Changing the title will not change the alias you assigned nor will changing the alias change the page title. Item C is the icon used to signify a page."
+msgstr "Ytan som ges en länk kallas är ett menyobjektsalias. Detta alias är vad en användare se i navigationslistan på webbplatsen. Ett alias kan skilja från titeln på en sida. I diagrammet är punkt A objektaliaset och B objektets titel som tilldelades när du skapade objektet. Ändringar av titeln påverkar inte det alias du valt och vice versa. C är ikonen som används för att representera en sida."
+
+#: navtajx.php:322
+msgid "Options for Pages"
+msgstr "Inställningar för sidor"
+
+#: navtajx.php:330
+msgid "Configuring Category Options"
+msgstr "Konfigurera inställningar för kategorier"
+
+#: navtajx.php:333
+msgid "The label that is given to a link is called a menu item alias. The alias is what the user sees in the navigation list on the web page. The alias may differ from the category name. In the diagram, A points to the item alias and B points to the item's title. The title is the name you gave the category when it was created. Changing the title will not change the alias you assigned nor will changing the alias change the category title. Item C is the icon used to signify a category."
+msgstr "Ytan som ges en länk kallas är ett menyobjektsalias. Detta alias är vad en användare se i navigationslistan på webbplatsen. Ett alias kan skilja från kategorins namn. I diagrammet är punkt A objektaliaset och B objektets titel som tilldelades när du skapade objektet. Ändringar av namnet påverkar inte det alias du valt och vice versa. C är ikonen som används för att representera en kategori."
+
+#: navtajx.php:333
+msgid "Options for Categories"
+msgstr "Inställningar för kategorier"
+
+#: navtajx.php:333
+msgid "Show in WP category list. By default NAVT will prevent a category that has been used in a NAVT navigation list from also appearing in a category list generated by Word Press. Check this option if you want the category displayed in both locations."
+msgstr "Visa i WordPress lista över kategorier. Vanligen förhindrar NAVT kategorier som används av en navigationslista från att också visas i listan över kategorier som skapas av WordPress. Välj detta alternativ opm du vill att kategorierna ska visas på båda ställena."
+
+#: navtajx.php:333
+msgid "<strong>Append post count</strong> - NAVT appends the number of posts contained in the category to the category name."
+msgstr "<strong>Lägg till antal inlägg</strong> - NAVT lägger till antalet inlägg i kategorin efter dess namn."
+
+#: navtajx.php:333
+msgid "<strong>Show if Empty</strong> - causes the category link to appear even if it doesn't contain any posts."
+msgstr "<strong>Visa om tom</strong> - länken till kategorin visas även om den inte innehåller några inlägg."
+
+#: navtajx.php:333
+msgid "<strong>Use description as tooltip</strong> - Uses the description of the category as the mouse hover tooltip."
+msgstr "<strong>Använd beskrivning som tooltip</strong> - Använder kategoris beskrivning som tooltip då musen förs över länken."
+
+#: navtajx.php:341
+msgid "Configuring Home Page Options"
+msgstr "Konfigurera inställningar för förstasidan"
+
+#: navtajx.php:344
+msgid "The label that is given to a link is called a menu item alias. The alias is what the user sees in the navigation list on the web page. The alias may differ from the Home title. In the diagram, A points to the item alias and B points to the Home title.  Item C is the icon used to signify the Home navigation item."
+msgstr "Ytan som ges en länk kallas är ett menyobjektsalias. Detta alias är vad en användare se i navigationslistan på webbplatsen. Ett alias kan skilja från titeln på förstasidan. I diagrammet är punkt A objektaliaset och B objektets titel som tilldelades när du skapade objektet. Ändringar av titeln påverkar inte det alias du valt och vice versa. C är ikonen som används för att representera en förstasidan."
+
+#: navtajx.php:344
+#: navtajx.php:399
+#: navtajx.php:935
+msgid "Options"
+msgstr "Inställningar"
+
+#: navtajx.php:344
+#: navtajx.php:366
+#: navtajx.php:377
+msgid "home options"
+msgstr "inställningar för förstasidan"
+
+#: navtajx.php:352
+msgid "Configuring SignIn Options"
+msgstr "Konfigurera inställningar för inloggning"
+
+#: navtajx.php:355
+msgid "Sign in/Register Item"
+msgstr "Logga in/Registrerings-objekt"
+
+#: navtajx.php:355
+msgid "This item is equivalent to the Word Press sign-on/register anchors as part of the Word Press meta data. The anchor presented depends on whether or not the user has signed into the web site. When signed in, the anchor allows them to sign out; if not signed in and the Word Press Membership option: anyone can register is checked, the anchor will allow the user to register or sign in."
+msgstr "Detta objekt är samma som WordPress egna logga in/registrera-länkar som visas med metadatan. Länken visas olika beroende på huruvida en användare är inloggad på webbplatsen eller inte. Då en användare är inloggad används länken för att logga ut medan den tillåter inloggning eller registrering av användare när så inte är fallet."
+
+#: navtajx.php:355
+msgid "The label that is given to a link is called a menu item alias. The alias is what the user sees in the navigation list on the web page. The alias may differ from the sign-in title. In the diagram, A points to the item alias and B points to the sign-in title. Item C is the icon used to signify the sign-in administration item."
+msgstr "Ytan som ges en länk kallas är ett menyobjektsalias. Detta alias är vad en användare se i navigationslistan på webbplatsen. Ett alias kan skilja från titeln på inloggningslänken. I diagrammet är punkt A objektaliaset och B objektets titel som tilldelades när du skapade objektet. Ändringar av titeln påverkar inte det alias du valt och vice versa. C är ikonen som används för att representera inloggningslänken."
+
+#: navtajx.php:355
+msgid "Options for Site Administration"
+msgstr "Inställningar för administration"
+
+#: navtajx.php:355
+msgid "sign-in options"
+msgstr "inställningar för inloggning"
+
+#: navtajx.php:355
+msgid "<strong>Create sign-in form</strong> - selecting this will create a small sign-in form on the web site."
+msgstr "<strong>Skapa inloggningsformulär</strong> - detta val skapar ett litet inloggningsformulär på webbplatsen."
+
+#: navtajx.php:355
+msgid "<strong>Use referral page redirect</strong> - After signing in, the user remains on the page where they signed in."
+msgstr "<strong>Använd omdirigering till ursprungssidan</strong> - Efter att ha loggat in omdirigeras användare till sidan som besöktes innan inloggningen."
+
+#: navtajx.php:355
+msgid "<strong>Use URL redirect</strong> - When checked, the user is redirected to the URL that is contained in the redirect URL textbox."
+msgstr "<strong>Använd omdirigering av URL</strong> - När detta är valt omdirigeras användaren till den URL som angetts i textrutan."
+
+#: navtajx.php:355
+msgid "<strong>Redirect URL text box </strong>- enables you to send the signed in user to another page on your web site. Enter a complete URL in this box."
+msgstr "<strong>Textruta för omdirigerings-URL</strong> - används för att ange den adress som användaren skickas till efter inloggning. Ange en fullständig webbadress."
+
+#: navtajx.php:363
+msgid "Configuring Divider Options"
+msgstr "Konfigurera inställningar för avdelare"
+
+#: navtajx.php:366
+msgid "Divider Items"
+msgstr "Avdelarobjekt"
+
+#: navtajx.php:366
+msgid "A divider is primarily designed to separate navigation lists into groups of related items. A divider can be inserted between elements to provide an empty space, a horizontal line or a plain text title. The menu item alias serves as the title when the divider type is set to 'plain text'."
+msgstr "En avdelare används framförallt för att separera en navigationslista i mindre grupper med liknande objekt. En avdelare kan infögas mellan element för att ge ett tomrum, en horisontell linje eller en textsträng. Menyobjektsaliaset används som titel då typen är satt till text."
+
+#: navtajx.php:366
+msgid "The label that is given to a link is called a menu item alias. The alias is what the user sees in the navigation list on the web page. The alias is used as a title or header when the divider type is set to plain text. No alias is displayed when the divider type is set to either empty space horizontal rule. In the diagram, A points to the item alias and B points to the List Divider title. Item C is the icon used to signify the divider navigation item."
+msgstr "Ytan som ges en länk kallas är ett menyobjektsalias. Detta alias är vad en användare se i navigationslistan på webbplatsen. Ett alias används som titel eller rubrik då avdelaretypen är satt till text. Inget alias visas om ingen avdelare eller horisontell linje används. I diagrammet är punkt A objektaliaset och B objektets titel som tilldelades när du skapade objektet. Ändringar av titeln påverkar inte det alias du valt och vice versa. C är ikonen som används för att representera en avdelare."
+
+#: navtajx.php:366
+msgid "Divider Options"
+msgstr "Inställningar för avdelare"
+
+#: navtajx.php:366
+msgid "<strong>Divider type</strong> - the type of divider to create."
+msgstr "<strong>Typ av avdelare</strong> - anger vilken typ av avdelare som ska skapas."
+
+#: navtajx.php:374
+msgid "Configuring URI Options"
+msgstr "Konfigurera inställningar för URI"
+
+#: navtajx.php:377
+msgid "URI Items"
+msgstr "URI-objekt"
+
+#: navtajx.php:377
+msgid "A Uniform Resource Identifier (URI), is a compact string of characters used to identify or name a resource. The main purpose of this identification is to enable interaction with representations of the resource over a network, typically the World Wide Web, using specific protocols. URIs are defined in schemes defining a specific syntax and associated protocols. URI's supported by NAVT are limited to: http:// for identifying both internal or extern web site pages and mailto: for providing an anchor for sending email."
+msgstr "En Uniform Resource Identifier (URI) är en kort textsträng som används för att identifiera resurser. Den används främst för att möjliggöra åtkomst av resurser över nätverk, vanligtvis World Wide Web, med särskilda protokoll. URIs anges enligt speciell syntax och särskilda protokoll. NAVT är begränsat till http:// för interna och externa webbsidor och mailto: för e-postlänkar."
+
+#: navtajx.php:377
+msgid "The label that is given to a link is called a menu item alias. The alias is what the user sees in the navigation list on the web page. In the diagram, A points to the item alias and B points to the item's title. The title will always be User defined URI. Item C is the icon used to signify a URI item."
+msgstr "Ytan som ges en länk kallas är ett menyobjektsalias. Detta alias är vad en användare se i navigationslistan på webbplatsen. I diagrammet är punkt A objektaliaset och B objektets titel som tilldelades när du skapade objektet. Ändringar av titeln påverkar inte det alias du valt och vice versa. C är ikonen som används för att representera URI:t."
+
+#: navtajx.php:377
+msgid "URI Options"
+msgstr "URI-inställningar"
+
+#: navtajx.php:377
+msgid "<strong>URL text box</strong> - a complete resource identifier (i.e. http:// or mailto:)"
+msgstr "<strong>Textruta för URL</strong> - anger fullständig resursidentifiering (t.ex. http:// eller mailto:)"
+
+#: navtajx.php:377
+msgid "<strong>Open in same window</strong> - Opens in the same window, otherwise opens the resource in a new window."
+msgstr "<strong>Öppna i samma fönster</strong> - Anger om resurser ska öppnas i samma fönster eller i ett nytt."
+
+#: navtajx.php:385
+msgid "Configuring Registered User Options"
+msgstr "Konfigurera inställningar för registrerade användare"
+
+#: navtajx.php:388
+msgid "The label that is given to a link is called a menu item alias. The alias is what the user sees in the navigation list on the web page. The alias may differ from the user display name. In the diagram, A points to the item alias and B points to the user's signin name. Changing the user's display name will not change the alias you assigned nor will changing the alias change the display name. Item C is the icon used to signify a registered user. "
+msgstr "Ytan som ges en länk kallas är ett menyobjektsalias. Detta alias är vad en användare se i navigationslistan på webbplatsen. Ett alias kan skilja från användarens namn. I diagrammet är punkt A objektaliaset och B objektets titel som tilldelades när du skapade objektet. Ändringar av titeln påverkar inte det alias du valt och vice versa. C är ikonen som används för att representera en registrerad användare."
+
+#: navtajx.php:388
+msgid "Options for Users"
+msgstr "Inställningar för användare"
+
+#: navtajx.php:388
+msgid "category options"
+msgstr "inställningar för kategori"
+
+#: navtajx.php:388
+msgid "<strong>Show avatar</strong> - select this to place an avatar next to the user name"
+msgstr "<strong>Visa avatar</strong> - anger om en avatar ska visas brevid användarnamnet"
+
+#: navtajx.php:388
+msgid "<strong>Use default avatar</strong> - allows you to use one of the default avatars in the drop down list."
+msgstr "<strong>använd standardavatar</strong> - låter dig välja en standardavatar i en dropdownmeny."
+
+#: navtajx.php:388
+msgid "A list of default avatars to choose from. The selected avatar is displayed above the drop down box."
+msgstr "En lista av de avatarer som kan väljas. Den valda visas ovanför dropdownmenyn."
+
+#: navtajx.php:388
+msgid "<strong>User avatar URI</strong> - this is active only if use default avatar is not checked. Enter a qualified URI for the avatar to be used for this user."
+msgstr "<strong>URI till användaravatar</strong> - denna är endast aktiv om standardavatar inte valts. Ange en fungerande URI till den avatar som ska användas för denna användare."
+
+#: navtajx.php:388
+msgid "<strong>Show if no posts</strong> - When selected, NAVT will show this user if the user has not posted on the web site."
+msgstr "<strong>Visa om inga inlägg finns</strong> - Om valt visar NAVT användarens namn även om inga inlägg publicerats."
+
+#: navtajx.php:388
+msgid "<strong>Append author post count</strong> - Appends the number of posts to the users anchor."
+msgstr "<strong>Lägg till skribentens antal inlägg</strong> - Lägger till antalet inlägg skribenten skrivit till dennes länk."
+
+#: navtajx.php:388
+msgid "<strong>Include web site</strong> - If you have entered a web site address to the user's profile, it will be included as an anchor."
+msgstr "<strong>Inkludera webbadresse</strong> - Om du angett en webbadress i användarens profil visas den som en länk."
+
+#: navtajx.php:388
+msgid "<strong>Include user bio</strong> - If you have entered a bio for this user, the text will be included."
+msgstr "<strong>inkludera användarens biografio</strong> - Om du angett en biografi för denna användare visas den som en text."
+
+#: navtajx.php:388
+msgid "<strong>Include user email</strong> - selecting this will add the user's email address (mailto:) format."
+msgstr "<strong>inkludera användarens e-postadress</strong> - genom att välja detta visas en länk till användarens e-postadress."
+
+#: navtajx.php:388
+msgid "<strong>Hide link text</strong> - Available only if you are using an avatar. Selecting this will hide all user anchor text."
+msgstr "<strong>Dölj länktext</strong> - Kan bara väljas om du använder en avatar. Genom att välja denna döljs alla användarens länktexter."
+
+#: navtajx.php:396
+msgid "Configuring Code Blocks"
+msgstr "Konfigurera kodblocken"
+
+#: navtajx.php:399
+msgid "The label that is given to a link is called a menu item alias. The alias used for a code block is not displayed on the web site and serves only to identify the code block in the list. In the diagram, A points to the item alias and B points to the Code Block title. Item C is the icon used to signify the codeblock item."
+msgstr "Ytan som ges en länk kallas är ett menyobjektsalias. Det alias som används för kodblock visas inte på webbplatsen utan utnyttjas bara för att identifiera ett kodblock i listan.I diagrammet är punkt A objektaliaset och B kodblockets titel. C är ikonen som används för att representera ett kodblock."
+
+#: navtajx.php:399
+msgid "codeblock options"
+msgstr "inställnignar för kodblock"
+
+#: navtajx.php:399
+msgid "The item alias edit box."
+msgstr "Textruta för objektalias."
+
+#: navtajx.php:399
+msgid "<strong>CSS Class</strong> - used for entering the CSS class you want applied to the LI tag associated with this anchor."
+msgstr "<strong>CSS-klass</strong> - Används för att ange vilken CSS-klass som du vill ska påverka den LI-tagg som används till denna länk."
+
+#: navtajx.php:399
+msgid "<strong>Code block</strong> - the HTML code block"
+msgstr "<strong>Kodblock</strong> - kodblock för HTML"
+
+#: navtajx.php:418
+msgid "go to next page"
+msgstr "gå till nästa sida"
+
+#: navtajx.php:420
+msgid "Next"
+msgstr "Nästa"
+
+#: navtajx.php:425
+msgid "go to previous page"
+msgstr "gå till föregående sida"
+
+#: navtajx.php:426
+msgid "Previous"
+msgstr "Föregående"
+
+#: navtajx.php:447
+msgid "The item alias edit box. Use this to change the name that appears in the navigation menu."
+msgstr "Detta är textrutan för objektalias. Använd denna för att ändra det namn som visas i navigationsmenyn."
+
+#: navtajx.php:450
+msgid "<strong>Anchor type</strong> - Choose the type of link you want to appear on the web page. The choices are:"
+msgstr "<strong>Länktyp</strong> - Välj den typ av länk du vill ska visas på webbplatsen. Välj mellan:"
+
+#: navtajx.php:450
+msgid "<strong>Standard Text Link</strong> - a link that only contains text."
+msgstr "<strong>Vanlig textlänk</strong> - en länk som bara innehåller text."
+
+#: navtajx.php:450
+msgid "<strong>Text over Graphic</strong> - a link that contains text over a graphic background."
+msgstr "<strong>Text över bild</strong> - en textlänk  ovanpå en backgrundsbild."
+
+#: navtajx.php:450
+msgid "<strong>Text with Side Graphic</strong> - a link that is accompanied by a graphic. Usually used with icons."
+msgstr "<strong>Text med bild vid sidan</strong> - en textlänk som kompletteras av en bild. Används vanligtvis för att skapa ikoner."
+
+#: navtajx.php:450
+msgid "<strong>Graphic link</strong> - a link that is represented by a graphic (no text). Usually used for creating buttons."
+msgstr "<strong>Bildlänk</strong> - en länk som representeras av en bild (utan text). Används vanligtvis för att skapa knappar."
+
+#: navtajx.php:450
+msgid "<strong>Apply CSS Class</strong> - used for entering the CSS class you want applied to the LI tag associated with this anchor."
+msgstr "<strong>Används CSS-klass</strong> - används för att ange den CSS-klass du vill ska användas på den LI-tagg som innehåller länken."
+
+#: navtajx.php:450
+msgid "All links that contain graphics require a CSS class that will be applied to the graphic container."
+msgstr "Alla länkar som innehåller bilder kräver att en CSS-klass används."
+
+#: navtajx.php:453
+msgid "<strong>CSS class</strong> - used to specify the CSS class."
+msgstr "<strong>CSS-klass</strong> - används för att välja CSS-klass"
+
+#: navtajx.php:456
+msgid "<strong>Add rel=nofollow</strong> - nofollow is a non-standard HTML attribute value used to instruct search engines that a hyperlink should not influence the link target's ranking in the search engine's index."
+msgstr "<strong>Lägg till rel=nofollow</strong> - nofollow ostandardiserat HTML-attribut som instruerar sökmotorer att länken inte ska påverka målets ranking i sökresultat."
+
+#: navtajx.php:456
+msgid "NoFollow Definition"
+msgstr "NoFollow-definition"
+
+#: navtajx.php:456
+msgid "see definition"
+msgstr "see definition"
+
+#: navtajx.php:459
+msgid "<strong>Set to private</strong> - if checked, the anchor is visible only to those that are signed into your web site."
+msgstr "<strong>Gör privat</strong> - om vald är länken endast synlig för inloggade användare."
+
+#: navtajx.php:462
+msgid "<strong>Code Panel Open</strong> - Opens the code panel. (<strong>See next page</strong>)"
+msgstr "<strong>Öppna kodpanelen</strong> - Öppnar kodpanelen. (<strong>Se nästa sida</strong>)"
+
+#: navtajx.php:465
+msgid "The Code Panel"
+msgstr "Kodpanelen"
+
+#: navtajx.php:465
+msgid "code panel"
+msgstr "kodpanel"
+
+#: navtajx.php:465
+msgid "The code panel allows you to insert HTML code at four different locations during the construction of the navigation list. The HTML code placement (<strong>above, before, below and after</strong>) have different meanings depending upon the hierarchical position of the navigation item and the item's relative location in the list."
+msgstr "Kodpanelen låter dig infoga HTML-kod på fyra olika ställen runt en navigationslist. HTML-kodens placering (<strong>ovanför, före, under eller efter</strong>) har olika mening beroende på hierarkiska positionen av objektet och dess relativa placering i listan."
+
+#: navtajx.php:465
+msgid "Insert above/before item"
+msgstr "Infoga ovanför/före objekt"
+
+#: navtajx.php:465
+msgid "Insert <strong>above</strong> will insert the code contained in the upper codeblock <strong>immediately before</strong> the navigation item's <strong>LI tag</strong>. Insert <strong>before</strong> will insert the code contained in the upper codeblock <strong>before the UL tag of the first child navigation item</strong>. Insert <strong>before</strong> is ignored if the preceeding navigation item is a peer item. If an item is at the same hierarchical level, use insert above."
+msgstr "Infoga <strong>ovanför</strong> infogar koden i det övre kodblocket <strong>direkt ovanför</strong> navigationsobjektets <strong>LI-tagg</strong>. Infoga <strong>före</strong> infogar koden i det övre kodblocket <strong>före den första UL-taggen</strong>. Infoga <strong>före</strong> ignoreras om det föregående objektet är en peer. Använd då infoga ovanför."
+
+#: navtajx.php:465
+msgid "<strong>Top codeblock</strong> - The codeblock associated with insert above/before."
+msgstr "<strong>Övre kodblock</strong> - Kodblocket som används för infoga ovanför/före."
+
+#: navtajx.php:465
+msgid "<strong>Insert below/after item</strong> - Insert <strong>below</strong> will insert the code contained in the lower codeblock <strong>immediately following</strong> the navigation item's <strong>LI tag</strong>. Insert <strong>after</strong> will insert the code contained in the lower codeblock after the <strong>&lt;/UL&gt; tag</strong> that follows <strong>the last child navigation item in a list</strong>. Insert <strong>after</strong> is ignored in all other cases. (<em>Use insert below</em>)"
+msgstr "Infoga <strong>under</strong> infogar koden i det undre kodblocket <strong>direkt under</strong> navigationsobjektets <strong>LI-tagg</strong>. Infoga <strong>efter</strong> infogar koden i det undre kodblocket efter den <strong>UL-tagg</strong> som är efter listans sista objekt."
+
+#: navtajx.php:465
+msgid "<strong>Bottom codeblock</strong> - The codeblock associated with insert below/after."
+msgstr "<strong>Nedre kodblock</strong> - Kodblocket som används med infoga under/efter."
+
+#: navtajx.php:465
+msgid "Close Panel Icon</strong> - used to close the panel and return to the item's option box."
+msgstr "Ikon för att stänga panel</strong> - används för att stänga panelen och återvända till objektets inställningar."
+
+#: navtajx.php:490
+msgid "add group error"
+msgstr "fel då grupp skulle skapas"
+
+#: navtajx.php:497
+#: navtajx.php:504
+#: navtajx.php:567
+#: navtajx.php:576
+msgid "invalid name"
+msgstr "ogiltigt namn"
+
+#: navtajx.php:510
+#: navtajx.php:582
+msgid "duplicate name"
+msgstr "namnet används redan"
+
+#: navtajx.php:559
+msgid "Problem renaming group"
+msgstr "Fel då gruppnamnet skulle ändras"
+
+#: navtajx.php:693
+msgid "Delete this group?"
+msgstr "Radera gruppen?"
+
+#: navtajx.php:696
+msgid "Select Ok to remove group"
+msgstr "Välj Okej för att radera gruppen"
+
+#: navtajx.php:698
+#: navtajx.php:1963
+#: navtajx.php:2473
+msgid "Ok"
+msgstr "Okej"
+
+#: navtajx.php:699
+#: navtajx.php:1965
+#: navtajx.php:2474
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: navtajx.php:927
+msgid "Options for group "
+msgstr "Inställningar för grupp"
+
+#: navtajx.php:928
+msgid "help"
+msgstr "hjälp"
+
+#: navtajx.php:929
+msgid "close"
+msgstr "stäng"
+
+#: navtajx.php:932
+msgid "options"
+msgstr "inställningar"
+
+#: navtajx.php:937
+msgid "display"
+msgstr "visa"
+
+#: navtajx.php:940
+#: navtajx.php:1648
+msgid "Display"
+msgstr "Visa"
+
+#: navtajx.php:942
+msgid "group css styles"
+msgstr "stilmallar för grupper"
+
+#: navtajx.php:945
+msgid "CSS"
+msgstr "CSS"
+
+#: navtajx.php:947
+msgid "theme integration"
+msgstr "integration med tema"
+
+#: navtajx.php:950
+msgid "Theme"
+msgstr "Tema"
+
+#: navtajx.php:966
+msgid "Posts"
+msgstr ""
+
+# identifies the group of pages listed in the Asset SELECT box
+#: navtajx.php:968
+#, fuzzy
+msgid "Pages"
+msgstr "sidor"
+
+# identifies the group of categories listed in the Asset SELECT box
+#: navtajx.php:970
+#, fuzzy
+msgid "Categories"
+msgstr "kategorier"
+
+#: navtajx.php:990
+msgid "save options"
+msgstr "spara inställningar"
+
+#: navtajx.php:991
+msgid "save"
+msgstr "spara"
+
+#: navtajx.php:994
+msgid "save options and close"
+msgstr "spara inställningar och stäng"
+
+#: navtajx.php:995
+msgid "save/close"
+msgstr "spara/stäng"
+
+#: navtajx.php:1369
+msgid "Settings for available posts"
+msgstr "Inställningar för tillgängliga inlägg"
+
+#: navtajx.php:1373
+msgid "Display this navigation group only on selected posts"
+msgstr "Visa endast denna grupp på valda inlägg"
+
+#: navtajx.php:1376
+msgid "Do not display this navigation group on selected posts"
+msgstr "Visa inte denna grupp på valda inlägg"
+
+#: navtajx.php:1379
+#, fuzzy
+msgid "Do not display this navigation group on posts"
+msgstr "Visa inte denna grupp på valda inlägg"
+
+#: navtajx.php:1426
+msgid "Settings for available pages"
+msgstr "Inställningar för tillgängliga sidor"
+
+#: navtajx.php:1429
+msgid "Display this navigation group only on selected pages"
+msgstr "Visa endast denna grupp på valda sidor"
+
+#: navtajx.php:1432
+msgid "Do not display this navigation group on selected pages"
+msgstr "Visa inte denna grupp på valda sidor"
+
+#: navtajx.php:1435
+#, fuzzy
+msgid "Do not display this navigation group on pages"
+msgstr "Visa inte denna grupp på valda sidor"
+
+#: navtajx.php:1481
+#, fuzzy
+msgid "Settings for available categories"
+msgstr "Inställningar för tillgängliga sidor"
+
+#: navtajx.php:1484
+#, fuzzy
+msgid "Display this navigation group only on selected categories"
+msgstr "Visa endast denna grupp på valda sidor"
+
+#: navtajx.php:1487
+#, fuzzy
+msgid "Do not display this navigation group on selected categories"
+msgstr "Visa inte denna grupp på valda sidor"
+
+#: navtajx.php:1490
+#, fuzzy
+msgid "Do not display this navigation group on categories"
+msgstr "Visa inte denna grupp på valda sidor"
+
+#: navtajx.php:1526
+msgid "Group CSS Class Selection"
+msgstr "Val av CSS-klass för grupp"
+
+#: navtajx.php:1530
+msgid "Apply NAVT CSS classes"
+msgstr "Använd NAVT CSS-klasser"
+
+#: navtajx.php:1532
+msgid "Apply WordPress default CSS classes"
+msgstr "Använd WordPress standard CSS-klasser"
+
+#: navtajx.php:1534
+msgid "Do not apply CSS classes"
+msgstr "Använd inte några CSS-klasser"
+
+#: navtajx.php:1536
+msgid "Apply the CSS information below to this navigation group:"
+msgstr "Använd CSS-reglerna nedan för denna navigationsgrupp:"
+
+#: navtajx.php:1539
+msgid "UL tag selector id"
+msgstr "UL-selektor ID"
+
+#: navtajx.php:1543
+msgid "UL tag CSS class"
+msgstr "CSS-klass för UL-taggen"
+
+#: navtajx.php:1547
+msgid "LI tag CSS class"
+msgstr "CSS-klass för LI-taggar"
+
+#: navtajx.php:1551
+msgid "LI active page CSS class"
+msgstr "CSS-klass för LI-tagg aktiv sida"
+
+#: navtajx.php:1555
+msgid "LI tag parent container"
+msgstr "CSS-klass för LI-tagg modersida"
+
+#: navtajx.php:1559
+msgid "LI tag parent container (active)"
+msgstr "CSS-klass för LI-tagg modersida (aktiv)"
+
+#: navtajx.php:1589
+msgid "Theme xpath"
+msgstr "Temats xpath"
+
+#: navtajx.php:1592
+msgid "Action"
+msgstr "Åtgärd"
+
+#: navtajx.php:1594
+msgid "Insert Before"
+msgstr "Infoga före"
+
+#: navtajx.php:1595
+msgid "Insert After"
+msgstr "Infoga efter"
+
+#: navtajx.php:1596
+msgid "Insert at top"
+msgstr "Infoga i början"
+
+#: navtajx.php:1597
+msgid "Insert at bottom"
+msgstr "Infoga i slutet"
+
+#: navtajx.php:1598
+msgid "Replace With"
+msgstr "Ersätt med"
+
+#: navtajx.php:1601
+msgid "Add tags before navigation group"
+msgstr "Lägg till etiketter före navigationsgrupp"
+
+#: navtajx.php:1603
+msgid "Add tags after navigation group"
+msgstr "Lägg till etiketter efter navigationsgrupp"
+
+#: navtajx.php:1632
+msgid "Group Name"
+msgstr "Gruppnamn"
+
+#: navtajx.php:1638
+msgid "Show only top-level anchors on page (hide hierarchy)"
+msgstr "Visa endast länkar i högsta nivå (dölj sidhierarkin)"
+
+#: navtajx.php:1640
+msgid "Add page return to list"
+msgstr "Lägg till återgångslänk till listan"
+
+#: navtajx.php:1647
+msgid "Create navigation list using HTML select."
+msgstr "Skapa navigationslista med hjälp av HTMLs select"
+
+#: navtajx.php:1650
+msgid "item(s) in list"
+msgstr "objekt i listan"
+
+#: navtajx.php:1654
+msgid "Set navigation group to private (visible only when users are signed in)"
+msgstr "Gör navigationsgruppen rpivat (endast synlig för inloggade användare)"
+
+#: navtajx.php:1657
+msgid "Show debug as comments in HTML source code"
+msgstr "Visa debug-meddelanden som kommentarer i källkoden"
+
+#: navtajx.php:1690
+msgid "Show navigation group on"
+msgstr "Visa navigationsgrupp på"
+
+#: navtajx.php:1692
+msgid "Home Page"
+msgstr "Förstasidan"
+
+#: navtajx.php:1695
+msgid "Static Front Page"
+msgstr "Statisk förstasida"
+
+#: navtajx.php:1698
+msgid "Archive Pages"
+msgstr "Arkivsidor"
+
+#: navtajx.php:1701
+msgid "Search Pages"
+msgstr "Söksidor"
+
+#: navtajx.php:1704
+msgid "Error Pages"
+msgstr "Felmeddelandesidor"
+
+#: navtajx.php:1759
+#: navtajx.php:2061
+#: navtajx.php:2097
+#: navtajx.php:2351
+msgid "item not found"
+msgstr "objektet kunde inte hittas"
+
+#: navtajx.php:1789
+msgid "Menu item alias"
+msgstr "Alias för menyobjekt"
+
+#: navtajx.php:1795
+msgid "Anchor type"
+msgstr "Länktyp"
+
+#: navtajx.php:1797
+msgid "Standard text link"
+msgstr "Vanlig textlänk"
+
+#: navtajx.php:1798
+msgid "Text over graphic"
+msgstr "Text ovanför bild"
+
+#: navtajx.php:1799
+msgid "Text with side graphic"
+msgstr "Text vid sidan av bild"
+
+#: navtajx.php:1800
+msgid "Graphic link"
+msgstr "Bildlänk"
+
+#: navtajx.php:1801
+msgid "Apply CSS Class"
+msgstr "Använd CSS-klass"
+
+#: navtajx.php:1802
+#: navtajx.php:1809
+msgid "CSS class"
+msgstr "CSS-klass"
+
+#: navtajx.php:1827
+msgid "show in WP category list"
+msgstr "visa i WordPress lista över kategorier"
+
+#: navtajx.php:1829
+msgid "append post count"
+msgstr "lägg till antal inlägg"
+
+#: navtajx.php:1831
+msgid "show if empty"
+msgstr "visa om tom"
+
+#: navtajx.php:1833
+msgid "use description as tooltip"
+msgstr "använd beskrivning som tooltip"
+
+#: navtajx.php:1852
+msgid "user avatar"
+msgstr "användaravatar"
+
+#: navtajx.php:1854
+msgid "show avatar"
+msgstr "visa avatar"
+
+#: navtajx.php:1858
+msgid "use default avatar"
+msgstr "använd standardavatar"
+
+#: navtajx.php:1860
+msgid "use gravatar"
+msgstr "använd avatar"
+
+#: navtajx.php:1862
+msgid "use my avatar"
+msgstr "använd min avatar"
+
+#: navtajx.php:1864
+msgid "Avatar list"
+msgstr "Lista över avatarer"
+
+#: navtajx.php:1866
+msgid "User avatar URI"
+msgstr "URI till användaravatar"
+
+#: navtajx.php:1869
+msgid "show if no posts"
+msgstr "visa om inga inlägg finns"
+
+#: navtajx.php:1871
+msgid "append author post count"
+msgstr "lägg till skribentens antal inlägg"
+
+#: navtajx.php:1873
+msgid "include web site"
+msgstr "inkludera webbadress"
+
+#: navtajx.php:1875
+msgid "include user bio"
+msgstr "inkludera användarens biografi"
+
+#: navtajx.php:1877
+msgid "include user email"
+msgstr "inkludera användarens e-postadress"
+
+#: navtajx.php:1879
+msgid "hide link text"
+msgstr "dölj länktext"
+
+#: navtajx.php:1888
+msgid "URI"
+msgstr "URI"
+
+#: navtajx.php:1891
+msgid "open in same window"
+msgstr "öppna i samma fönster"
+
+#: navtajx.php:1905
+msgid "create sign-in form"
+msgstr "skapa inloggningsformulär"
+
+#: navtajx.php:1907
+msgid "use referral page redirect"
+msgstr "använd omdirigering till ursprungssidan"
+
+#: navtajx.php:1909
+msgid "use URL redirect"
+msgstr "använd omdirigering av URL"
+
+#: navtajx.php:1910
+msgid "redirect URL"
+msgstr "omdirigera URL"
+
+#: navtajx.php:1932
+msgid "Plain text divider"
+msgstr "Dela av med tecken"
+
+#: navtajx.php:1933
+msgid "Horizontal rule divider"
+msgstr "Dela av med horisontell linje"
+
+#: navtajx.php:1934
+msgid "Empty space divider"
+msgstr "Dela av med tomrum"
+
+#: navtajx.php:1937
+msgid "Divider type"
+msgstr "Typ av avdelare"
+
+#: navtajx.php:1943
+msgid "Enter code block"
+msgstr "Ange kod"
+
+#: navtajx.php:1950
+msgid "set to private"
+msgstr "gör privat"
+
+#: navtajx.php:1956
+msgid "add"
+msgstr "lägg till"
+
+#: navtajx.php:1963
+msgid "Click to save"
+msgstr "Klicka för att spara"
+
+#: navtajx.php:1965
+msgid "Click to cancel and close"
+msgstr "Klicka för att avbryta och stänga"
+
+#: navtajx.php:1967
+msgid "Help"
+msgstr "Hjälp"
+
+#: navtajx.php:1967
+msgid "Click for help"
+msgstr "Klicka för hjälp"
+
+#: navtajx.php:1972
+msgid "Click to open/close"
+msgstr "Klicka för att öppna/stänga"
+
+#: navtajx.php:2009
+msgid "Close panel"
+msgstr "Stäng panel"
+
+#: navtajx.php:2012
+msgid "Insert before item"
+msgstr "Infoga före objekt"
+
+#: navtajx.php:2014
+msgid "Insert above item"
+msgstr "Infoga ovanför objekt"
+
+#: navtajx.php:2021
+msgid "Insert below item"
+msgstr "Infoga under objekt"
+
+#: navtajx.php:2023
+msgid "Insert after item"
+msgstr "Infoga efter objekt"
+
+#: navtajx.php:2169
+msgid "invalid alias name"
+msgstr "ogiltigt aliasnamn"
+
+#: navtajx.php:2274
+msgid "avatar is missing"
+msgstr "avatar saknas"
+
+#: navtajx.php:2293
+msgid "URI is missing"
+msgstr "URI saknas"
+
+#: navtajx.php:2311
+msgid "URL is missing"
+msgstr "URL saknas"
+
+#: navtajx.php:2328
+msgid "CSS class is missing"
+msgstr "CSS-klass saknas"
+
+#: navtajx.php:2469
+msgid "Delete This Item?"
+msgstr "Radera objektet?"
+
+#: navtajx.php:2471
+msgid "Select Ok to remove"
+msgstr "Välj Okej för att radera"
+
+#: navtajx.php:2471
+msgid "from the group."
+msgstr "från denna grupp."
+
+#: navtajx.php:2800
+msgid "Create, organize and manage your web site navigation by logically grouping your pages, categories and user's via a drag'n drop interface. Manage your navigation lists from the NAVT Lists menu tab in the Manage menu."
+msgstr "Skapa, organisera och hantera din webbplats navigation genom logisk gruppering av dina sidor, kategorier och användare genom ett dra och släpp-gränssnitt. Hantera dina navigationslistor från NAVT-listmenyn under Redigera."
+
+#: navt_fe.php:413
+msgid "Return to "
+msgstr "Återvänd till "
+
+#: navt_fe.php:421
+msgid "Return to Home page"
+msgstr "Återvänd till förstasidan"
+
+#: navt_fe.php:1218
+msgid "Send comments to"
+msgstr "Skicka kommentarer till"
+
+#: navt_fe.php:1220
+msgid "email"
+msgstr "e-post"
+
+#: navt_fe.php:1234
+msgid "Visit this web site"
+msgstr "Besök denna hemsida"
+
+#: navt_fe.php:1236
+msgid "Web Site"
+msgstr "Hemsida"
+
+#: navt_fe.php:1249
+msgid "View all entries by"
+msgstr "Se alla inlägg av"
+
+#: navt_fe.php:1363
+#: navt_fe.php:1654
+msgid "Site Admin"
+msgstr "Administratör"
+
+#: navt_fe.php:1379
+msgid "Username"
+msgstr "Användarnamn"
+
+#: navt_fe.php:1380
+msgid "Password"
+msgstr "Lösenord"
+
+#: navt_fe.php:1382
+msgid "Remember me"
+msgstr "Kom ihåg mig"
+
+#: navt_fe.php:1383
+msgid "Lost your password?"
+msgstr "Glömt ditt lösenord?"
+
+#: navt_fe.php:1387
+msgid "Register"
+msgstr "Registrera"
+
+#: navt_fe.php:1407
+msgid "Sign out"
+msgstr "Logga ut"
+
+#: navt_restore.php:38
+msgid "no error [0]"
+msgstr "inget fel [0]"
+
+#: navt_restore.php:39
+msgid "Restore file is too large. [1]"
+msgstr "Återställningsfilen är för stor. [1]"
+
+#: navt_restore.php:40
+msgid "Restore file is too large. [2]"
+msgstr "Återställningsfilen är för stor. [2]"
+
+#: navt_restore.php:41
+msgid "Restore file was only partially uploaded."
+msgstr "Återställningsfilen laddades bara upp delvis."
+
+#: navt_restore.php:42
+msgid "Please select a restore file."
+msgstr "Var god välj återställningsfil."
+
+#: navt_restore.php:43
+msgid "Unknown Error. [5]"
+msgstr "Okänt fel. [5]"
+
+#: navt_restore.php:44
+msgid "A temp directory is missing on your server."
+msgstr "Den temporära mappen på din webbserver saknas."
+
+#: navt_restore.php:45
+msgid "Cannot write to temporary directory on server."
+msgstr "Kan inte skriva till serverns temporära mapp."
+
+#: navt_restore.php:46
+msgid "File upload failed. Restore could not be performed."
+msgstr "Filuppladdningen misslyckades. Återställningen kunde inte genomföras."
+
+#: navt_restore.php:51
+msgid "Restore completed"
+msgstr "Återställningen lyckades"
+
+#: navt_restore.php:52
+msgid "Incorrect file type. File must be an XML file."
+msgstr "Ogiltig filtyp. Filen måste vara en XML-fil."
+
+#: navt_restore.php:53
+msgid "Restore file is empty."
+msgstr "Återställningsfilen är tom."
+
+#: navt_restore.php:54
+msgid "Restore failed, file is corrupt."
+msgstr "Återställningen misslyckades. Filen är felaktig."
+
+#: navt_restore.php:55
+msgid "Restore failed, file is incomplete."
+msgstr "Återställningen misslyckades. Filen är ofullständig."
+
+#: navt_restore.php:104
+#: navt_restore.php:196
+msgid "NAVT Restore"
+msgstr "NAVT-återställning"
+
+#: navt_restore.php:105
+msgid "Restoring"
+msgstr "Återställer"
+
+#: navt_restore.php:170
+msgid "New groups:"
+msgstr "Nya grupper:"
+
+#: navt_restore.php:175
+msgid "Updated items:"
+msgstr "Uppdaterade objekt:"
+
+#: navt_restore.php:178
+msgid "The configuration was not changed."
+msgstr "Konfigurationen förändrades inte."
+
+#: navt_restore.php:180
+msgid "Restore Complete"
+msgstr "Återställningen lyckades"
+
+#: navt_restore.php:198
+msgid "NAVT Backup Restoration enables you to reconstruct a set of previously created navigation groups by loading a backup file created by the NAVT plugin. The information stored in the backup is merged with your current set of navigation items. The data merge is controlled by selecting one of the options in Step Two."
+msgstr "NAVT-återställningen låter dig återskapa en uppsättning av tidigare skapade navigationsgrupper genom att läsa in en backup som tidigare sparats med NAVT-tillägget. Informationen som sparats sammanfogas med dina nuvarande navigationsobjekt. Hur sammanfogningen går till väljs i steg två."
+
+#: navt_restore.php:201
+msgid "Duplicate Items in the same Group"
+msgstr "Dubbletter av objekt i samma grupp"
+
+#: navt_restore.php:202
+msgid "If you merge a backup with existing navigation groups it is possible for a single item to appear multiple times within the same group. To avoid duplicating items, delete your current configuration before restoring the backup file or select the option to discard duplicates within the same group in Step Two."
+msgstr "Om du sammanfogar en backup med dina nuvarande navigationslistor är det möjligt att vissa objekt förekommer flera gånger i samma grupp. För att undvika detta radera din nuvarande konfiguration innan du återställer backupen eller välj"
+
+#: navt_restore.php:204
+msgid "Terminology"
+msgstr "Terminologi"
+
+#: navt_restore.php:205
+msgid "A <strong>matched</strong> item is defined on this page as a navigation item that exists in both the backup and within your current configuration. For example, a page or a category that is now in use on your web site that also existed at the time the backup was created. An <strong>unmatched</strong> item is a page, category or other item that exists in the backup but no longer exists on your web site. "
+msgstr "Ett objekt som <strong>överensstämmer</strong> är ett objekt som finns i både backupen och i din nuvarande konfiguration, till exempel en sida eller kategori som finns på din webbplats nu och även fanns när backupen togs. Ett <strong>saknat</strong> objekt är en sida, kategori eller annan typ av objekt som fanns när backupen togs men inte finns i din nuvarande konfiguration."
+
+#: navt_restore.php:208
+msgid "Please backup any existing navigation groups before proceeding"
+msgstr "Var god ta backup på dina nuvarande navigationsgrupper innan du fortsätter"
+
+#: navt_restore.php:211
+msgid "Step One"
+msgstr "Steg 1"
+
+#: navt_restore.php:212
+msgid "Select the file from your computer that contains the NAVT backup you wish to restore. This must be a backup file in XML format that was created by the NAVT plugin."
+msgstr "Välj en filen på din dator som innehåller din NAVT-backup som ska återställas. Filen måste vara i XML-format som skapats av NAVT-tillägget."
+
+#: navt_restore.php:213
+msgid "File Name"
+msgstr "Filnamn"
+
+#: navt_restore.php:215
+msgid "Step Two"
+msgstr "Steg 2"
+
+#: navt_restore.php:216
+msgid "Select one of the merge options below."
+msgstr "Välj en av alternativen för sammanfogning nedan."
+
+#: navt_restore.php:218
+msgid "Ignore unmatched items"
+msgstr "Ignorera saknade objekt"
+
+#: navt_restore.php:218
+msgid "Default setting"
+msgstr "Standardinställning"
+
+#: navt_restore.php:219
+msgid "Matched items are merged with existing navigation groups. Unmatched items are discarded."
+msgstr "Objekt som överensstämmer sammanfogas med existerande navigationsgrupper. Saknade objekt bortses från."
+
+#: navt_restore.php:220
+msgid "Create unmatched items."
+msgstr "Skapa saknade objekt."
+
+#: navt_restore.php:221
+msgid "Pages, categories or users are automatically created for unmatched items."
+msgstr "Sidor, kategorier och användare skapas automatiskt för objekt som saknas."
+
+#: navt_restore.php:221
+msgid "(Useful for creating new web sites from a backup)"
+msgstr "(Användbart om nya webbsidor skapas från backup)"
+
+#: navt_restore.php:222
+msgid "Publish pages created from restored page items."
+msgstr "Publicera sidor skapade från återställda objekt."
+
+#: navt_restore.php:222
+msgid "Default is to create a draft"
+msgstr "Standard är att skapa ett utkast"
+
+#: navt_restore.php:223
+msgid "Discard duplicates in the same group"
+msgstr "Bortse från dubbletter i samma grupp"
+
+#: navt_restore.php:223
+msgid "Default is checked"
+msgstr "Standard är ikryssat"
+
+#: navt_restore.php:226
+msgid "Step Three"
+msgstr "Steg 3"
+
+#: navt_restore.php:227
+msgid "Item matching is primarily determined by the identifier assigned to an item by the database when the item was created. For example, a page item in the backup that has an identifier that is equal to a page identifier in your current set of pages is considered loosely matched. However, you can indicate that stricter matching be used by checking the option below."
+msgstr "Objekt jämför i första hand efter det ID som erhålls i databasen då det skapas. Om ett sidobjekt i backupen har samma ID som i din nuvarande konfiguration anses dessa överensstämma med varandra någorlunda. Du kan dock välja att en striktare kontroll genom att kryssa i alternativet nedan."
+
+#: navt_restore.php:228
+msgid "Backup item title must also equal matched item title."
+msgstr "Objekt i backupen måste också ha samma titel."
+
+#: navt_restore.php:230
+msgid "Additional Options"
+msgstr "Ytterligare inställningar"
+
+#: navt_restore.php:231
+msgid "Use the alias name in the backup as the preferred alias name"
+msgstr "Föredra det alias som anges i backup-filen"
+
+#: navt_restore.php:231
+msgid "Default is current alias"
+msgstr "Standard är nuvarande alias"
+
+#: navt_restore.php:232
+msgid "Begin Restore &raquo;"
+msgstr "Börja återställning &raquo;"
+
+#: navt_sbm_module.php:31
+msgid "NAVT Module"
+msgstr "NAVT-Modul"
+
+#: navt_widget.php:33
+#: navt_widget2.5.php:34
+#: ../js/navtadmin.js.php:431
+#: ../js/navtadmin.js.php:575
+#: ../js/navtadmin.js.php:642
+#: ../js/navtadmin.js.php:772
+#: ../js/navtadmin.js.php:804
+#: ../js/navtadmin.js.php:937
+#: ../js/navtadmin.js.php:982
+msgid "group"
+msgstr "grupp"
+
+#: navt_widget.php:34
+#: navt_widget2.5.php:35
+msgid "title"
+msgstr "titel"
+
+#: navt_widget.php:50
+msgid "Navigation Widget (NAVT)"
+msgstr "Navigationswidget (NAVT)"
+
+#: navt_widget.php:56
+#: navt_widget2.5.php:51
+msgid "NAVT Widget"
+msgstr "NAVT Widget"
+
+#: navt_widget.php:198
+#: navt_widget2.5.php:139
+msgid "Title"
+msgstr "Titel"
+
+#: navt_widget.php:200
+#: navt_widget2.5.php:141
+msgid "Select Navigation Group:"
+msgstr "Välj navigationsgrupp:"
+
+#: navt_widget.php:206
+#: navt_widget2.5.php:146
+msgid "Navigation Lists have not been created."
+msgstr "Navigationslistor har inte skapats."
+
+#: navt_widget2.5.php:109
+msgid "NAVT Plugin is not activated/installed"
+msgstr "NAVT Plugin är inte aktiverad/installerad"
+
+#: ../js/navtadmin.js.php:103
+msgid "** plugin ready **"
+msgstr "** plugin redo **"
+
+#: ../js/navtadmin.js.php:146
+msgid "item"
+msgstr "objekt"
+
+#: ../js/navtadmin.js.php:146
+#: ../js/navtadmin.js.php:642
+msgid "was created"
+msgstr "skapades"
+
+#: ../js/navtadmin.js.php:432
+msgid "is locked"
+msgstr "är låst"
+
+#: ../js/navtadmin.js.php:547
+msgid "** cancelled ** (group remove)"
+msgstr "** avbruten ** (radera grupp)"
+
+#: ../js/navtadmin.js.php:576
+#: ../js/navtadmin.js.php:1762
+msgid "was removed"
+msgstr "togs bort"
+
+#: ../js/navtadmin.js.php:773
+msgid "is now unlocked"
+msgstr "är nu upplåst"
+
+#: ../js/navtadmin.js.php:805
+msgid "is now locked"
+msgstr "är nu låst"
+
+#: ../js/navtadmin.js.php:938
+msgid "options were saved"
+msgstr "inställningarna sparades"
+
+# <old group name> 'was renamed to' <new group name>
+#: ../js/navtadmin.js.php:983
+msgid "was renamed to"
+msgstr "döptes om till"
+
+#: ../js/navtadmin.js.php:1022
+#: ../js/navtadmin.js.php:1236
+#: ../js/navtadmin.js.php:1761
+#: ../js/navtadmin.js.php:1820
+msgid "in group"
+msgstr "i gruppen"
+
+# Refers to a item as 'disconnected' or 'connected' from the group. Disconnected items are not displayed in the group when the final HTML is created
+#: ../js/navtadmin.js.php:1023
+#: ../js/navtadmin.js.php:1808
+msgid "is disconnected"
+msgstr "är nerkopplad"
+
+#: ../js/navtadmin.js.php:1235
+msgid "item options saved for"
+msgstr "objektinställnignar för"
+
+#: ../js/navtadmin.js.php:1261
+msgid "** cancelled ** (item save)"
+msgstr "** avbruten ** (spara objekt)"
+
+#: ../js/navtadmin.js.php:1723
+msgid "unassigned item was removed"
+msgstr "oassignerat objekt raderat"
+
+#: ../js/navtadmin.js.php:1772
+msgid "** cancelled ** (item remove)"
+msgstr "** avbruten ** (radera objekt)"
+
+# Refers to a item as 'connected' or 'disconnected' from the group. Disconnected items are not displayed in the group when the final HTML is created
+#: ../js/navtadmin.js.php:1817
+msgid "is connected"
+msgstr "är ansluten"
+

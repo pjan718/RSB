@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/!svn/ver/16929/trunk/wp-includes/js/tinymce/plugins/spellchecker/classes
+END
+GoogleSpell.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/!svn/ver/8686/trunk/wp-includes/js/tinymce/plugins/spellchecker/classes/GoogleSpell.php
+END
+PSpell.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/!svn/ver/8686/trunk/wp-includes/js/tinymce/plugins/spellchecker/classes/PSpell.php
+END
+EnchantSpell.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/8691/trunk/wp-includes/js/tinymce/plugins/spellchecker/classes/EnchantSpell.php
+END
+SpellChecker.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/8686/trunk/wp-includes/js/tinymce/plugins/spellchecker/classes/SpellChecker.php
+END
+PSpellShell.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/!svn/ver/8686/trunk/wp-includes/js/tinymce/plugins/spellchecker/classes/PSpellShell.php
+END

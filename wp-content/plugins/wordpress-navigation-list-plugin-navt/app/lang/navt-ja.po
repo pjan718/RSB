@@ -1,0 +1,1912 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NAVT Plugin for Word Press - Japanese\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-06-05 07:50-0500\n"
+"PO-Revision-Date: 2008-06-05 07:51-0500\n"
+"Last-Translator: Greg Bellucci <greg@gbellucci.us>\n"
+"Language-Team: yoichi <http://www.ad-minister.net/mail/>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: c:/www/wpsvn/wp-content/plugins/navt/app\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ../js\n"
+
+# identifies the group of pages listed in the Asset SELECT box
+#: navt-display.php:135
+#, fuzzy
+msgid "pages"
+msgstr "ページ"
+
+#: navt-display.php:138
+msgid "Sort By Title"
+msgstr "タイトルで並び替え"
+
+#: navt-display.php:140
+msgid "Sort By Menu Order"
+msgstr "メニュー順で並び替え"
+
+# identifies the group of categories listed in the Asset SELECT box
+#: navt-display.php:145
+msgid "categories"
+msgstr "カテゴリー"
+
+#: navt-display.php:148
+msgid "Sort By Name"
+msgstr "名前で並び替え"
+
+#: navt-display.php:150
+msgid "Sort By ID"
+msgstr "IDで並び替え"
+
+# identifies the group of users listed in the Asset SELECT box
+#: navt-display.php:155
+msgid "users"
+msgstr "ユーザー"
+
+# identifies the group of misc items listed in the Asset SELECT box
+#: navt-display.php:167
+msgid "other"
+msgstr "その他"
+
+#: navt-display.php:194
+msgid "assets"
+msgstr "基本情報"
+
+# anchor title
+#: navt-display.php:196
+msgid "asset panel help"
+msgstr "基本情報のヘルプ"
+
+# Name of the 'unassigned' group of items
+#: navt-display.php:200
+msgid "unassigned"
+msgstr "未設定"
+
+# Asset instructions
+#: navt-display.php:201
+msgid "Move unassigned elements into a navigation group."
+msgstr "未設定の項目をナビゲーショングループに移動する。"
+
+# Asset instructions
+#: navt-display.php:207
+msgid "To create a new item, click an element from one of the groups listed below."
+msgstr "まずは、下記のグループの中から使用する項目をクリックしてください。"
+
+# anchor title
+#: navt-display.php:246
+msgid "group options"
+msgstr "グループのオプション"
+
+# anchor title
+#: navt-display.php:249
+msgid "remove group"
+msgstr "グループを削除"
+
+# anchor title
+#: navt-display.php:252
+msgid "click to lock/unlock group"
+msgstr "クリックでグループのロックを開閉"
+
+# refers to one of the divider option types
+#: navt-display.php:346
+#: navtajx.php:1928
+#: navtajx.php:2224
+#: ../js/navtadmin.js.php:1544
+msgid "empty space"
+msgstr "スペース"
+
+# refers to one of the divider option types
+#: navt-display.php:349
+#: navtajx.php:1925
+#: navtajx.php:2221
+#: ../js/navtadmin.js.php:1540
+msgid "horizontal rule"
+msgstr "境界線"
+
+# anchor title for the right arrow hierarchy button
+#: navt-display.php:370
+msgid "move higher"
+msgstr "上げる"
+
+# anchor title for the left arrow hierarchy button
+#: navt-display.php:374
+msgid "move lower"
+msgstr "下げる"
+
+#: navt-display.php:379
+msgid "click to connect/disconnect item from list"
+msgstr "クリックで項目の有効化/無効化"
+
+#: navt-display.php:383
+msgid "click to remove item"
+msgstr "クリックで項目を削除"
+
+#: navt.php:209
+msgid "NAVT Lists"
+msgstr "NAVT リスト"
+
+#: navt.php:225
+msgid "Access Denied"
+msgstr "アクセス却下"
+
+#: navt.php:431
+#: navt.php:812
+#: navt.php:815
+#: navtajx.php:1783
+msgid "User defined URI"
+msgstr "任意のURI"
+
+#: navt.php:436
+#: navt.php:437
+#: navt.php:819
+#: navt.php:820
+#: navt.php:823
+msgid "List divider"
+msgstr "リストの区切り"
+
+#: navt.php:442
+#: navt.php:443
+#: navt.php:835
+#: navt.php:836
+#: navt.php:839
+msgid "Home"
+msgstr "ホーム"
+
+#: navt.php:448
+#: navt.php:449
+#: navt.php:843
+#: navt.php:844
+#: navt.php:847
+msgid "Sign in"
+msgstr "ログイン"
+
+#: navt.php:567
+#: navt.php:568
+#: navt.php:827
+#: navt.php:828
+#: navt.php:831
+#: navtajx.php:1972
+#: navtajx.php:2009
+#: navtajx.php:2016
+#: navtajx.php:2025
+msgid "Code block"
+msgstr "コード"
+
+#: navt.php:887
+#: navt.php:921
+msgid "no title"
+msgstr "タイトルなし"
+
+#: navt.php:1191
+msgid " - Sets all NAVT created database options to their default values. This will cause any previously created Navigation Groups to be removed."
+msgstr " - NAVTのデータベースオプションをデフォルトに戻します。よって以前作成されたナビゲーション・グループは削除されます。"
+
+#: navt.php:1192
+msgid " - Removes all NAVT created database options and automatically deactivates the plugin."
+msgstr " - NAVTのデータベースオプションをすべて取り除き、自動的にプラグインを停止します。"
+
+#: navt.php:1200
+msgid "Reset this plugin"
+msgstr "このプラグインをリセットする"
+
+#: navt.php:1200
+msgid "Reset"
+msgstr "リセット"
+
+#: navt.php:1201
+msgid "Uninstall this plugin"
+msgstr "このプラグインをアンインストール"
+
+#: navt.php:1201
+msgid "Uninstall"
+msgstr "アンインストール"
+
+#: navt.php:1476
+msgid "WordPress Navigation Management"
+msgstr "WordPress ナビゲーション管理"
+
+#: navt.php:1477
+msgid "Navigation Tool for WordPress v"
+msgstr "ワードプレスのナビゲーションツール "
+
+#: navt.php:1482
+#: navt_sbm_module.php:67
+msgid "Navigation Group"
+msgstr "ナビゲーション・グループ"
+
+#: navt.php:1486
+msgid "group help"
+msgstr "グループのヘルプ"
+
+#: navt.php:1491
+msgid "group name"
+msgstr "グループ名"
+
+#: navt.php:1494
+msgid "create new group"
+msgstr "新しいグループを作成"
+
+#: navt.php:1494
+msgid "create"
+msgstr "作成"
+
+#: navt.php:1500
+msgid "Backup-Restore"
+msgstr "バックアップ－復元"
+
+#: navt.php:1504
+msgid "backup/restore help"
+msgstr "バックアップ/復元のヘルプ"
+
+#: navt.php:1509
+msgid "backup/restore navigation groups"
+msgstr "ナビゲーション・グループのバックアップ/復元"
+
+#: navt.php:1510
+msgid "restore"
+msgstr "復元"
+
+#: navt.php:1511
+msgid "backup"
+msgstr "バックアップ"
+
+#: navt.php:1516
+msgid "Change Log"
+msgstr "変更履歴"
+
+#: navt.php:1572
+msgid "copyright"
+msgstr "著作権"
+
+#: navt.php:1573
+msgid "navt forum"
+msgstr "navt フォーラム"
+
+#: navt.php:1574
+msgid "atalaya studio"
+msgstr "atalaya studio"
+
+#: navt.php:1575
+msgid "donations"
+msgstr "寄付"
+
+#: navt.php:1576
+msgid "the mit license"
+msgstr "MITライセンス"
+
+#: navtajx.php:34
+msgid "unknown request"
+msgstr "リクエスト内容不明"
+
+#: navtajx.php:245
+msgid "** Help does not exist for that subject **"
+msgstr "** この主題にはヘルプはありません **"
+
+#: navtajx.php:253
+msgid "NAVT Assets"
+msgstr "NAVT 基本情報"
+
+#: navtajx.php:256
+msgid "The Asset Panel"
+msgstr "基本情報パネル"
+
+#: navtajx.php:256
+msgid "The NAVT asset panel gives you the ability to create navigation items from the various resources you've created in Word Press. NAVT refers to your pages, categories, user's and other items as assets. The panel places each resource into the appropriate asset group. Groups are identified by type."
+msgstr "ここでは貴方がWordPressで作成されているページ、カテゴリー、ユーザー、そしてその他の情報がそれぞれタイプ別に表示されており、これらの情報からナビゲーション項目を指定していきます。"
+
+#: navtajx.php:256
+msgid "The location where unassigned assets are created. This area is typically grayed out until one or more navigation items are created. All newly created items will appear in this section."
+msgstr "ナビゲーショングループにまだ設定されていないナビゲーション項目がこちらにプールされます。一つ以上のナビゲーション項目が選択されるまでは、このボックスは薄く表示されています。"
+
+#: navtajx.php:256
+msgid "Icons indicate the type of resource contained in the listbox below it. Icons and listboxes exist for Pages, Categories, User's and Other items."
+msgstr "タイプ別にナビゲーション項目が表示されています。ボックスは、カテゴリー、ページ、ユーザー、その他、の４つに分かれています。"
+
+#: navtajx.php:256
+msgid "The list of assets of the type indicated. Clicking an item within the listbox will create a copy of the item and place it in the unassigned area at the top."
+msgstr "タイプ別のナビゲーション項目です。こちらの項目をクリックすることで、上記１にプールされます。"
+
+#: navtajx.php:259
+msgid "Creating Assets"
+msgstr "ナビゲーション項目の設定"
+
+#: navtajx.php:259
+msgid "This example illustrates what happened when the About page entry was selected."
+msgstr "アバウトのページを設定した場合の例です。"
+
+#: navtajx.php:259
+msgid "About Page selected by clicking the name in the listbox."
+msgstr "まずはアバウトをクリックによって選択。"
+
+#: navtajx.php:259
+msgid "A copy of the About Page navigation item is created."
+msgstr "アバウトのページがコピーされ、"
+
+#: navtajx.php:259
+msgid "The navigation item appears in the unassigned area."
+msgstr "未設定エリアに表示されます。"
+
+#: navtajx.php:259
+msgid "The About Page navigation item can be deleted by clicking the item's delete button."
+msgstr "削除ボタンをクリックすることでアバウトのページを取り除けます。"
+
+#: navtajx.php:259
+msgid "The navigation item can be dragged and dropped to a navigation group by moving the item from the unassigned group."
+msgstr "このナビゲーション項目を右側のナビゲーション・グループにドラッグ＆ドロップで移動します。"
+
+#: navtajx.php:259
+msgid "Any number of the same navigation items may be created and placed into different navigation groups. Each item (even if they represent identicle items) have separately configurable options. Item option setting for one item will not effect the option settings for another."
+msgstr "同じナビゲーション項目をいくつものナビゲーション・グループに割り当てることができます。また、ナビゲーション項目のオプションは、ナビゲーション・グループごとに異なる設定ができます。つまりアバウトが２つのナビゲーション・グループに割り当てられていても、オプションはそれぞれ独立した内容を設定できます。"
+
+#: navtajx.php:264
+msgid "NAVT Groups and Items"
+msgstr "ナビゲーション・グループとナビゲーション項目"
+
+#: navtajx.php:267
+msgid "Navigation Groups"
+msgstr "ナビゲーション・グループ"
+
+#: navtajx.php:267
+msgid "NAVT groups are a simple collection of navigation items composed from the pages, categories, users and other items that you've created in your WordPress blog. All available items are shown in the assets panel on the left side of the screen (see asset help). Items are divided into types and appear within separate lists."
+msgstr "貴方がWordPressのページ、カテゴリー、ユーザーなどで作成した様々な項目（＝ナビゲーション項目、と呼ぶ）を、任意に集めたものがナビゲーション・グループです。これら利用可能なすべてのナビゲーション項目は、「基本情報」に表示されています（基本情報のヘルプを参照）。ナビゲーション項目はそれぞれのタイプ別に分かれており、一覧表示されています。"
+
+#: navtajx.php:267
+msgid "Creating Groups"
+msgstr "グループの作成"
+
+#: navtajx.php:267
+msgid "Navigation groups are created by entering a group name into the group name textbox in the NAVT toolbar at the top of the screen. After entering the name, click the create button. The group name you enter must begin with an alphabetic character and it cannot contain spaces. Group names are limited in size to no more than 10 characters. All group names must be unique. After creating the group, a new (and empty) group container will appear to the right of the assets panel. The group name will appear at the top of the group container."
+msgstr "まず、ナビゲーション名の欄に任意の名前を入力することから始めます。グループ名はアルファベットで、１０文字以内。間にスペースは入れられません。また、それぞれが特有な名前でなければなりません。名前を記入し、作成ボタンをクリックすれば、新しいナビゲーション・グループが表示されます。"
+
+#: navtajx.php:267
+msgid "Group Toolbar"
+msgstr "グループのツールバー"
+
+#: navtajx.php:267
+msgid "The group toolbar (shown on the right) contains three icons in addition to the area for the group name:"
+msgstr "グループ・ツールバー（右記参照）には３つのアイコンがあります："
+
+#: navtajx.php:267
+msgid "<strong>A lock icon</strong> - used to prevent group changes."
+msgstr "<strong>ロックアイコン</strong> - グループ作成後の保護となります。"
+
+#: navtajx.php:267
+msgid "The name of the navigation group."
+msgstr "ナビゲーション・グループの名前。"
+
+#: navtajx.php:267
+msgid "<strong>A trashcan</strong> - used to delete the entire group."
+msgstr "<strong>ゴミ箱アイコン</strong> - グループの削除。"
+
+#: navtajx.php:267
+msgid "<strong>A gear icon</strong> - used for setting group options."
+msgstr "<strong>ギアアイコン</strong> - グループのオプション設定。"
+
+#: navtajx.php:267
+msgid "group toolbar"
+msgstr "グループのツールバー"
+
+#: navtajx.php:270
+msgid "Creating Items"
+msgstr "ナビゲーション項目の作成"
+
+#: navtajx.php:270
+msgid "Navigation items are created by clicking on the name of an item listed in the Pages, Categories, User's and Others listboxes in the assets panel. When you select and item, a copy of the item will appear in unassigned section at the top of the assets panel. The item may then be dragged and dropped into any one of the group containers you previously created."
+msgstr "「基本情報」の中にあるページ、カテゴリー、ユーザー、あるいはその他、の項目をクリックすることで、その項目が「未設定」というパネルの中にコピーされ、ナビゲーション項目として選択されたことになります。そしてそのナビゲーション項目を先ほど作成したナビゲーション・グループの中へとドラッグ＆ドロップすればいいのです。"
+
+#: navtajx.php:270
+msgid "More than one of the same item may be created and placed into the same or into a different group. Every item (even the same items) may be configured to have different options."
+msgstr "同じナビゲーション項目を複数つくっても構いません。別々の、あるいは同じナビゲーション・グループに複数の同じナビゲーション項目が設定されていても、オプションはそれぞれ独自の設定をすることができます。"
+
+#: navtajx.php:270
+msgid "Item Tools"
+msgstr "項目ツール"
+
+#: navtajx.php:270
+msgid "Each item contains a number of management tools."
+msgstr "それぞれのナビゲーション項目にはいくつかの管理機能があります。"
+
+#: navtajx.php:270
+msgid "item tools"
+msgstr "項目ツール"
+
+#: navtajx.php:270
+msgid "<strong>The item alias</strong> - the name of the item as it will appear in the navigation list. Click the item alias to open the item's option box."
+msgstr "<strong>項目名</strong> - クリックすれば、オプション設定画面が開きます。"
+
+#: navtajx.php:270
+msgid "<strong>The item icon</strong> - represents the type of item (page, category, user or other). The icon is used to move the item from group to group."
+msgstr "<strong>項目アイコン</strong> - 「基本情報」の中のどのタイプ（ページ、カテゴリー、ユーザー、その他）に属しているかを表わしています。また、ナビゲーション項目のグループ内およびグループ間の移動に、このアイコンをクリック＆ドラッグします。"
+
+#: navtajx.php:270
+msgid "<strong>Connect/Disconnect icon</strong> - disconnecting the item means that the item remains in the group, however, the item will not be included in the output navigation list created for the web site. Connecting the item means that the item will be included in the output navigation list. This feature is used for temporarily eliminating an item without removing it from the group."
+msgstr "<strong>有効化/無効化アイコン</strong> - 無効化すればウェブに表示されるナビゲーションには含まれません。グループからナビゲーション項目を削除することなく、一時的にそのナビゲーション項目を非表示にしたい場合に便利です。"
+
+#: navtajx.php:270
+msgid "<strong>Item removal icon</strong> - this icon is used to delete the item from the group."
+msgstr "<strong>項目削除アイコン</strong> - そのグループからナビゲーション項目を削除するときにクリックしてください。"
+
+#: navtajx.php:270
+msgid "<strong>Hierarchical control arrows</strong> - used for moving the item to the left or right to indicate parent/child relationships."
+msgstr "<strong>階層指定矢印</strong> - カテゴリー、サブカテゴリーの関係を指定するときに使います。"
+
+#: navtajx.php:275
+#: navtajx.php:278
+msgid "Backup/Restore"
+msgstr "バックアップ/復元"
+
+#: navtajx.php:278
+msgid "Selecting the <strong>Backup</strong> button will cause NAVT to create a XML file containing the configuration information for all of your navigation groups. The XML backup file is stored on your local computer. Restore the backup by selecting the <strong>Restore</strong> button. The restore function merges your current navigation groups with the contents of the backup file; restore can be used to create placeholders for missing categories, pages or users if they were removed after the backup was created. Full instructions are provided on the restore page."
+msgstr "<strong>バックアップ</strong>は、ナビゲーション・グループでのすべての設定情報をXMLファイル形式で出力し、貴方のコンピュータに保存します。<strong>復元</strong>をクリックすることで、以前保存持してあったバックアップの情報を現在のナビゲーション・グループの設定情報にマージ（統合）します。詳細については実際の復元ページにて解説しています。"
+
+#: navtajx.php:284
+msgid "Configuring Group Options"
+msgstr "ナビゲーション・グループのオプション設定"
+
+#: navtajx.php:287
+msgid "Show only top-level anchors on page"
+msgstr "一番上の階層のみ表示（下の階層は隠す）"
+
+#: navtajx.php:287
+msgid "When checked, the option Show only top-level anchors on page (hide hierarchy) will display only the links to the child pages of the current page. If a child page contains children of it's own, those anchors will only be shown when the child page is viewed. For example, if you created the following navigation group:"
+msgstr "ここが選択されていると、そのページでの一番上の階層だけを表示します。例えば下記のようなナビゲーション・グループをつくった場合："
+
+#: navtajx.php:287
+#: navtajx.php:290
+msgid "Item 1"
+msgstr "項目 1"
+
+#: navtajx.php:287
+msgid "Item 1a"
+msgstr "項目 1a"
+
+#: navtajx.php:287
+msgid "Item 1b"
+msgstr "項目 1b"
+
+#: navtajx.php:287
+#: navtajx.php:290
+msgid "Item 2"
+msgstr "項目 2"
+
+#: navtajx.php:287
+msgid "Item 2a"
+msgstr "項目 2a"
+
+#: navtajx.php:287
+msgid "The Home Page would only display a navigation list containing Item 1 and Item 2. Their respective child links would not be visible. If you clicked Item 1, the newly displayed blog page would show the navigation links for Item 1a and Item 1b. The navigation list shown for Item 2 would contain only Item 2a."
+msgstr "ホームページでは「項目 1」と「項目 2」だけが表示され、その下の階層は隠されます。そして「項目 1」がクリックされれば、そのページ上では「項目 1a」と「項目 1b」が表示されます。"
+
+#: navtajx.php:287
+msgid "The option has an additional feature: Add page return to list. If this is checked, NAVT will add an additional link to the child navigation list allowing the user to return to the parent page."
+msgstr "前の階層に戻る： ここが選択されていると、親カテゴリーに戻るためのリンクが子カテゴリーに追加されます。"
+
+#: navtajx.php:287
+#: navtajx.php:1644
+msgid "Show breadcrumb navigation"
+msgstr "パン屑ナビゲーションを表示"
+
+#: navtajx.php:287
+msgid "Selecting this option will cause NAVT to add a breadcrumb path to the currently displayed page above the navigation list. For example, a user currently viewing blog page Item 1a would see the breadcrumb trail Home  &raquo; Item 1 &raquo; Item 1a. Selecting a link in the breadcrumb trail will take the user to the previously viewed blog page. The path can be easily styled (using CSS) to appear anywhere on the page using absolute positioning."
+msgstr "ここが選択されていると、ナビゲーション・リストの上に、現在位置を示すパン屑パスが表示されます。例えば、「項目 1a」のページを閲覧している場合、ホーム &raquo; 項目 1 &raquo; 項目 1a といったパン屑ナビゲーションが表示されます。パン屑パス内のリンクをクリックすればそのページに飛びます。また、ＣＳＳによってスタイリングを自由に変えることもできます。"
+
+#: navtajx.php:290
+msgid "Create navigation list using HTML select"
+msgstr "HTML SELECT を使ってのナビゲーション・リストの作成"
+
+#: navtajx.php:290
+msgid "Selecting this option will turn your navigation list into a Drop Down list of navigation items constructed using a HTML SELECT statement. This should not be confused with Drop Down lists produced by CSS. A typical Drop Down would appear as:"
+msgstr "ここが選択されていると、ナビゲーション・リストがドロップダウン形式で表示されます。ただしこれは、html:selectタグによって生成されているものであり、cssによるものではないことを留意ください。通常のドロップダウンリストとは次のようなものを指しますが："
+
+#: navtajx.php:290
+msgid "Item 3"
+msgstr "項目 3"
+
+#: navtajx.php:290
+msgid "Item 4"
+msgstr "項目 4"
+
+#: navtajx.php:290
+msgid "Item 5"
+msgstr "項目 5"
+
+#: navtajx.php:290
+msgid "Item 6"
+msgstr "項目 6"
+
+#: navtajx.php:290
+msgid "This option has the additional feature:  Display: 'N' item(s) in list. This is used to force the SELECT to show a maximum number of entries. The default is 1. For example, entering the number 3 in the box will cause the Drop Down to appear as:"
+msgstr "こちらのオプションでは、予め表示する項目数を指定することができます。デフォルトは１で設定されていますが、例えば、表示数を３にした場合は："
+
+#: navtajx.php:290
+msgid "Here we can see the first three available selections. In this case, the box contains more than three items so the browser adds a scrollbar on the right. This Drop Down box does not support multiple selections."
+msgstr "ドロップダウンリストは最初から３つの項目を表示します。また、この例の場合ですと、３つ以上の項目がありますので、スクロールバーが右側に追加されます。ちなみにこのドロップダウン機能では複数選択をすることはできません。"
+
+#: navtajx.php:290
+msgid "Set navigation group to private"
+msgstr "ナビゲーション・グループのプライベートモード"
+
+#: navtajx.php:290
+msgid "This option enables you to hide all navigation items from casual viewing if the viewer is not signed into your web site. Hiding the members of navigation lists can also be done by selecting the individual privacy option for each of the navigation items. Selecting this option will also change the color of the group heading (only in the NAVT List Page) to indicate the group is set to private."
+msgstr "ログインしていない閲覧者からナビゲーションを隠すことができます。"
+
+#: navtajx.php:295
+msgid "Configuring Display Options"
+msgstr "表示オプション"
+
+#: navtajx.php:298
+msgid "Controlling Where Navigation Groups are Displayed"
+msgstr "ナビゲーション・グループの表示場所の指定"
+
+#: navtajx.php:298
+msgid "The display of any Navigation group can be controlled by specifying the page types where the navigation group should appear. The Show navigation group on... area allows you to indicate whether or not the navigation group is to appear on:"
+msgstr "どのタイプのページにナビゲーション・グループを表示させるかを指定します。下記のタイプが用意されています。"
+
+#: navtajx.php:298
+msgid "The Home Page"
+msgstr "ホームページ"
+
+#: navtajx.php:298
+msgid "A Static Front Page (if configured)"
+msgstr "静的ページ"
+
+#: navtajx.php:298
+msgid "An archive page (categories, user pages, date pages, etc)"
+msgstr "アーカイブ・ページ（カテゴリー、年月日ページなど）"
+
+#: navtajx.php:298
+msgid "The search results page"
+msgstr "検索結果ページ"
+
+#: navtajx.php:298
+msgid "The 'page not found' page (404 errors)"
+msgstr "404エラーページ（ページが見つかりませんでした、のページ）"
+
+#: navtajx.php:298
+msgid "Settings for Available Posts/Pages"
+msgstr "既存の記事/ページでの指定"
+
+#: navtajx.php:298
+msgid "Navigation groups can also be displayed (or not displayed) on all or on individually selected posts and/or pages. To display a navigation group on one or more selected posts or pages:"
+msgstr "既存の任意の記事/ページ上でのナビゲーション・グループの表示/非表示を指定できます。"
+
+#: navtajx.php:298
+msgid "Check Settings for available posts and/or Settings for available pages. If these options are not checked, the navigation group will be displayed on all single pages and single post pages."
+msgstr "「既存の記事での指定」、「既存のページでの指定」が選択されていなければ、すべての記事/ページにナビゲーション・グループが表示されます。"
+
+#: navtajx.php:298
+msgid "Select Display this navigation group only on selected posts (or pages) or Do Not Display this navigation group only on selected posts (or pages). Selecting one of these radio buttons determines whether or not the Navigation group is to be shown on or not shown on the posts or pages that you select in the relevant list box."
+msgstr "表示、非表示のラジオボタンを選択することで、任意の既存記事/ページ上でのナビゲーション・グループの表示/非表示が指定できます。"
+
+#: navtajx.php:298
+msgid "Pages and posts are listed by their respective titles."
+msgstr "記事やページはそれぞれのタイトルが表示されています。"
+
+#: navtajx.php:303
+msgid "Styling Navigation Groups"
+msgstr "ナビゲーション・グループのスタイリング"
+
+#: navtajx.php:306
+msgid "CSS Styles"
+msgstr "CSS スタイル"
+
+#: navtajx.php:306
+msgid "NAVT provides several CSS classes to the HTML it creates for your web site. Classes are used to assist you in styling your navigation groups. In addition, you have the choice of either applying native Word Press styles or not using any styles at all. Your own styles can exclusively used by selecting 'Do not apply CSS classes' and adding 'Apply the CSS information below to this navigation group"
+msgstr "NAVT では予めCSS（カスケーディング・スタイルシート）のclass（クラスセレクタ）によってナビゲーション・グループのスタイリングをしています。また、ワードプレスのテーマのスタイルシートを使うか、CSSを使わないかの選択ができます。「CSSのclassを使わない」を選択し、「下記のCSS情報をナビゲーション・グループに適応」を選択することによって、任意のスタイリングの指定もできます。"
+
+#: navtajx.php:306
+msgid "User Styles"
+msgstr "任意のスタイリング"
+
+#: navtajx.php:306
+msgid "By default, NAVT constructs navigation groups for your web site by building one or more unordered lists from the contents of the group. The number of unordered tag groups is dependent on whether or not parent/child relationships exist amoung the various navigation items in the list. Lists begin with a standard UL tag followed by one or more LI tags or nested UL tags contained within an LI tag."
+msgstr "ここでの指定は、CSSに関する知識が多少必要となります。"
+
+#: navtajx.php:306
+msgid "To add CSS classes, enter the class names in the textboxes provided. Multiple class names can be entered (per tag) by separating each class name with a space. No more than one selector name can be entered into the UL Selector ID textbox."
+msgstr "classを複数指定する場合は、半角スペースでクラス名を区切ってください。id名の指定は一つのみとなります。"
+
+#: navtajx.php:306
+msgid "<strong>UL selector ID</strong> - The selector ID given to the parent UL tag."
+msgstr "<strong>ulセレクタのid</strong> - 親ulタグに対するセレクタid名"
+
+#: navtajx.php:306
+msgid "<strong>UL tag CSS class</strong> - The class applied to the parent UL tag."
+msgstr "<strong>ulタグのCSSクラス名</strong> - 親ulタグに対するクラス名"
+
+#: navtajx.php:306
+msgid "<strong>LI tag CSS class</strong> - The class applied to all LI tags."
+msgstr "<strong>liタグのCSSクラス名</strong> - すべてのliタグに適応されるクラス名"
+
+#: navtajx.php:306
+msgid "<strong>LI active page CSS class</strong> - The class applied to the active LI tag."
+msgstr "<strong>li active タグのクラス名</strong> - active 指定のliタグに対するクラス名"
+
+#: navtajx.php:306
+msgid "<strong>LI tag parent container</strong> - The class applied to the LI parent of a nested UL tag."
+msgstr "<strong>liコンテナタグ</strong> - liコンテナタグに対するクラス名"
+
+#: navtajx.php:306
+msgid "<strong>LI tag parent container (active)</strong> - The class applied to the parent container of the active LI tag."
+msgstr "<strong>liコンテナタグ（active）</strong> - active 指定のliコンテナタグに対するクラス名"
+
+#: navtajx.php:311
+#: navtajx.php:314
+#: navtajx.php:1588
+msgid "Theme Integration"
+msgstr "テーマへの統合"
+
+#: navtajx.php:314
+msgid "This section enables you to integrate navigation groups into a Word Press theme by combining an <a class='definition' href='http://docs.jquery.com/DOM/Traversing/Selectors' title='xpath expressions'>xpath expression</a> with one of the actions from the action list.</p><p>For example, if you wanted to insert the navigation group above a division in your theme where the id of the division were named <strong>header</strong> then you would enter: <strong>#header</strong> into the xpath textbox. A hash character <strong>must proceed the id</strong> to indicate that the xpath contains a selector id. The navigation group can be inserted above, below, at the top or at the bottom of the location expressed in the xpath text box.</p><p>The navigation group can be preceeded by any number of additional HTML tags. HTML tags can contain an id and/or CSS classes. Selector ids and class names <strong>must be enclosed within double quotes</strong>. Ending tags must be entered if beginning tags are used."
+msgstr "ここでは <a class='definition' href='http://docs.jquery.com/DOM/Traversing/Selectors' title='xpath expressions'>xpath 表現</a> と「挿入位置」リストからの選択によって、ナビゲーション・グループの挿入場所を指定することができます。</p><p>例えば、 <strong>header</strong> という id をもった箇所の上にナビゲーション・グループを挿入する場合は <strong>#header</strong> と、「テーマXpath」に入力します。#マークが <strong>idの前に必ず</strong> 入っている必要があります。ナビゲーション・グループの挿入位置は、「テーマXpath」で指定した場所の前、後、一番上、一番下から選択できます。</p><p>ナビゲーション・グループの前後にいくつものHTMLタグを入れられます。HTMLタグはidでもCSSのクラス名でもＯＫです。ただし、<strong>ダブル・クォート（二重引用符）</strong>で閉じてください。"
+
+#: navtajx.php:319
+msgid "Configuring Page Options"
+msgstr "ページオプションの設定"
+
+#: navtajx.php:322
+#: navtajx.php:333
+#: navtajx.php:344
+#: navtajx.php:355
+#: navtajx.php:366
+#: navtajx.php:377
+#: navtajx.php:388
+#: navtajx.php:399
+msgid "Item Alias"
+msgstr "項目名"
+
+#: navtajx.php:322
+msgid "The label that is given to a link is called a menu item alias. The alias is what the user sees in the navigation list on the web page. The alias may differ from the title of a page. In the diagram, A points to the item alias and B points to the item's title. The title is the name you gave the page when it was created. Changing the title will not change the alias you assigned nor will changing the alias change the page title. Item C is the icon used to signify a page."
+msgstr "リンクにつけられた名前を「項目名」と呼んでいます。ウェブ上でユーザーがナビゲーションリストの中で目にするのがこの項目名です。項目名はページタイトルと異なっていても構いません。図の A が項目名で B がページタイトルです。ちなみにページタイトルはページ作成時にあなたがつけた名前です。ページタイトルを変えても項目名は変わりませんし、項目名を変更してもページタイトルは同じままです。C のアイコンはページであることを表わしています。"
+
+#: navtajx.php:322
+msgid "Options for Pages"
+msgstr "ページのオプション"
+
+#: navtajx.php:330
+msgid "Configuring Category Options"
+msgstr "カテゴリーオプションの設定"
+
+#: navtajx.php:333
+msgid "The label that is given to a link is called a menu item alias. The alias is what the user sees in the navigation list on the web page. The alias may differ from the category name. In the diagram, A points to the item alias and B points to the item's title. The title is the name you gave the category when it was created. Changing the title will not change the alias you assigned nor will changing the alias change the category title. Item C is the icon used to signify a category."
+msgstr "リンクにつけられた名前を「項目名」と呼んでいます。ウェブ上でユーザーがナビゲーションリストの中で目にするのがこの項目名です。項目名はカテゴリー名と異なっていても構いません。図の A が項目名で B がカテゴリー名です。ちなみにカテゴリー名はカテゴリ作成時にあなたがつけた名前です。カテゴリー名を変えても項目名は変わりませんし、項目名を変更してもカテゴリー名は同じままです。C のアイコンはカテゴリーであることを表わしています。"
+
+#: navtajx.php:333
+msgid "Options for Categories"
+msgstr "カテゴリーのオプション"
+
+#: navtajx.php:333
+msgid "Show in WP category list. By default NAVT will prevent a category that has been used in a NAVT navigation list from also appearing in a category list generated by Word Press. Check this option if you want the category displayed in both locations."
+msgstr "WPカテゴリーリストにも表示。NAVTのナビゲーションリストで使用されているカテゴリーは、ワードプレスのカテゴリーリストでは表示されないようにあらかじめ設定しています。両方のリストで表示したい場合にはここを選択してください。"
+
+#: navtajx.php:333
+msgid "<strong>Append post count</strong> - NAVT appends the number of posts contained in the category to the category name."
+msgstr "<strong>記事数を表示</strong> - カテゴリーに含まれる記事数をカテゴリー名とともに表示します。"
+
+#: navtajx.php:333
+msgid "<strong>Show if Empty</strong> - causes the category link to appear even if it doesn't contain any posts."
+msgstr "<strong>カラでも表示</strong> - 記事がまだないカテゴリーであってもカテゴリーリンクを表示します。"
+
+#: navtajx.php:333
+msgid "<strong>Use description as tooltip</strong> - Uses the description of the category as the mouse hover tooltip."
+msgstr "<strong>ツールチップに説明文</strong> - カテゴリーの説明文をツールチップで使用します。"
+
+#: navtajx.php:341
+msgid "Configuring Home Page Options"
+msgstr "ホームページオプションの設定"
+
+#: navtajx.php:344
+msgid "The label that is given to a link is called a menu item alias. The alias is what the user sees in the navigation list on the web page. The alias may differ from the Home title. In the diagram, A points to the item alias and B points to the Home title.  Item C is the icon used to signify the Home navigation item."
+msgstr "リンクにつけられた名前を「項目名」と呼んでいます。ウェブ上でユーザーがナビゲーションリストの中で目にするのがこの項目名です。項目名はホームタイトルと異なっていても構いません。図の A が項目名で B がホームタイトルです。C のアイコンはホームであることを表わしています。"
+
+#: navtajx.php:344
+#: navtajx.php:399
+#: navtajx.php:935
+msgid "Options"
+msgstr "オプション"
+
+#: navtajx.php:344
+#: navtajx.php:366
+#: navtajx.php:377
+msgid "home options"
+msgstr "ホームのオプション"
+
+#: navtajx.php:352
+msgid "Configuring SignIn Options"
+msgstr "ログインオプションの設定"
+
+#: navtajx.php:355
+msgid "Sign in/Register Item"
+msgstr "ログイン/登録の項目"
+
+#: navtajx.php:355
+msgid "This item is equivalent to the Word Press sign-on/register anchors as part of the Word Press meta data. The anchor presented depends on whether or not the user has signed into the web site. When signed in, the anchor allows them to sign out; if not signed in and the Word Press Membership option: anyone can register is checked, the anchor will allow the user to register or sign in."
+msgstr "こちらはワードプレスのmeta dataと同じ機能です。"
+
+#: navtajx.php:355
+msgid "The label that is given to a link is called a menu item alias. The alias is what the user sees in the navigation list on the web page. The alias may differ from the sign-in title. In the diagram, A points to the item alias and B points to the sign-in title. Item C is the icon used to signify the sign-in administration item."
+msgstr "リンクにつけられた名前を「項目名」と呼んでいます。ウェブ上でユーザーがナビゲーションリストの中で目にするのがこの項目名です。項目名はログインタイトルと異なっていても構いません。図の A が項目名で B がログインタイトルです。C のアイコンはログイン管理であることを表わしています。"
+
+#: navtajx.php:355
+msgid "Options for Site Administration"
+msgstr "サイト管理のオプション"
+
+#: navtajx.php:355
+msgid "sign-in options"
+msgstr "ログインのオプション"
+
+#: navtajx.php:355
+msgid "<strong>Create sign-in form</strong> - selecting this will create a small sign-in form on the web site."
+msgstr "<strong>ログインのフォーム表示</strong> - ウェブサイトにログインするための小さなフォームをつくります。"
+
+#: navtajx.php:355
+msgid "<strong>Use referral page redirect</strong> - After signing in, the user remains on the page where they signed in."
+msgstr "<strong>ログイン者の保持</strong> - ログインしたページにのみユーザーを留めます。"
+
+#: navtajx.php:355
+msgid "<strong>Use URL redirect</strong> - When checked, the user is redirected to the URL that is contained in the redirect URL textbox."
+msgstr "<strong>URLのリダイレクト</strong> - 「リダイレクトURL」に記入されたURLにリダイレクトします。"
+
+#: navtajx.php:355
+msgid "<strong>Redirect URL text box </strong>- enables you to send the signed in user to another page on your web site. Enter a complete URL in this box."
+msgstr "<strong>リダイレクトURL</strong> - ログインしたユーザーを別のページにリダイレクトします。任意のURLを入力してください。"
+
+#: navtajx.php:363
+msgid "Configuring Divider Options"
+msgstr "リストの区切りの設定"
+
+#: navtajx.php:366
+msgid "Divider Items"
+msgstr "区切り項目"
+
+#: navtajx.php:366
+msgid "A divider is primarily designed to separate navigation lists into groups of related items. A divider can be inserted between elements to provide an empty space, a horizontal line or a plain text title. The menu item alias serves as the title when the divider type is set to 'plain text'."
+msgstr "ナビゲーションリストをグループごとに区切ることを目的としています。区切りには、空白、横線、そしてテキストがあります。「区切りタイプ」がテキストに選択されているとき、項目名がタイトルとなります。"
+
+#: navtajx.php:366
+msgid "The label that is given to a link is called a menu item alias. The alias is what the user sees in the navigation list on the web page. The alias is used as a title or header when the divider type is set to plain text. No alias is displayed when the divider type is set to either empty space horizontal rule. In the diagram, A points to the item alias and B points to the List Divider title. Item C is the icon used to signify the divider navigation item."
+msgstr "リンクにつけられた名前を「項目名」と呼んでいます。ウェブ上でユーザーがナビゲーションリストの中で目にするのがこの項目名です。「区切りタイプ」がテキストに選択されているとき、項目名はタイトルとなります。「区切りタイプ」が空白あるいは横線に選択されているときは、項目名は表示されません。図の A が項目名で B が区切りタイトルです。C のアイコンは区切り項目であることを表わしています。"
+
+#: navtajx.php:366
+msgid "Divider Options"
+msgstr "区切りオプション"
+
+#: navtajx.php:366
+msgid "<strong>Divider type</strong> - the type of divider to create."
+msgstr "<strong>区切りタイプ</strong> - 区切りのタイプを選択します。"
+
+#: navtajx.php:374
+msgid "Configuring URI Options"
+msgstr "URIオプションの設定"
+
+#: navtajx.php:377
+msgid "URI Items"
+msgstr "URI項目"
+
+#: navtajx.php:377
+msgid "A Uniform Resource Identifier (URI), is a compact string of characters used to identify or name a resource. The main purpose of this identification is to enable interaction with representations of the resource over a network, typically the World Wide Web, using specific protocols. URIs are defined in schemes defining a specific syntax and associated protocols. URI's supported by NAVT are limited to: http:// for identifying both internal or extern web site pages and mailto: for providing an anchor for sending email."
+msgstr "Uniform Resource Identifier (URI)または統一資源識別子（とういつしげんしきべつし）は、一定の書式によってリソース（資源）を指し示す識別子です。NAVTでは、内外部のウェブページに誘導させるための http:// とメール送信のための mailto: にのみ対応しています。"
+
+#: navtajx.php:377
+msgid "The label that is given to a link is called a menu item alias. The alias is what the user sees in the navigation list on the web page. In the diagram, A points to the item alias and B points to the item's title. The title will always be User defined URI. Item C is the icon used to signify a URI item."
+msgstr "リンクにつけられた名前を「項目名」と呼んでいます。ウェブ上でユーザーがナビゲーションリストの中で目にするのがこの項目名です。図の A が項目名で B が項目タイトルです。タイトルは常に指定されたURIとなります。C のアイコンはURI項目であることを表わしています。"
+
+#: navtajx.php:377
+msgid "URI Options"
+msgstr "URIオプション"
+
+#: navtajx.php:377
+msgid "<strong>URL text box</strong> - a complete resource identifier (i.e. http:// or mailto:)"
+msgstr "<strong>URI入力</strong> - URIリソースを入力してください（例：http:// または mailto:）"
+
+#: navtajx.php:377
+msgid "<strong>Open in same window</strong> - Opens in the same window, otherwise opens the resource in a new window."
+msgstr "<strong>同じウィンドで開く</strong> - 選択されていなければ、別のウィンドが開きます。"
+
+#: navtajx.php:385
+msgid "Configuring Registered User Options"
+msgstr "登録ユーザーオプションの設定"
+
+#: navtajx.php:388
+msgid "The label that is given to a link is called a menu item alias. The alias is what the user sees in the navigation list on the web page. The alias may differ from the user display name. In the diagram, A points to the item alias and B points to the user's signin name. Changing the user's display name will not change the alias you assigned nor will changing the alias change the display name. Item C is the icon used to signify a registered user. "
+msgstr "リンクにつけられた名前を「項目名」と呼んでいます。ウェブ上でユーザーがナビゲーションリストの中で目にするのがこの項目名です。項目名はページタイトルと異なっていても構いません。図の A が項目名で B がユーザー名です。ちなみにユーザー名を変えても項目名は変わりませんし、項目名を変更してもユーザー名は同じままです。C のアイコンは登録ユーザーであることを表わしています。"
+
+#: navtajx.php:388
+msgid "Options for Users"
+msgstr "ユーザーのオプション"
+
+#: navtajx.php:388
+msgid "category options"
+msgstr "カテゴリーオプション"
+
+#: navtajx.php:388
+msgid "<strong>Show avatar</strong> - select this to place an avatar next to the user name"
+msgstr "<strong>アバターの表示</strong> - ユーザー名の横にアバターを表示します。"
+
+#: navtajx.php:388
+msgid "<strong>Use default avatar</strong> - allows you to use one of the default avatars in the drop down list."
+msgstr "<strong>デフォルトのアバター表示</strong> - 下記の中から選択されたアバターを表示します。"
+
+#: navtajx.php:388
+msgid "A list of default avatars to choose from. The selected avatar is displayed above the drop down box."
+msgstr "デフォルトのアバターのリストです。選択されたアバターは上に表示されます。"
+
+#: navtajx.php:388
+msgid "<strong>User avatar URI</strong> - this is active only if use default avatar is not checked. Enter a qualified URI for the avatar to be used for this user."
+msgstr "<strong>ユーザーアバターURI</strong> - 「デフォルトのアバター表示」が選択されていないときにのみ有効です。任意のURIを入力してください。"
+
+#: navtajx.php:388
+msgid "<strong>Show if no posts</strong> - When selected, NAVT will show this user if the user has not posted on the web site."
+msgstr "<strong>未投稿でも表示</strong> - ユーザーが投稿していなくともユーザーを表示します。"
+
+#: navtajx.php:388
+msgid "<strong>Append author post count</strong> - Appends the number of posts to the users anchor."
+msgstr "<strong>記事数の表示</strong> - ユーザーの投稿数を表示します。"
+
+#: navtajx.php:388
+msgid "<strong>Include web site</strong> - If you have entered a web site address to the user's profile, it will be included as an anchor."
+msgstr "<strong>サイトの表示</strong> - ユーザーのプロファイルにサイトアドレスが入力されていれば、アンカーに表示されます。"
+
+#: navtajx.php:388
+msgid "<strong>Include user bio</strong> - If you have entered a bio for this user, the text will be included."
+msgstr "<strong>バイオの表示</strong> - ユーザーのバイオが記入されていれば、そのテキストが表示されます。"
+
+#: navtajx.php:388
+msgid "<strong>Include user email</strong> - selecting this will add the user's email address (mailto:) format."
+msgstr "<strong>メルアドの表示</strong> - ユーザーのメルアドが含まれます（mailto: のフォーマット） 。"
+
+#: navtajx.php:388
+msgid "<strong>Hide link text</strong> - Available only if you are using an avatar. Selecting this will hide all user anchor text."
+msgstr "<strong>リンクテキストを隠す</strong> - アバターを利用しているときのみ有効です。選択されたならば、すべてのユーザーアンカーテキストを隠します。"
+
+#: navtajx.php:396
+msgid "Configuring Code Blocks"
+msgstr "コード項目の設定"
+
+#: navtajx.php:399
+msgid "The label that is given to a link is called a menu item alias. The alias used for a code block is not displayed on the web site and serves only to identify the code block in the list. In the diagram, A points to the item alias and B points to the Code Block title. Item C is the icon used to signify the codeblock item."
+msgstr "リンクにつけられた名前を「項目名」と呼んでいます。コード項目の項目名はサイトには表示されず、コード項目を識別するためだけのものです。図の A が項目名で B がコード項目です。C のアイコンはコード項目であることを表わしています。"
+
+# anchor title
+#: navtajx.php:399
+msgid "codeblock options"
+msgstr "コード項目ののオプション"
+
+#: navtajx.php:399
+msgid "The item alias edit box."
+msgstr "項目名の入力"
+
+#: navtajx.php:399
+msgid "<strong>CSS Class</strong> - used for entering the CSS class you want applied to the LI tag associated with this anchor."
+msgstr "<strong>CSS クラス名</strong> - liタグに適応したいCSSクラス名を入力してください。"
+
+#: navtajx.php:399
+msgid "<strong>Code block</strong> - the HTML code block"
+msgstr "<strong>コード</strong> - 適応したいHTMLコードを入力してください。"
+
+#: navtajx.php:418
+msgid "go to next page"
+msgstr "次のページ"
+
+#: navtajx.php:420
+msgid "Next"
+msgstr "次"
+
+#: navtajx.php:425
+msgid "go to previous page"
+msgstr "前のページ"
+
+#: navtajx.php:426
+msgid "Previous"
+msgstr "前"
+
+#: navtajx.php:447
+msgid "The item alias edit box. Use this to change the name that appears in the navigation menu."
+msgstr "項目名を入力してください。ナビゲーションメニューに表示される項目名です。"
+
+#: navtajx.php:450
+msgid "<strong>Anchor type</strong> - Choose the type of link you want to appear on the web page. The choices are:"
+msgstr "<strong>アンカータイプ</strong> - サイトに表示するリンクのタイプを選択してください。"
+
+#: navtajx.php:450
+msgid "<strong>Standard Text Link</strong> - a link that only contains text."
+msgstr "<strong>テキストリンク</strong> - テキストのみを含んだリンク。"
+
+#: navtajx.php:450
+msgid "<strong>Text over Graphic</strong> - a link that contains text over a graphic background."
+msgstr "<strong>イメージ背景リンク</strong> - 背景にイメージがあるテキストリンク。"
+
+#: navtajx.php:450
+msgid "<strong>Text with Side Graphic</strong> - a link that is accompanied by a graphic. Usually used with icons."
+msgstr "<strong>アイコンリンク</strong> - アイコンが横に入るテキストリンク。"
+
+#: navtajx.php:450
+msgid "<strong>Graphic link</strong> - a link that is represented by a graphic (no text). Usually used for creating buttons."
+msgstr "<strong>イメージリンク</strong> - イメージのみのリンク。ボタン表示などとして使います。"
+
+#: navtajx.php:450
+msgid "<strong>Apply CSS Class</strong> - used for entering the CSS class you want applied to the LI tag associated with this anchor."
+msgstr "<strong>CSS クラスの適応</strong> - このアンカーのliタグに適応したいCSSクラス名を使う場合に選択してください。"
+
+#: navtajx.php:450
+msgid "All links that contain graphics require a CSS class that will be applied to the graphic container."
+msgstr "イメージを含むすべてのリンクにはCSSクラスの指定が必要となります。"
+
+#: navtajx.php:453
+msgid "<strong>CSS class</strong> - used to specify the CSS class."
+msgstr "<strong>CSS クラス</strong> - CSSクラス名を入力してください。"
+
+#: navtajx.php:456
+msgid "<strong>Add rel=nofollow</strong> - nofollow is a non-standard HTML attribute value used to instruct search engines that a hyperlink should not influence the link target's ranking in the search engine's index."
+msgstr "<strong>rel=nofollowの追加</strong> - nofollow属性を追加します。"
+
+#: navtajx.php:456
+msgid "NoFollow Definition"
+msgstr "NoFollowの定義"
+
+#: navtajx.php:456
+msgid "see definition"
+msgstr "定義を見る"
+
+#: navtajx.php:459
+msgid "<strong>Set to private</strong> - if checked, the anchor is visible only to those that are signed into your web site."
+msgstr "<strong>プライベートモード</strong> - ログインユーザーにのみアンカーが表示されます。"
+
+#: navtajx.php:462
+msgid "<strong>Code Panel Open</strong> - Opens the code panel. (<strong>See next page</strong>)"
+msgstr "<strong>コードパネルの表示</strong> - コードパネルを空けます。（<strong>次ページ参照</strong>）"
+
+#: navtajx.php:465
+msgid "The Code Panel"
+msgstr "コードパネル"
+
+#: navtajx.php:465
+msgid "code panel"
+msgstr "コードパネル"
+
+#: navtajx.php:465
+msgid "The code panel allows you to insert HTML code at four different locations during the construction of the navigation list. The HTML code placement (<strong>above, before, below and after</strong>) have different meanings depending upon the hierarchical position of the navigation item and the item's relative location in the list."
+msgstr "コードパネルは、ナビゲーションリストの特定の場所に任意のHTMLコードを追加するためのエリアです。特定の場所には４種類あり（<strong>上、前、下、後</strong>）、ナビゲーションリストの中での階層や位置によって意味が異なってきます。"
+
+#: navtajx.php:465
+msgid "Insert above/before item"
+msgstr "項目の上/前に挿入"
+
+#: navtajx.php:465
+msgid "Insert <strong>above</strong> will insert the code contained in the upper codeblock <strong>immediately before</strong> the navigation item's <strong>LI tag</strong>. Insert <strong>before</strong> will insert the code contained in the upper codeblock <strong>before the UL tag of the first child navigation item</strong>. Insert <strong>before</strong> is ignored if the preceeding navigation item is a peer item. If an item is at the same hierarchical level, use insert above."
+msgstr "項目の <strong>上</strong> に挿入は、ナビゲーション項目の<strong>liタグの直前</strong>にコードを挿入します。項目の <strong>前</strong> に挿入は、<strong>最初の子ナビゲーション項目のulタグの前</strong>にコードを挿入します。ただし、項目の <strong>前</strong> に挿入は、次のナビゲーション項目が同じ階層であれば無視されるので、その場合は項目の <strong>上</strong> に挿入と指定してください。"
+
+#: navtajx.php:465
+msgid "<strong>Top codeblock</strong> - The codeblock associated with insert above/before."
+msgstr "<strong>トップ・コードブロック</strong> - 「上/前に挿入」のコードを入力してください。"
+
+#: navtajx.php:465
+msgid "<strong>Insert below/after item</strong> - Insert <strong>below</strong> will insert the code contained in the lower codeblock <strong>immediately following</strong> the navigation item's <strong>LI tag</strong>. Insert <strong>after</strong> will insert the code contained in the lower codeblock after the <strong>&lt;/UL&gt; tag</strong> that follows <strong>the last child navigation item in a list</strong>. Insert <strong>after</strong> is ignored in all other cases. (<em>Use insert below</em>)"
+msgstr "<strong>項目の下/後に挿入</strong> - 項目の <strong>下</strong> に挿入は、ナビゲーション項目の<strong>liタグの直後</strong>にコードを挿入します。項目の <strong>後</strong> に挿入は、<strong>リストの中の最後のナビゲーション項目の</ul>タグ</strong> の後にコードを挿入します。"
+
+#: navtajx.php:465
+msgid "<strong>Bottom codeblock</strong> - The codeblock associated with insert below/after."
+msgstr "<strong>ボトム・コードブロック</strong> - 「下/後に挿入」のコードを入力してください。"
+
+#: navtajx.php:465
+msgid "Close Panel Icon</strong> - used to close the panel and return to the item's option box."
+msgstr "パネルを閉じるアイコン</strong> - このパネルを閉じて項目オプションに戻ります。"
+
+#: navtajx.php:490
+msgid "add group error"
+msgstr "グループ追加エラー"
+
+#: navtajx.php:497
+#: navtajx.php:504
+#: navtajx.php:567
+#: navtajx.php:576
+msgid "invalid name"
+msgstr "不適切な名前"
+
+#: navtajx.php:510
+#: navtajx.php:582
+msgid "duplicate name"
+msgstr "重複した名前"
+
+#: navtajx.php:559
+msgid "Problem renaming group"
+msgstr "グループの改称に問題"
+
+#: navtajx.php:693
+msgid "Delete this group?"
+msgstr "グループを削除しますか？"
+
+#: navtajx.php:696
+msgid "Select Ok to remove group"
+msgstr "グループを取り除くにはOkを選択"
+
+#: navtajx.php:698
+#: navtajx.php:1963
+#: navtajx.php:2473
+msgid "Ok"
+msgstr "Ok"
+
+#: navtajx.php:699
+#: navtajx.php:1965
+#: navtajx.php:2474
+msgid "Cancel"
+msgstr "取り消し"
+
+#: navtajx.php:927
+msgid "Options for group "
+msgstr "グループのオプション"
+
+#: navtajx.php:928
+msgid "help"
+msgstr "ヘルプ"
+
+#: navtajx.php:929
+msgid "close"
+msgstr "閉じる"
+
+#: navtajx.php:932
+msgid "options"
+msgstr "オプション"
+
+#: navtajx.php:937
+msgid "display"
+msgstr "表示"
+
+#: navtajx.php:940
+#: navtajx.php:1648
+msgid "Display"
+msgstr "表示"
+
+#: navtajx.php:942
+msgid "group css styles"
+msgstr "グループCSSスタイル"
+
+#: navtajx.php:945
+msgid "CSS"
+msgstr "CSS"
+
+#: navtajx.php:947
+msgid "theme integration"
+msgstr "テーマの統合"
+
+#: navtajx.php:950
+msgid "Theme"
+msgstr "テーマ"
+
+#: navtajx.php:966
+#, fuzzy
+msgid "Posts"
+msgstr "ページ"
+
+# identifies the group of pages listed in the Asset SELECT box
+#: navtajx.php:968
+#, fuzzy
+msgid "Pages"
+msgstr "ページ"
+
+# identifies the group of categories listed in the Asset SELECT box
+#: navtajx.php:970
+#, fuzzy
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: navtajx.php:990
+msgid "save options"
+msgstr "オプションの保存"
+
+#: navtajx.php:991
+msgid "save"
+msgstr "保存"
+
+#: navtajx.php:994
+msgid "save options and close"
+msgstr "オプションを保存し閉じる"
+
+#: navtajx.php:995
+msgid "save/close"
+msgstr "保存/閉じる"
+
+#: navtajx.php:1369
+msgid "Settings for available posts"
+msgstr "既存の記事の設定"
+
+#: navtajx.php:1373
+msgid "Display this navigation group only on selected posts"
+msgstr "選択された記事でのみこのナビゲーショングループを表示"
+
+#: navtajx.php:1376
+msgid "Do not display this navigation group on selected posts"
+msgstr "選択された記事ではこのナビゲーショングループを表示しない"
+
+#: navtajx.php:1379
+#, fuzzy
+msgid "Do not display this navigation group on posts"
+msgstr "選択された記事ではこのナビゲーショングループを表示しない"
+
+#: navtajx.php:1426
+msgid "Settings for available pages"
+msgstr "既存のページの設定"
+
+#: navtajx.php:1429
+msgid "Display this navigation group only on selected pages"
+msgstr "選択されたページでのみこのナビゲーショングループを表示"
+
+#: navtajx.php:1432
+msgid "Do not display this navigation group on selected pages"
+msgstr "選択されたページではこのナビゲーショングループを表示しない"
+
+#: navtajx.php:1435
+#, fuzzy
+msgid "Do not display this navigation group on pages"
+msgstr "選択されたページではこのナビゲーショングループを表示しない"
+
+#: navtajx.php:1481
+#, fuzzy
+msgid "Settings for available categories"
+msgstr "既存のページの設定"
+
+#: navtajx.php:1484
+#, fuzzy
+msgid "Display this navigation group only on selected categories"
+msgstr "選択されたページでのみこのナビゲーショングループを表示"
+
+#: navtajx.php:1487
+#, fuzzy
+msgid "Do not display this navigation group on selected categories"
+msgstr "選択されたページではこのナビゲーショングループを表示しない"
+
+#: navtajx.php:1490
+#, fuzzy
+msgid "Do not display this navigation group on categories"
+msgstr "選択されたページではこのナビゲーショングループを表示しない"
+
+#: navtajx.php:1526
+msgid "Group CSS Class Selection"
+msgstr "CSSクラスの設定"
+
+#: navtajx.php:1530
+msgid "Apply NAVT CSS classes"
+msgstr "NAVTのCSSクラスを使用"
+
+#: navtajx.php:1532
+msgid "Apply WordPress default CSS classes"
+msgstr "ワードプレスのデフォルトのCSSクラスを使用"
+
+#: navtajx.php:1534
+msgid "Do not apply CSS classes"
+msgstr "CSSクラスは使わない"
+
+#: navtajx.php:1536
+msgid "Apply the CSS information below to this navigation group:"
+msgstr "下記のCSS情報をナビゲーション・グループに適応"
+
+#: navtajx.php:1539
+msgid "UL tag selector id"
+msgstr "ulセレクタのid "
+
+#: navtajx.php:1543
+msgid "UL tag CSS class"
+msgstr "ulタグのCSSクラス名"
+
+#: navtajx.php:1547
+msgid "LI tag CSS class"
+msgstr "liタグのCSSクラス名"
+
+#: navtajx.php:1551
+msgid "LI active page CSS class"
+msgstr "li active タグのクラス名"
+
+#: navtajx.php:1555
+msgid "LI tag parent container"
+msgstr "liコンテナタグ"
+
+#: navtajx.php:1559
+msgid "LI tag parent container (active)"
+msgstr "liコンテナタグ（active）"
+
+#: navtajx.php:1589
+msgid "Theme xpath"
+msgstr "テーマ xpath"
+
+#: navtajx.php:1592
+msgid "Action"
+msgstr "場所"
+
+#: navtajx.php:1594
+msgid "Insert Before"
+msgstr "前に挿入"
+
+#: navtajx.php:1595
+msgid "Insert After"
+msgstr "後に挿入"
+
+#: navtajx.php:1596
+msgid "Insert at top"
+msgstr "一番上に挿入"
+
+#: navtajx.php:1597
+msgid "Insert at bottom"
+msgstr "一番下に挿入"
+
+#: navtajx.php:1598
+msgid "Replace With"
+msgstr "入れ替える"
+
+#: navtajx.php:1601
+msgid "Add tags before navigation group"
+msgstr "ナビゲーショングループの前にタグを追加"
+
+#: navtajx.php:1603
+msgid "Add tags after navigation group"
+msgstr "ナビゲーショングループの後にタグを追加"
+
+#: navtajx.php:1632
+msgid "Group Name"
+msgstr "グループ名"
+
+#: navtajx.php:1638
+msgid "Show only top-level anchors on page (hide hierarchy)"
+msgstr "一番上の階層のみ表示（下の階層は隠す）"
+
+#: navtajx.php:1640
+msgid "Add page return to list"
+msgstr "前の階層に戻る"
+
+#: navtajx.php:1647
+msgid "Create navigation list using HTML select."
+msgstr "HTML SELECT を使ってのナビゲーション・リストの作成。"
+
+#: navtajx.php:1650
+msgid "item(s) in list"
+msgstr "項目を表示"
+
+#: navtajx.php:1654
+msgid "Set navigation group to private (visible only when users are signed in)"
+msgstr "ナビゲーショングループをプライベートモードにする（ログインしているときのみ表示）"
+
+#: navtajx.php:1657
+msgid "Show debug as comments in HTML source code"
+msgstr "HTMLソースコードにデバッグをコメントとして表示"
+
+#: navtajx.php:1690
+msgid "Show navigation group on"
+msgstr "ナビゲーショングループの表示"
+
+#: navtajx.php:1692
+msgid "Home Page"
+msgstr "ホームページ"
+
+#: navtajx.php:1695
+msgid "Static Front Page"
+msgstr "静的ページ"
+
+#: navtajx.php:1698
+msgid "Archive Pages"
+msgstr "アーカイブ"
+
+#: navtajx.php:1701
+msgid "Search Pages"
+msgstr "検索結果"
+
+#: navtajx.php:1704
+msgid "Error Pages"
+msgstr "エラーページ"
+
+#: navtajx.php:1759
+#: navtajx.php:2061
+#: navtajx.php:2097
+#: navtajx.php:2351
+msgid "item not found"
+msgstr "項目がありません"
+
+#: navtajx.php:1789
+msgid "Menu item alias"
+msgstr "項目名"
+
+#: navtajx.php:1795
+msgid "Anchor type"
+msgstr "アンカータイプ"
+
+#: navtajx.php:1797
+msgid "Standard text link"
+msgstr "テキストリンク"
+
+#: navtajx.php:1798
+msgid "Text over graphic"
+msgstr "イメージ背景リンク"
+
+#: navtajx.php:1799
+msgid "Text with side graphic"
+msgstr "アイコンリンク"
+
+#: navtajx.php:1800
+msgid "Graphic link"
+msgstr "イメージリンク"
+
+#: navtajx.php:1801
+msgid "Apply CSS Class"
+msgstr "CSSクラスの適応"
+
+#: navtajx.php:1802
+#: navtajx.php:1809
+msgid "CSS class"
+msgstr "CSSクラス"
+
+#: navtajx.php:1827
+msgid "show in WP category list"
+msgstr "WPカテゴリーリストにも表示"
+
+#: navtajx.php:1829
+msgid "append post count"
+msgstr "記事数を表示"
+
+#: navtajx.php:1831
+msgid "show if empty"
+msgstr "カラでも表示"
+
+#: navtajx.php:1833
+msgid "use description as tooltip"
+msgstr "ツールチップに説明文"
+
+#: navtajx.php:1852
+msgid "user avatar"
+msgstr "ユーザーアバター"
+
+#: navtajx.php:1854
+msgid "show avatar"
+msgstr "アバターを表示"
+
+#: navtajx.php:1858
+msgid "use default avatar"
+msgstr "デフォルトのアバターを使用"
+
+#: navtajx.php:1860
+msgid "use gravatar"
+msgstr "グラバターを使用"
+
+#: navtajx.php:1862
+msgid "use my avatar"
+msgstr "myアバターを使用"
+
+#: navtajx.php:1864
+msgid "Avatar list"
+msgstr "アバターリスト"
+
+#: navtajx.php:1866
+msgid "User avatar URI"
+msgstr "ユーザーアバターのURI"
+
+#: navtajx.php:1869
+msgid "show if no posts"
+msgstr "未投稿でも表示"
+
+#: navtajx.php:1871
+msgid "append author post count"
+msgstr "記事数の表示"
+
+#: navtajx.php:1873
+msgid "include web site"
+msgstr "サイトの表示"
+
+#: navtajx.php:1875
+msgid "include user bio"
+msgstr "バイオの表示"
+
+#: navtajx.php:1877
+msgid "include user email"
+msgstr "メルアドの表示"
+
+#: navtajx.php:1879
+msgid "hide link text"
+msgstr "リンクテキストを隠す"
+
+#: navtajx.php:1888
+msgid "URI"
+msgstr "URI"
+
+#: navtajx.php:1891
+msgid "open in same window"
+msgstr "同じウィンドで開く"
+
+#: navtajx.php:1905
+msgid "create sign-in form"
+msgstr "ログインのフォーム表示"
+
+#: navtajx.php:1907
+msgid "use referral page redirect"
+msgstr "ログイン者の保持"
+
+#: navtajx.php:1909
+msgid "use URL redirect"
+msgstr "URLのリダイレクト"
+
+#: navtajx.php:1910
+msgid "redirect URL"
+msgstr "リダイレクトURL"
+
+#: navtajx.php:1932
+msgid "Plain text divider"
+msgstr "テキストで区切り"
+
+#: navtajx.php:1933
+msgid "Horizontal rule divider"
+msgstr "横線で区切り"
+
+#: navtajx.php:1934
+msgid "Empty space divider"
+msgstr "空白で区切り"
+
+#: navtajx.php:1937
+msgid "Divider type"
+msgstr "区切りタイプ"
+
+#: navtajx.php:1943
+msgid "Enter code block"
+msgstr "コードの入力"
+
+#: navtajx.php:1950
+msgid "set to private"
+msgstr "プライベートモード"
+
+#: navtajx.php:1956
+msgid "add"
+msgstr "追加"
+
+#: navtajx.php:1963
+msgid "Click to save"
+msgstr "保存にはクリック"
+
+#: navtajx.php:1965
+msgid "Click to cancel and close"
+msgstr "取り消して閉じるにはクリック"
+
+#: navtajx.php:1967
+msgid "Help"
+msgstr "ヘルプ"
+
+#: navtajx.php:1967
+msgid "Click for help"
+msgstr "ヘルプにはクリック"
+
+#: navtajx.php:1972
+msgid "Click to open/close"
+msgstr "開閉にはクリック"
+
+#: navtajx.php:2009
+msgid "Close panel"
+msgstr "パネルを閉じる"
+
+#: navtajx.php:2012
+msgid "Insert before item"
+msgstr "項目の前に挿入"
+
+#: navtajx.php:2014
+msgid "Insert above item"
+msgstr "項目の上に挿入"
+
+#: navtajx.php:2021
+msgid "Insert below item"
+msgstr "項目の下に挿入"
+
+#: navtajx.php:2023
+msgid "Insert after item"
+msgstr "項目の後に挿入"
+
+#: navtajx.php:2169
+msgid "invalid alias name"
+msgstr "不適切な名前"
+
+#: navtajx.php:2274
+msgid "avatar is missing"
+msgstr "アバターがありません"
+
+#: navtajx.php:2293
+msgid "URI is missing"
+msgstr "URIがありません"
+
+#: navtajx.php:2311
+msgid "URL is missing"
+msgstr "URLがありません"
+
+#: navtajx.php:2328
+msgid "CSS class is missing"
+msgstr "CSSクラスがありません"
+
+#: navtajx.php:2469
+msgid "Delete This Item?"
+msgstr "削除しますか？"
+
+#: navtajx.php:2471
+msgid "Select Ok to remove"
+msgstr "取り除くにはOkを選択"
+
+#: navtajx.php:2471
+msgid "from the group."
+msgstr "このグループから。"
+
+#: navtajx.php:2800
+msgid "Create, organize and manage your web site navigation by logically grouping your pages, categories and user's via a drag'n drop interface. Manage your navigation lists from the NAVT Lists menu tab in the Manage menu."
+msgstr "ページやカテゴリー、ユーザーなどをドラッグ・アンド・ドロップのインターフェイスによってグループ分けし、ウェブサイトのナビゲーションを制作・管理しましょう。管理メニューのNAVTリストから各種操作ができます。"
+
+#: navt_fe.php:412
+msgid "Return to "
+msgstr "戻る："
+
+#: navt_fe.php:420
+msgid "Return to Home page"
+msgstr "ホームページに戻る："
+
+#: navt_fe.php:1217
+msgid "Send comments to"
+msgstr "コメント送信："
+
+#: navt_fe.php:1219
+msgid "email"
+msgstr "イーメール"
+
+#: navt_fe.php:1233
+msgid "Visit this web site"
+msgstr "サイト訪問"
+
+#: navt_fe.php:1235
+msgid "Web Site"
+msgstr "ウェブサイト"
+
+#: navt_fe.php:1248
+msgid "View all entries by"
+msgstr "すべてのエントリーを見る："
+
+#: navt_fe.php:1362
+#: navt_fe.php:1653
+msgid "Site Admin"
+msgstr "サイト管理"
+
+#: navt_fe.php:1378
+msgid "Username"
+msgstr "ユーザーネーム"
+
+#: navt_fe.php:1379
+msgid "Password"
+msgstr "パスワード"
+
+#: navt_fe.php:1381
+msgid "Remember me"
+msgstr "記憶する"
+
+#: navt_fe.php:1382
+msgid "Lost your password?"
+msgstr "パスワードを無くしましたか？"
+
+#: navt_fe.php:1386
+msgid "Register"
+msgstr "登録"
+
+#: navt_fe.php:1406
+msgid "Sign out"
+msgstr "ログアウト"
+
+#: navt_restore.php:38
+msgid "no error [0]"
+msgstr "エラーなし [0]"
+
+#: navt_restore.php:39
+msgid "Restore file is too large. [1]"
+msgstr "復元ファイルが大きすぎます。[1]"
+
+#: navt_restore.php:40
+msgid "Restore file is too large. [2]"
+msgstr "復元ファイルが大きすぎます。[2]"
+
+#: navt_restore.php:41
+msgid "Restore file was only partially uploaded."
+msgstr "復元ファイルは一部だけがアップロードされました。"
+
+#: navt_restore.php:42
+msgid "Please select a restore file."
+msgstr "復元ファイルを選択してください。"
+
+#: navt_restore.php:43
+msgid "Unknown Error. [5]"
+msgstr "未知のエラー。[5]"
+
+#: navt_restore.php:44
+msgid "A temp directory is missing on your server."
+msgstr "一時ディレクトリーがサーバーにありません。"
+
+#: navt_restore.php:45
+msgid "Cannot write to temporary directory on server."
+msgstr "サーバーの一時ディレクトリーに書き込みできません。"
+
+#: navt_restore.php:46
+msgid "File upload failed. Restore could not be performed."
+msgstr "ファイルのアップロードに失敗しました。復元はできませんでした。"
+
+#: navt_restore.php:51
+msgid "Restore completed"
+msgstr "復元完了"
+
+#: navt_restore.php:52
+msgid "Incorrect file type. File must be an XML file."
+msgstr "ファイルタイプが正しくありません。XMLのみ有効です。"
+
+#: navt_restore.php:53
+msgid "Restore file is empty."
+msgstr "復元ファイルが空です。"
+
+#: navt_restore.php:54
+msgid "Restore failed, file is corrupt."
+msgstr "復元に失敗しました。ファイルが破損しています。"
+
+#: navt_restore.php:55
+msgid "Restore failed, file is incomplete."
+msgstr "復元に失敗しました。ファイルが完全ではありません。"
+
+#: navt_restore.php:104
+#: navt_restore.php:196
+msgid "NAVT Restore"
+msgstr "NAVT 復元"
+
+#: navt_restore.php:105
+msgid "Restoring"
+msgstr "復元中"
+
+#: navt_restore.php:170
+msgid "New groups:"
+msgstr "新しいグループ："
+
+#: navt_restore.php:175
+msgid "Updated items:"
+msgstr "項目アップデート："
+
+#: navt_restore.php:178
+msgid "The configuration was not changed."
+msgstr "設定に変更はありませんでした。"
+
+#: navt_restore.php:180
+msgid "Restore Complete"
+msgstr "復元完了"
+
+#: navt_restore.php:198
+msgid "NAVT Backup Restoration enables you to reconstruct a set of previously created navigation groups by loading a backup file created by the NAVT plugin. The information stored in the backup is merged with your current set of navigation items. The data merge is controlled by selecting one of the options in Step Two."
+msgstr "NAVTバックアップ復元機能は、NAVTによって作成されたバックアップのファイルをロードすることで、以前に作成したナビゲーショングループの復元を可能にします。バックアップ情報は現在のナビゲーション情報にマージ（結合）されます。データ結合の方法は、ステップ2のオプションから選択します。"
+
+#: navt_restore.php:201
+msgid "Duplicate Items in the same Group"
+msgstr "同じグループでの重複した項目"
+
+#: navt_restore.php:202
+msgid "If you merge a backup with existing navigation groups it is possible for a single item to appear multiple times within the same group. To avoid duplicating items, delete your current configuration before restoring the backup file or select the option to discard duplicates within the same group in Step Two."
+msgstr "現在のナビゲーショングループにバックアップをマージ（統合）するとき、同じグループの中に同じ項目がいくつも出現することがあり得ます。重複した項目を避けるためには、バックアップ復元を行う前に現在の設定を削除するか、ステップ2で、同じグループ内の重複を破棄する、選択してください。"
+
+#: navt_restore.php:204
+msgid "Terminology"
+msgstr "用語の解説"
+
+#: navt_restore.php:205
+msgid "A <strong>matched</strong> item is defined on this page as a navigation item that exists in both the backup and within your current configuration. For example, a page or a category that is now in use on your web site that also existed at the time the backup was created. An <strong>unmatched</strong> item is a page, category or other item that exists in the backup but no longer exists on your web site. "
+msgstr "ここでは <strong>マッチした項目</strong> とは、現在の設定にもバックアップにも存在しているナビゲーション項目のことを指しています。つまり、バックアップ作成時にあって現在も使っているページやカテゴリーの項目です。 <strong>マッチしない項目</strong> とは、ページやカテゴリーの項目でバックアップには存在するものの、現在の設定には存在しない項目を指します。"
+
+#: navt_restore.php:208
+msgid "Please backup any existing navigation groups before proceeding"
+msgstr "ナビゲーショングループのバックアップを取ってから先に進んでください"
+
+#: navt_restore.php:211
+msgid "Step One"
+msgstr "ステップ1"
+
+#: navt_restore.php:212
+msgid "Select the file from your computer that contains the NAVT backup you wish to restore. This must be a backup file in XML format that was created by the NAVT plugin."
+msgstr "あなたが復元したいNAVTバックアップをあなたのコンピュータの保存場所から選択してください。このバックアップファイルは、NAVTプラグインによって作成されたXMLフォーマットでなければなりません。"
+
+#: navt_restore.php:213
+msgid "File Name"
+msgstr "ファイル名"
+
+#: navt_restore.php:215
+msgid "Step Two"
+msgstr "ステップ2"
+
+#: navt_restore.php:216
+msgid "Select one of the merge options below."
+msgstr "下記のマージ（統合）オプションから一つ選択してください。"
+
+#: navt_restore.php:218
+msgid "Ignore unmatched items"
+msgstr "マッチしない項目を無視する"
+
+#: navt_restore.php:218
+msgid "Default setting"
+msgstr "デフォルトの設定"
+
+#: navt_restore.php:219
+msgid "Matched items are merged with existing navigation groups. Unmatched items are discarded."
+msgstr "マッチした項目が現在のナビゲーショングループとマージ（統合）されます。マッチしない項目は破棄されます。"
+
+#: navt_restore.php:220
+msgid "Create unmatched items."
+msgstr "マッチしない項目を作成する"
+
+#: navt_restore.php:221
+msgid "Pages, categories or users are automatically created for unmatched items."
+msgstr "ページやカテゴリーのマッチしない項目が作成されます。"
+
+#: navt_restore.php:221
+msgid "(Useful for creating new web sites from a backup)"
+msgstr "（新しいサイト構築の時にこのバックアップ活用は便利です）"
+
+#: navt_restore.php:222
+msgid "Publish pages created from restored page items."
+msgstr "復元されたページ項目からページを公開する"
+
+#: navt_restore.php:222
+msgid "Default is to create a draft"
+msgstr "デフォルトではドラフトを作成します"
+
+#: navt_restore.php:223
+msgid "Discard duplicates in the same group"
+msgstr "同じグループ内の重複は破棄する"
+
+#: navt_restore.php:223
+msgid "Default is checked"
+msgstr "デフォルトでは選択されています"
+
+#: navt_restore.php:226
+msgid "Step Three"
+msgstr "ステップ3"
+
+#: navt_restore.php:227
+msgid "Item matching is primarily determined by the identifier assigned to an item by the database when the item was created. For example, a page item in the backup that has an identifier that is equal to a page identifier in your current set of pages is considered loosely matched. However, you can indicate that stricter matching be used by checking the option below."
+msgstr "項目のマッチングは、項目作成時にデータベースが割り当てた識別名によって行われます。ここではさらに、項目タイトルもマッチングに使う要素として指定することができます。"
+
+#: navt_restore.php:228
+msgid "Backup item title must also equal matched item title."
+msgstr "バックアップの項目のタイトルもマッチした項目のタイトルと同じでなけれならない。"
+
+#: navt_restore.php:230
+msgid "Additional Options"
+msgstr "追加オプション"
+
+#: navt_restore.php:231
+msgid "Use the alias name in the backup as the preferred alias name"
+msgstr "バックアップの項目名を使う"
+
+#: navt_restore.php:231
+msgid "Default is current alias"
+msgstr "デフォルトでは現在の項目名を使います"
+
+#: navt_restore.php:232
+msgid "Begin Restore &raquo;"
+msgstr "復元の開始 &raquo;"
+
+#: navt_sbm_module.php:31
+msgid "NAVT Module"
+msgstr "NAVTモジュール"
+
+#: navt_widget.php:33
+#: navt_widget2.5.php:34
+#: ../js/navtadmin.js.php:419
+#: ../js/navtadmin.js.php:563
+#: ../js/navtadmin.js.php:630
+#: ../js/navtadmin.js.php:760
+#: ../js/navtadmin.js.php:792
+#: ../js/navtadmin.js.php:925
+#: ../js/navtadmin.js.php:970
+msgid "group"
+msgstr "グループ"
+
+#: navt_widget.php:34
+#: navt_widget2.5.php:35
+msgid "title"
+msgstr "タイトル"
+
+#: navt_widget.php:50
+msgid "Navigation Widget (NAVT)"
+msgstr "ナビゲーション・ウィジェット（NAVT）"
+
+#: navt_widget.php:56
+#: navt_widget2.5.php:51
+msgid "NAVT Widget"
+msgstr "NAVTウィジェット"
+
+#: navt_widget.php:198
+#: navt_widget2.5.php:139
+msgid "Title"
+msgstr "タイトル"
+
+#: navt_widget.php:200
+#: navt_widget2.5.php:141
+msgid "Select Navigation Group:"
+msgstr "ナビゲーショングループの選択："
+
+#: navt_widget.php:206
+#: navt_widget2.5.php:146
+msgid "Navigation Lists have not been created."
+msgstr "ナビゲーショングループが選択されていません。"
+
+#: navt_widget2.5.php:109
+msgid "NAVT Plugin is not activated/installed"
+msgstr "NAVTプラグインが停止中です"
+
+#: ../js/navtadmin.js.php:91
+msgid "** plugin ready **"
+msgstr "** プラグイン準備完了 **"
+
+#: ../js/navtadmin.js.php:134
+msgid "item"
+msgstr "項目"
+
+#: ../js/navtadmin.js.php:134
+#: ../js/navtadmin.js.php:630
+msgid "was created"
+msgstr "作成"
+
+#: ../js/navtadmin.js.php:420
+msgid "is locked"
+msgstr "ロック"
+
+#: ../js/navtadmin.js.php:535
+msgid "** cancelled ** (group remove)"
+msgstr "** キャンセル完了 ** (グループ削除)"
+
+#: ../js/navtadmin.js.php:564
+#: ../js/navtadmin.js.php:1749
+msgid "was removed"
+msgstr "削除完了"
+
+#: ../js/navtadmin.js.php:761
+msgid "is now unlocked"
+msgstr "ロック"
+
+#: ../js/navtadmin.js.php:793
+msgid "is now locked"
+msgstr "ロック"
+
+#: ../js/navtadmin.js.php:926
+msgid "options were saved"
+msgstr "オプション保存完了"
+
+# <old group name> 'was renamed to' <new group name>
+#: ../js/navtadmin.js.php:971
+msgid "was renamed to"
+msgstr "変更完了"
+
+#: ../js/navtadmin.js.php:1010
+#: ../js/navtadmin.js.php:1224
+#: ../js/navtadmin.js.php:1748
+#: ../js/navtadmin.js.php:1807
+msgid "in group"
+msgstr "グループ"
+
+# Refers to a item as 'disconnected' or 'connected' from the group. Disconnected items are not displayed in the group when the final HTML is created
+#: ../js/navtadmin.js.php:1011
+#: ../js/navtadmin.js.php:1795
+msgid "is disconnected"
+msgstr "つながっていません"
+
+#: ../js/navtadmin.js.php:1223
+msgid "item options saved for"
+msgstr "項目オプション保存"
+
+#: ../js/navtadmin.js.php:1249
+msgid "** cancelled ** (item save)"
+msgstr "** キャンセル完了 ** (項目保存)"
+
+#: ../js/navtadmin.js.php:1710
+msgid "unassigned item was removed"
+msgstr "未指定項目の破棄"
+
+#: ../js/navtadmin.js.php:1759
+msgid "** cancelled ** (item remove)"
+msgstr "** キャンセル完了 ** (項目削除)"
+
+# Refers to a item as 'connected' or 'disconnected' from the group. Disconnected items are not displayed in the group when the final HTML is created
+#: ../js/navtadmin.js.php:1804
+msgid "is connected"
+msgstr "つながっています"
+

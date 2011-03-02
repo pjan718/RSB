@@ -1,0 +1,229 @@
+/*  
+Theme Name: New Theme
+Theme URI: YourWebsite.com
+Description: Your Theme Description
+Version: 1.0
+Author: Your Name
+Author URI: http://www.yourwebsite.com
+
+*/
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+hr {display:none;}
+
+
+
+body{
+	margin: 0 0 0 0; padding: 0;
+	font-family: Arial, Helvetica, Georgia, Sans-serif;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: top;
+	
+	color: #fff;
+	background:#000 url('images/top_bar.jpg') repeat-x top;}
+}
+
+a:link, a:visited{
+	text-decoration: underline;
+	color: #336699;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+#wrapper{
+	margin: 0 auto 0 auto; padding: 10px 0 0 0;
+	display:block;
+	width:1000px;
+	height:900px;
+	text-align: left;
+	background:#000 url('images/wrapper_bg.jpg') no-repeat top;
+
+}
+
+#header{
+	margin: 0 0 0 0; padding: 0 0 90px 0;
+	float: left;
+	width: 1000px;
+}
+
+#box{
+	float: left;
+	width: 556px;
+	
+	margin:0 0 0 0; padding: 0 0 0 0;
+}
+
+.sidebar{
+	float: left;
+	width: 240px;
+	
+	margin: 100px 0 0 150px;
+	display: inline;
+	
+}
+
+div.logoArea {
+	clear:left;
+	background: url('images/logos.gif') no-repeat top;
+	height:178px; width:194px;
+	margin:90px 0 0 0; padding:0 0 0 0;
+
+}
+
+.sidebar ul{
+	clear:left;
+	width: 240px;
+	background: #eeeeee;
+	margin: 100px 0 0 10px;
+	display: inline;
+	
+}
+
+#footer{
+	clear: both;
+	float: left;
+	background:url('images/footer_bg.jpg') no-repeat center;
+	width: 1000px;
+	height:300px;
+}
+
+#mainNavigation{
+	margin: 0 0 0 0; padding: 0 0 0 100px;
+	float:left;
+	
+}
+
+#mainNavigation li {
+	float: left;
+	margin-right: 25px;
+}
+
+#mainNavigation a {color:white; text-decoration:none;}
+
+
+div.rotatorArea {
+	margin: 0 0 0 0; padding: 0 0 0 100px;
+	clear:left;
+}
+
+div.rotatorHead {
+	background: url('images/rotator_header.png') no-repeat top;
+	height:78px; width:557px;
+	
+}
+
+
+
+div.barInfo {
+	margin: 40px 0 0 100px; padding: 0 0 10px 0;
+	background: url('images/bar_info.gif') no-repeat ;
+	height:56px; width:429px;
+}
+
+
+
+div.newsHeader{
+	margin: 20px 0 0 100px; padding:0 0 0 0;
+	background: url('images/news_header.gif') no-repeat ;
+	height:39px; width:500px;
+}
+
+div.post{
+	margin: 0 0 10px 100px; padding: 0 0 0 0;
+	height:170px; width:500px;
+	background-color:#191919;
+}
+
+div.post h2{
+	margin: 0 0 0 0; padding: 20px;
+	
+	background-color:#191919;
+}
+.comments-template{
+	margin: 10px 0 0;
+	border-top: 1px solid #ccc;
+	padding: 10px 0 0;
+}
+
+.comments-template ol{
+	margin: 0;
+	padding: 0 0 15px;
+	list-style: none;
+}
+
+.comments-template ol li{
+	margin: 10px 0 0;
+	line-height: 18px;
+	padding: 0 0 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.comments-template h2, .comments-template h3{
+	font-family: Georgia, Sans-serif;
+	font-size: 16px;
+}
+
+.commentmetadata{
+	font-size: 12px;
+}
+
+.comments-template p.nocomments{
+	padding: 0;
+}
+
+.comments-template textarea{
+	font-family: Arial, Helvetica, Georgia, Sans-serif;
+	font-size: 12px;
+}
