@@ -11,14 +11,18 @@
          <div id="splash"></div>
         <?php } ?>
         
-    
-</div>
-
+  
+	 </div>
+	   <div class="logoArea"></div>
 <div class="barInfo">
     
 </div>
 
-   <div class="newsHeader"></div>
+<div class="mainContent">
+	 
+	<div class="newsHeader">
+	 
+	</div>
 
     <?php if(have_posts()) : ?><?php while(have_posts()) : the_post(); ?>
     <div class="post" id="post-<?php the_ID(); ?>">
@@ -32,12 +36,14 @@
     </div>
 </div>
     <?php endwhile; ?>
-        <div class="navigation">
+    <div class="navigation">
 	    <?php posts_nav_link(); ?>
-	</div>
+	 </div>
     <?php endif; ?>
+	
+</div>
+ <?php get_sidebar(); ?>
 </div>
 
-<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

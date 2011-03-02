@@ -8,7 +8,6 @@ Author URI: http://www.yourwebsite.com
 
 */
 
-
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -110,28 +109,53 @@ a:hover{
 }
 
 #box{
+	min-height: 1%; 
 	float: left;
 	width: 556px;
-	
+
 	margin:0 0 0 0; padding: 0 0 0 0;
+	width:1000px;
+}
+
+div.box:after {
+	display: block;
+	clear: both;
+	content: " ";
+	height: 0;
+	overflow: hidden;
 }
 
 .sidebar{
 	float: left;
-	width: 240px;
+	width: 300px;
 	
-	margin: 100px 0 0 150px;
+	margin:  0 0 0 0; padding: 0 0 0 0;
 	display: inline;
 	
 }
 
+div.eventHead {
+	margin:20px 0 0 40px; padding: 0 0 0 0;
+	background:url('images/event_head.gif') no-repeat;
+	height:53px;
+	width:261px;
+	
+}
+
+div.sideContent {
+	margin:0 0 0 40px; padding: 0 0 0 40px;
+	background:url('images/event_bg.gif') repeat-y;
+}
+
+
+
 /*//////////SIDEBAR AREA//////////*/
 
 div.logoArea {
-	clear:left;
+	float:left;
 	background: url('images/logos.gif') no-repeat top;
 	height:178px; width:200px;
-	margin:90px 0 0 0; padding:0 0 0 0;
+	margin:180px 0 0 0; padding:0 0 0 80px;
 
 }
 
@@ -164,8 +188,9 @@ div.logoArea {
 /*//////////ROTATION AREA//////////*/
 
 div.rotatorArea {
-	margin: 0 0 0 0; padding: 0 0 0 100px;
-	clear:left;
+	margin: 0 0 0 0; padding: 0 0 30px 100px;
+	float:left;
+	
 }
 
 div.rotatorHead {
@@ -175,11 +200,18 @@ div.rotatorHead {
 }
 
 
+/*//////////MAIN CONTENT AREA//////////*/
+
 
 div.barInfo {
-	margin: 40px 0 0 100px; padding: 0 0 10px 0;
+	margin: 0 0 0 100px ;padding:0 0 0 0;
 	background: url('images/bar_info.gif') no-repeat ;
 	height:56px; width:429px;
+	clear:left;
+}
+
+div.mainContent {
+	float:left;
 }
 
 
