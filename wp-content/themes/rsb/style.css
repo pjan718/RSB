@@ -82,6 +82,8 @@ a:hover{
 	text-decoration: none;
 }
 
+/*//////////MAIN ELEMENTS//////////*/
+
 #wrapper{
 	margin: 0 auto 0 auto; padding: 10px 0 0 0;
 	display:block;
@@ -96,6 +98,15 @@ a:hover{
 	margin: 0 0 0 0; padding: 0 0 90px 0;
 	float: left;
 	width: 1000px;
+}
+
+
+#footer{
+	clear: both;
+	float: left;
+	background:url('images/footer_bg.jpg') no-repeat center;
+	width: 1000px;
+	height:300px;
 }
 
 #box{
@@ -114,10 +125,12 @@ a:hover{
 	
 }
 
+/*//////////SIDEBAR AREA//////////*/
+
 div.logoArea {
 	clear:left;
 	background: url('images/logos.gif') no-repeat top;
-	height:178px; width:194px;
+	height:178px; width:200px;
 	margin:90px 0 0 0; padding:0 0 0 0;
 
 }
@@ -131,13 +144,9 @@ div.logoArea {
 	
 }
 
-#footer{
-	clear: both;
-	float: left;
-	background:url('images/footer_bg.jpg') no-repeat center;
-	width: 1000px;
-	height:300px;
-}
+
+/*//////////NAVIGATION AREA//////////*/
+
 
 #mainNavigation{
 	margin: 0 0 0 0; padding: 0 0 0 100px;
@@ -152,6 +161,7 @@ div.logoArea {
 
 #mainNavigation a {color:white; text-decoration:none;}
 
+/*//////////ROTATION AREA//////////*/
 
 div.rotatorArea {
 	margin: 0 0 0 0; padding: 0 0 0 100px;

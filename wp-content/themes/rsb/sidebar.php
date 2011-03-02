@@ -1,6 +1,7 @@
 <div class="sidebar">
 <div class="logoArea"></div>
 
+<div class="sideContent">
 <ul>
     <?php if ( function_exists('dynamic_sidebar') && dynamic_sidebar() ) : else : ?>
         <?php wp_list_pages('depth=3&title_li=<h2>Pages</h2>'); ?>
@@ -18,4 +19,5 @@
 
 <?php endif; ?>
 </ul>
+</div>
 </div>
