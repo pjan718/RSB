@@ -226,12 +226,24 @@ div.post{
 	margin: 0 0 10px 100px; padding: 0 0 0 0;
 	height:170px; width:500px;
 	background-color:#191919;
+	color:white;
 }
 
 div.post h2{
-	margin: 0 0 0 0; padding: 20px;
-	
+	margin: 0 0 0 0; padding:20px 0 0 20px;
+	text-decoration:none;
 	background-color:#191919;
+}
+
+div.post h2 a {
+	font:1.3em arial,helvetica,san-serif;
+	font-weight:bold;
+	color:#fff;
+}
+
+div.entry {
+	margin:0 0 0 0; padding:0 20px 20px 20px;
+	
 }
 .comments-template{
 	margin: 10px 0 0;
