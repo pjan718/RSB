@@ -1312,7 +1312,7 @@ class WP_Query {
 	 * @access public
 	 */
 	function parse_query_vars() {
-		$this->parse_query('');
+		$this->parse_query();
 	}
 
 	/**
@@ -1383,12 +1383,14 @@ class WP_Query {
 	 * @since 1.5.0
 	 * @access public
 	 *
-	 * @param string|array $query
+	 * @param string|array $query Optional query.
 	 */
-	function parse_query($query) {
-		if ( !empty($query) || !isset($this->query) ) {
+	function parse_query( $query =  '' ) {
+		if ( ! empty( $query ) ) {
 			$this->init();
-			$this->query = $this->query_vars = wp_parse_args($query);
+			$this->query = $this->query_vars = wp_parse_args( $query );
+		} elseif ( ! isset( $this->query ) ) {
+			$this->query = $this->query_vars;
 		}
 
 		$this->query_vars = $this->fill_query_vars($this->query_vars);
@@ -1568,7 +1570,7 @@ class WP_Query {
 
 		// Correct is_* for page_on_front and page_for_posts
 		if ( $this->is_home && 'page' == get_option('show_on_front') && get_option('page_on_front') ) {
-			$_query = wp_parse_args($query);
+			$_query = wp_parse_args($this->query);
 			// pagename can be set and empty depending on matched rewrite rules. Ignore an empty pagename.
 			if ( isset($_query['pagename']) && '' == $_query['pagename'] )
 				unset($_query['pagename']);
@@ -1625,8 +1627,7 @@ class WP_Query {
 		if ( '404' == $qv['error'] )
 			$this->set_404();
 
-		if ( !empty($query) )
-			do_action_ref_array('parse_query', array(&$this));
+		do_action_ref_array('parse_query', array(&$this));
 	}
 
 	/*
@@ -1719,7 +1720,7 @@ class WP_Query {
 				'taxonomy' => 'category',
 				'terms' => $q['category__not_in'],
 				'operator' => 'NOT IN',
-				'include_children' => false 
+				'include_children' => false
 			);
 		}
 
@@ -1870,6 +1871,8 @@ class WP_Query {
 	 */
 	function &get_posts() {
 		global $wpdb, $user_ID, $_wp_using_ext_object_cache;
+
+		$this->parse_query();
 
 		do_action_ref_array('pre_get_posts', array(&$this));
 
@@ -2851,8 +2854,9 @@ class WP_Query {
 	 * @param string $query URL query string.
 	 * @return array List of posts.
 	 */
-	function &query($query) {
-		$this->parse_query($query);
+	function &query( $query ) {
+		$this->init();
+		$this->query = $this->query_vars = wp_parse_args( $query );
 		return $this->get_posts();
 	}
 

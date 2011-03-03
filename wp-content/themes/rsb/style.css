@@ -188,7 +188,7 @@ div.logoArea {
 /*//////////ROTATION AREA//////////*/
 
 div.rotatorArea {
-	margin: 0 0 0 0; padding: 0 0 30px 100px;
+	margin: 0 0 0 0; padding: 0 0 40px 100px;
 	float:left;
 	
 }
@@ -204,7 +204,7 @@ div.rotatorHead {
 
 
 div.barInfo {
-	margin: 0 0 0 100px ;padding:0 0 0 0;
+	margin: 0 0 0 120px ;padding:0 0 20px 0;
 	background: url('images/bar_info.gif') no-repeat ;
 	height:56px; width:429px;
 	clear:left;
@@ -224,13 +224,15 @@ div.newsHeader{
 
 div.post{
 	margin: 0 0 10px 100px; padding: 0 0 0 0;
-	height:170px; width:500px;
+	width:500px;
 	background-color:#191919;
 	color:white;
 }
 
+div.post a {color:red;}
+
 div.post h2{
-	margin: 0 0 0 0; padding:20px 0 0 20px;
+	margin: 0 0 0 0; padding:20px 0 20px 20px;
 	text-decoration:none;
 	background-color:#191919;
 }

@@ -48,6 +48,9 @@ switch ( $wp_list_table->current_action() ) {
 case 'promote':
 	check_admin_referer('bulk-users');
 
+	if ( ! current_user_can( 'promote_users' ) )
+		wp_die( __( 'You can&#8217;t edit that user.' ) );
+
 	if ( empty($_REQUEST['users']) ) {
 		wp_redirect($redirect);
 		exit();
@@ -197,13 +200,16 @@ break;
 case 'doremove':
 	check_admin_referer('remove-users');
 
+	if ( ! is_multisite() )
+		wp_die( __( 'You can&#8217;t remove users.' ) );
+
 	if ( empty($_REQUEST['users']) ) {
 		wp_redirect($redirect);
 		exit;
 	}
 
-	if ( !current_user_can('remove_users')  )
-		die(__('You can&#8217;t remove users.'));
+	if ( ! current_user_can( 'remove_users' ) )
+		wp_die( __( 'You can&#8217;t remove users.' ) );
 
 	$userids = $_REQUEST['users'];
 
@@ -230,6 +236,9 @@ break;
 case 'remove':
 
 	check_admin_referer('bulk-users');
+
+	if ( ! is_multisite() )
+		wp_die( __( 'You can&#8217;t remove users.' ) );
 
 	if ( empty($_REQUEST['users']) && empty($_REQUEST['user']) ) {
 		wp_redirect($redirect);
@@ -352,7 +361,7 @@ if ( ! empty($messages) ) {
 echo esc_html( $title );
 if ( current_user_can( 'create_users' ) ) { ?>
 	<a href="user-new.php" class="button add-new-h2"><?php echo esc_html_x( 'Add New', 'user' ); ?></a>
-<?php } elseif ( current_user_can( 'promote_users' ) ) { ?>
+<?php } elseif ( is_multisite() && current_user_can( 'promote_users' ) ) { ?>
 	<a href="user-new.php" class="button add-new-h2"><?php echo esc_html_x( 'Add Existing', 'user' ); ?></a>
 <?php }
 

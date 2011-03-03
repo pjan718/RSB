@@ -3034,6 +3034,9 @@ function wp_array_slice_assoc( $array, $keys ) {
  * @return array A list of objects or object fields
  */
 function wp_filter_object_list( $list, $args = array(), $operator = 'and', $field = false ) {
+	if ( ! is_array( $list ) )
+		return array();
+
 	$list = wp_list_filter( $list, $args, $operator );
 
 	if ( $field )
@@ -3057,6 +3060,9 @@ function wp_filter_object_list( $list, $args = array(), $operator = 'and', $fiel
  * @return array
  */
 function wp_list_filter( $list, $args = array(), $operator = 'AND' ) {
+	if ( ! is_array( $list ) )
+		return array();
+
 	if ( empty( $args ) )
 		return $list;
 
@@ -3066,7 +3072,7 @@ function wp_list_filter( $list, $args = array(), $operator = 'AND' ) {
 
 	foreach ( $list as $key => $obj ) {
 		$matched = count( array_intersect_assoc( (array) $obj, $args ) );
-		if ( ( 'AND' == $operator && $matched == $count ) 
+		if ( ( 'AND' == $operator && $matched == $count )
 		  || ( 'OR' == $operator && $matched <= $count )
 		  || ( 'NOT' == $operator && 0 == $matched ) ) {
 			$filtered[$key] = $obj;

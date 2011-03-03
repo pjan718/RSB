@@ -36,9 +36,10 @@ foreach ( array( 'pre_term_description', 'pre_link_description', 'pre_link_notes
 
 // Kses only for textarea admin displays
 if ( is_admin() ) {
-	foreach ( array( 'term_description', 'link_description', 'link_notes', 'user_description', 'comment_text' ) as $filter ) {
+	foreach ( array( 'term_description', 'link_description', 'link_notes', 'user_description' ) as $filter ) {
 		add_filter( $filter, 'wp_kses_data' );
 	}
+	add_filter( 'comment_text', 'wp_kses_post' );
 }
 
 // Email saves
@@ -80,6 +81,9 @@ foreach ( array( 'pre_term_slug' ) as $filter ) {
 // Keys
 foreach ( array( 'pre_post_type' ) as $filter ) {
 	add_filter( $filter, 'sanitize_user' );
+}
+foreach ( array( 'pre_post_status', 'pre_post_comment_status', 'pre_post_ping_status' ) as $filter ) {
+	add_filter( $filter, 'sanitize_key' );
 }
 
 // Places to balance tags on input
@@ -212,7 +216,6 @@ add_action( 'wp_head',             'wp_shortlink_wp_head',          10, 0 );
 add_action( 'template_redirect',   'wp_shortlink_header',           11, 0 );
 
 // Login actions
-add_action( 'login_head',          'wp_enqueue_scripts',            1     );
 add_action( 'login_head',          'wp_print_head_scripts',         9     );
 add_action( 'login_footer',        'wp_print_footer_scripts'              );
 

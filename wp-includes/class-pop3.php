@@ -12,10 +12,10 @@
  *
  * Licensed under the GNU GPL. For full terms see the file COPYING.
  * @license http://opensource.org/licenses/gpl-license.php GNU General Public License
- * 
+ *
  * pop3 class
  *
- * $Id: class-pop3.php 17312 2011-01-15 17:49:03Z westi $
+ * $Id: class-pop3.php 17435 2011-02-09 17:35:36Z ryan $
  */
 
 class POP3 {
