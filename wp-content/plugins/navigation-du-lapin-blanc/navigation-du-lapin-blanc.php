@@ -2,13 +2,13 @@
 /**
  * @package Bjoerne
  * @subpackage NavigationDuLapinBlanc
- * @version 1.0.2
+ * @version 1.0.3
  */
 /*
  Plugin Name: Navigation Du Lapin Blanc
  Plugin URI: http://www.bjoerne.com/navigation-du-lapin-blanc
  Description: This plugin provides integrated navigation for your website. Thus you can use WordPress as a CMS for your website and think in terms of main navigation, sub navigation etc. A navigation item can link to page, a category, directly to the first sub navigation item (if no own content exist for this item), an external url or a sitemap page. There are a lot of helpful methods to realize a website navigation with little effort like printing the navigation on any level (main, sub, sub sub etc.), searching single navigation items and handle them individually, using cross links in the content, providing a sitemap page and so on.
- Version: 1.0.2
+ Version: 1.0.3
  Author: Björn Weinbrenner
  Author URI: http://www.bjoerne.com/
 
@@ -127,19 +127,86 @@ function &bjoerne_find_current_node(&$rootNodes) {
 		}
 		return bjoerne_find_page_by_id($page_id);
 	}
-	if (is_category()) {
-		global $category_name;
-		if (null != $category_name) {
-			$criteria = array('bjoerne_page_type' => 'category', 'bjoerne_category_name' => $category_name);
-			return bjoerne_find_page_internal(bjoerne_get_navigation_nodes(), $criteria, new Bjoerne_PageNodeMatcherByMetadata());
+	if (is_single()) {
+		session_start();
+		$result = bjoerne_find_category_by_id($_SESSION['bjoerne_last_category_id']);
+		if (null != $result) {
+			return $result;
 		}
-		global $cat;
-		if (null != $cat) {
-			$criteria = array('bjoerne_page_type' => 'category', 'bjoerne_category_id' => $cat);
-			return bjoerne_find_page_internal(bjoerne_get_navigation_nodes(), $criteria, new Bjoerne_PageNodeMatcherByMetadata());
+		$result = bjoerne_find_category_by_name($_SESSION['bjoerne_last_category_name']);
+		if (null != $result) {
+			return $result;
 		}
 	}
-	return null;
+	if (is_category() || is_single()) {
+		// check name first, $cat is also set in this case
+		global $category_name;
+		$result = bjoerne_find_category_by_name($category_name);
+		if (null != $result) {
+			return $result;
+		}
+		global $cat;
+		$result = bjoerne_find_category_by_id($cat);
+		if (null != $result) {
+			return $result;
+		}
+	}
+	if (is_single()) {
+		$categories = get_the_category();
+		foreach (get_the_category() as $category) {
+			$result = bjoerne_find_category_by_id($category->cat_ID);
+			if (null != $result) {
+				return $result;
+			}
+			$result = bjoerne_find_category_by_name($category->category_nicename);
+			if (null != $result) {
+				return $result;
+			}
+		}
+	}
+	return bjoerne_null();
+}
+
+/**
+ * Looks for the category with the given id. If the category is found the id is set in the session
+ * as 'bjoerne_last_category_id'. This is used if a single post is invoked and plugin finds out which
+ * category should be selected in the navigation.
+ * @param int category id
+ * @return Bjoerne_PageNode the found node
+ */
+function &bjoerne_find_category_by_id($category_id) {
+	if (null == $category_id) {
+		return bjoerne_null();
+	}
+	$criteria = array('bjoerne_page_type' => 'category', 'bjoerne_category_id' => $category_id);
+	$result = bjoerne_find_page_internal(bjoerne_get_navigation_nodes(), $criteria, new Bjoerne_PageNodeMatcherByMetadata());
+	if (null != $result) {
+		session_start();
+		$_SESSION['bjoerne_last_category_id'] = $category_id;
+		unset($_SESSION['bjoerne_last_category_name']);
+	}
+	return $result;
+}
+
+/**
+ * Looks for the category with the given name. If the category is found the id is set in the session
+ * as 'bjoerne_last_category_name'. This is used if a single post is invoked and plugin finds out which
+ * category should be selected in the navigation.
+ * @param int category id
+ * @return Bjoerne_PageNode the found node
+ */
+function &bjoerne_find_category_by_name($category_name) {
+	if (null == $category_name) {
+		return bjoerne_null();
+	}
+	$criteria = array('bjoerne_page_type' => 'category', 'bjoerne_category_name' => $category_name);
+	$result = bjoerne_find_page_internal(bjoerne_get_navigation_nodes(), $criteria, new Bjoerne_PageNodeMatcherByMetadata());
+	if (null != $result) {
+		session_start();
+		$_SESSION['bjoerne_last_category_name'] = $category_name;
+		unset($_SESSION['bjoerne_last_category_id']);
+	}
+	return $result;
 }
 
 /**
@@ -150,7 +217,7 @@ function &bjoerne_find_current_node(&$rootNodes) {
 function &bjoerne_get_current_path_element($level) {
 	$path = &bjoerne_get_current_path_elements();
 	if ($level > sizeof($path)) {
-		return null;
+		return bjoerne_null();
 	}
 	return $path[$level];
 }
@@ -308,7 +375,7 @@ function bjoerne_get_sitemap_internal($nodes) {
  */
 function &bjoerne_get_metadata_values(&$node, $attr_name, $inherit = false) {
 	if (null == $node) {
-		return null;
+		return bjoerne_null();
 	}
 	$metadata =& $node->get_metadata();
 	if ((null == $metadata) || !array_key_exists($attr_name, $metadata)) {
@@ -650,6 +717,11 @@ function bjoerne_register_name_resolver(&$resolver) {
 	bjoerne_register_resolver('bjoerne_name_resolvers', $resolver);
 }
 
+/**
+ * Returns array of registered name resolvers
+ * @access private
+ * @return array array of Bjoerne_PageNodeNameResolver
+ */
 function bjoerne_get_name_resolvers() {
 	return bjoerne_get_resolvers('bjoerne_name_resolvers');
 }
@@ -681,8 +753,9 @@ function bjoerne_register_url_resolver(&$resolver) {
 }
 
 /**
- * Returns
- * @return unknown_type
+ * Returns array of registered url resolvers
+ * @access private
+ * @return array array of Bjoerne_PageNodeUrlResolver
  */
 function &bjoerne_get_url_resolvers() {
 	return bjoerne_get_resolvers('bjoerne_url_resolvers');
@@ -732,11 +805,23 @@ function &bjoerne_get_resolvers($key) {
 
 /**
  * Make sure to return a variable if a method returns a reference.
+ * Used to avoid php warnings when returning an empty array by a function which returns references.
  * @access private
  * @return array empty array
  */
 function &bjoerne_empty_array() {
 	$result = array();
+	return $result;
+}
+
+/**
+ * Make sure to return a variable if a method returns a reference.
+ * Used to avoid php warnings when returning simple null by a function which returns references.
+ * @access private
+ * @return null
+ */
+function &bjoerne_null() {
+	$result = null;
 	return $result;
 }
 

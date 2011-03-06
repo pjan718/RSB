@@ -3,14 +3,16 @@ Contributors: Björn Weinbrenner
 Donate link: http://www.bjoerne.com/navigation-du-lapin-blanc/?page_id=13
 Tags: navigation, menu, cms, content management system, sitemap, page, category, url, main navigation, sub navigation, metadata, item, web design
 Requires at least: 2.8.0
-Tested up to: 3.0.3
-Stable tag: 1.0.2
+Tested up to: 3.1.0
+Stable tag: 1.0.3
 
 This plugin provides integrated navigation for your website. Use WordPress as a CMS for your website and think in navigation terms (main, sub etc.)
 
 == Description ==
 
 This plugin provides integrated navigation for your website. Thus you can use WordPress as a CMS for your website and think in terms of main navigation, sub navigation etc. A navigation item can link to page, a category, directly to the first sub navigation item (if no own content exist for this item), an external url or a sitemap page. There are a lot of helpful methods to realize a website navigation with little effort like printing the navigation on any level (main, sub, sub sub etc.), searching single navigation items and handle them individually, using cross links in the content, providing a sitemap page and so on.
+
+Plugin page with a large documentation and a lot of examples: [http://www.bjoerne.com/navigation-du-lapin-blanc/](http://www.bjoerne.com/navigation-du-lapin-blanc/)
 
 == Installation ==
 
@@ -65,4 +67,7 @@ You can find a lot of screenshots on the plugin page. There are a lot of example
 * Bugfix: Now other permalink pattern are supported
 
 = 1.0.2 =
-* Pages of the type 'delegate_to_first_child' aren't considered by the search anymore
+* Pages of the type 'delegate_to_first_child' aren't considered by the seach anymore
+
+= 1.0.3 =
+* Now single posts are supported. If you integrate a category into your navigation tree (with this plugin) and then invokes a single post the plugin shows the category as selected in the navigation.

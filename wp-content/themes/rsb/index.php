@@ -38,7 +38,9 @@
 	    <?php posts_nav_link(); ?>
 	 </div>
     <?php endif; ?>
-	
+	<?php if ( !function_exists('dynamic_sidebar')
+|| !dynamic_sidebar('sidebar2') ) : ?>
+<?php endif; ?>
 </div>
  <?php get_sidebar(); ?>
 </div>

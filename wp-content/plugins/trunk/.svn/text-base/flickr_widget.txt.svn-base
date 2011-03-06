@@ -1,0 +1,24 @@
+= Flickr Widget =
+tags: flickr, photos, photography, widget
+
+Homepage: http://donncha.wordpress.com/flickr-widget/
+Author: Donncha O Caoimh
+Copyright (c) 2006 Automattic, Inc.
+
+Flickr Widget displays up to 10 of the latest photos from your Flickr stream.
+This readme has been adapted from the one for wp-db-backup.
+
+Released under the terms of the GNU GPL, version 2.
+   http://www.fsf.org/licensing/licenses/gpl.html
+
+              NO WARRANTY.
+
+== Installation ==
+1. Make sure you have the Widget plugin available at http://automattic.com/code/widgets/
+1. Copy flickr_widget.php to your plugins folder, /wp-content/plugins/widgets/
+2. Activate it through the plugin management screen.
+3. Go to Themes->Sidebar Widgets and drag and drop the widget to wherever you want to show it.
+
+== Changelog ==
+
+0.1 First public release but this plugin has been running on WordPress.com for some time.
