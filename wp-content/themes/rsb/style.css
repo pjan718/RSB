@@ -1,10 +1,10 @@
 /*  
-Theme Name: New Theme
-Theme URI: YourWebsite.com
+Theme Name: RSB
+Theme URI: www.rooseveltsportsbar.com
 Description: Your Theme Description
 Version: 1.0
-Author: Your Name
-Author URI: http://www.yourwebsite.com
+Author: VectorAgent
+Author URI: http://www.vectoragent.com
 
 */
 
@@ -222,6 +222,8 @@ div.newsHeader{
 	height:39px; width:500px;
 }
 
+/*////////// POST STYLES /////////////*/
+
 div.post{
 	margin: 0 0 10px 100px; padding: 0 0 0 0;
 	width:500px;
@@ -283,3 +285,15 @@ div.entry {
 	font-family: Arial, Helvetica, Georgia, Sans-serif;
 	font-size: 12px;
 }
+
+@font-face {
+    font-family: DeliciousRoman;
+    src: url(http://www.font-face.com/fonts/delicious/Delicious-Roman.otf);
+    font-weight:400;
+}
+
+div.fontfaceTest {
+    font-family: DeliciousRoman;
+	 font-size:2em;
+}
+
