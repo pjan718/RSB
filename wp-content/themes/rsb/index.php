@@ -13,10 +13,15 @@
         
   
 	 </div>
-	   <div class="logoArea"></div>
-<div class="barInfo">
-    
-</div>
+            <div class="logoArea"></div>
+            <div class="barInfo"></div>
+
+            <div class="socialMedia">
+                <ul>
+                    <li><img src="<?php bloginfo('template_directory'); ?>/images/facebook.gif" alt="Roosevelt Facebook" ></li>
+                    <li><img src="<?php bloginfo('template_directory'); ?>/images/twitter.gif" alt="Roosevelt Twitter" ></li>
+                </ul>
+            </div>
 
 <div class="mainContent">
 	 
@@ -39,9 +44,12 @@
 	    <?php posts_nav_link(); ?>
 	 </div>
     <?php endif; ?>
-    <?php if ( !function_exists('dynamic_sidebar')
-    || !dynamic_sidebar('sidebar2') ) : ?>
-    <?php endif; ?>
+    
+    <div class="photoSection">
+        <?php if ( !function_exists('dynamic_sidebar')
+        || !dynamic_sidebar('sidebar2') ) : ?>
+        <?php endif; ?>
+    </div>
     </div>
  <?php get_sidebar(); ?>
 </div>

@@ -125,6 +125,29 @@ div.box:after {
 	overflow: hidden;
 }
 
+
+
+
+
+/*//////////SIDEBAR AREA//////////*/
+
+div.logoArea {
+	float:left;
+	background: url('images/logos.gif') no-repeat top;
+	height:178px; width:200px;
+	margin:180px 0 0 0; padding:0 0 0 80px;
+
+}
+
+.sidebar ul{
+	clear:left;
+	width: 240px;
+	background: #eeeeee;
+	margin: 100px 0 0 10px;
+	display: inline;
+	
+}
+
 .sidebar{
 	float: left;
 	width: 300px;
@@ -147,24 +170,16 @@ div.sideContent {
 	background:url('images/event_bg.gif') repeat-y;
 }
 
-
-
-/*//////////SIDEBAR AREA//////////*/
-
-div.logoArea {
-	float:left;
-	background: url('images/logos.gif') no-repeat top;
-	height:178px; width:200px;
-	margin:180px 0 0 0; padding:0 0 0 80px;
-
+.tweets li {
+	margin: 0 0 0 0; padding:0 0 20px 0;
+	width:170px;
 }
 
-.sidebar ul{
-	clear:left;
-	width: 240px;
-	background: #eeeeee;
-	margin: 100px 0 0 10px;
-	display: inline;
+div.eventBottom{
+	margin:0 0 0 40px; padding: 0 0 0 0;
+	background:url('images/map_bottom.gif') no-repeat;
+	height:185px;
+	width:258px;
 	
 }
 
@@ -207,7 +222,17 @@ div.barInfo {
 	margin: 0 0 0 120px ;padding:0 0 20px 0;
 	background: url('images/bar_info.gif') no-repeat ;
 	height:56px; width:429px;
-	clear:left;
+	float:left;
+}
+
+div.socialMedia {
+	margin:0 0 0 150px; padding:0 0 0 0;
+	float:left;
+}
+
+div.socialMedia li {
+	margin:0 0 0 0; padding:0 10px 0 0;
+	float:left;
 }
 
 div.mainContent {
@@ -295,5 +320,12 @@ div.entry {
 div.fontfaceTest {
     font-family: DeliciousRoman;
 	 font-size:2em;
+}
+
+/*///////////PHOTO STYLES/////////////////*/
+
+div.photoSection {
+	background:url('images/pics_header.gif') no-repeat top center ;
+	margin:0 0 0 100px; padding:50px 0 0 25px;
 }
 
