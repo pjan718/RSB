@@ -21,4 +21,6 @@
 
 </ul>
 </div>
+
+ <div class="eventBottom"></div>  
 </div>
