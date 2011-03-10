@@ -1,10 +1,34 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head profile="http://gmpg.org/xfn/11">
+<?php
+/**
+ * @package WordPress
+ * @subpackage Toolbox
+ */
+?><!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+<head>
+<meta charset="<?php bloginfo( 'charset' ); ?>" />
+<title><?php
+	/*
+	 * Print the <title> tag based on what is being viewed.
+	 */
+	global $page, $paged;
 
-	<title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
+	wp_title( '|', true, 'right' );
 
-	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />	
+	// Add the blog name.
+	bloginfo( 'name' );
+
+	// Add the blog description for the home/front page.
+	$site_description = get_bloginfo( 'description', 'display' );
+	if ( $site_description && ( is_home() || is_front_page() ) )
+		echo " | $site_description";
+
+	// Add a page number if necessary:
+	if ( $paged >= 2 || $page >= 2 )
+		echo ' | ' . sprintf( __( 'Page %s', 'toolbox' ), max( $paged, $page ) );
+
+	?></title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<meta name="generator" content="WordPress <?php bloginfo('version'); ?>" /> <!-- leave this for stats please -->
 
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
