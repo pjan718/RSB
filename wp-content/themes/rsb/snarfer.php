@@ -8,10 +8,10 @@ Template Name: Snarfer
 
 
 <div id="box">
-    <div class="rotatorArea">
+    <!--<div class="rotatorArea"></div>-->
     
 	   <div class="logoArea"></div>
-<div class="barInfo">
+	    <div class="barInfo">
     
 </div>
 
