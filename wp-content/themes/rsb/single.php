@@ -8,12 +8,9 @@ Template Name: Snarfer
 
 
 <div id="box">
-    <!--<div class="rotatorArea"></div>-->
+    <!--<div class="barInfo">
     
-	   <div class="logoArea"></div>
-	    <div class="barInfo">
-    
-</div>
+</div>-->
 
 <div class="mainContent">
 	 
@@ -27,9 +24,11 @@ Template Name: Snarfer
 			get_template_part( 'loop', 'single' );
 			?>
 
-			</div><!-- #content -->
-		</div><!-- #container -->
- <?php get_sidebar(); ?>
+		
+	<div class="logoArea_inner"></div>
+	<div class="singleSidebar">
+	    <?php get_sidebar(); ?>
+	</div>
 </div>
 
 

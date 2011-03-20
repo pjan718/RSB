@@ -112,7 +112,6 @@ a:hover{
 	min-height: 1%; 
 	float: left;
 	width: 556px;
-
 	margin:0 0 0 0; padding: 0 0 0 0;
 	width:1000px;
 }
@@ -139,6 +138,14 @@ div.logoArea {
 
 }
 
+div.logoArea_inner {
+	float:left;
+	background: url('images/logos.gif') no-repeat top;
+	height:178px; width:200px;
+	margin:180px 0 0 0; padding:0 0 0 180px;
+
+}
+
 .sidebar ul{
 	clear:left;
 	width: 240px;
@@ -156,6 +163,16 @@ div.logoArea {
 	display: inline;
 	
 }
+
+.singleSidebar{
+	float: left;
+	width: 300px;
+	
+	margin:  0 0 0 0; padding: 0 0 0 20px;
+	display: inline;
+	
+}
+
 
 div.eventHead {
 	margin:20px 0 0 40px; padding: 0 0 0 0;
@@ -188,7 +205,7 @@ div.eventBottom{
 
 
 #mainNavigation{
-	margin: 0 0 0 0; padding: 0 0 0 100px;
+	margin: 0 0 0 0; padding: 5px 0 0 100px;
 	float:left;
 	
 }
@@ -312,20 +329,32 @@ div.entry {
 }
 
 @font-face {
-    font-family: DeliciousRoman;
-    src: url(http://www.font-face.com/fonts/delicious/Delicious-Roman.otf);
-    font-weight:400;
+	font-family: DeliciousRoman;
+	src: url(http://www.font-face.com/fonts/delicious/Delicious-Roman.otf);
+	font-weight:400;
 }
 
 div.fontfaceTest {
-    font-family: DeliciousRoman;
-	 font-size:2em;
+	font-family: DeliciousRoman;
+	font-size:2em;
 }
 
 /*///////////PHOTO STYLES/////////////////*/
 
 div.photoSection {
 	background:url('images/pics_header.gif') no-repeat top center ;
-	margin:0 0 0 100px; padding:50px 0 0 25px;
+	margin:50px 0 0 100px; padding:50px 0 0 25px;
 }
+
+/*///////////FOOTER STYLES/////////////////*/
+
+#footer {
+	margin:0 0 0 0; padding:0 0 0 0;
+	text-align:left;
+}
+
+#footer p {
+	margin: 0 0 0 0; padding: 260px 0 0 140px;
+}
+
 

@@ -18,7 +18,7 @@
 
             <div class="socialMedia">
                 <ul>
-                    <li><img src="<?php bloginfo('template_directory'); ?>/images/facebook.gif" alt="Roosevelt Facebook" ></li>
+                    <li><a href="http://www.facebook.com/pages/Roosevelt-Sports-Bar/275226830136" ><img src="<?php bloginfo('template_directory'); ?>/images/facebook.gif" alt="Flushing Sports Bar" ></a></li>
                     <li><img src="<?php bloginfo('template_directory'); ?>/images/twitter.gif" alt="Roosevelt Twitter" ></li>
                 </ul>
             </div>
