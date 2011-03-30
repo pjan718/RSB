@@ -217,6 +217,17 @@ div.eventBottom{
 
 #mainNavigation a {color:white; text-decoration:none;}
 
+#mainNavigation li.menuItem {
+	
+	margin:0 0 0 0; padding: 0 20px 0 10px;
+	background:url('images/nav_diamond.gif') right no-repeat;
+}
+
+div.menuItemSelected {
+	background-color:red;
+	
+}
+
 /*//////////ROTATION AREA//////////*/
 
 div.rotatorArea {
@@ -273,10 +284,10 @@ div.post{
 	color:white;
 }
 
-div.post a {color:red;}
+div.post a {color:fff200;}
 
 div.post h2{
-	margin: 0 0 0 0; padding:20px 0 20px 20px;
+	margin: 0 0 0 0; padding:20px 0 10px 20px;
 	text-decoration:none;
 	background-color:#191919;
 }
@@ -290,6 +301,23 @@ div.post h2 a {
 div.entry {
 	margin:0 0 0 0; padding:0 20px 20px 20px;
 	
+}
+
+.moreText a{
+   
+   color:#fff200;
+   padding: 20px 0 0 0;
+   float:right;
+		
+}
+
+div.postmetadata {
+	clear:left;
+	margin:40px 0 0 0; padding: 0 0 0 0;
+}
+
+div.postmetadata a{
+	color:#fff200;
 }
 .comments-template{
 	margin: 10px 0 0;
