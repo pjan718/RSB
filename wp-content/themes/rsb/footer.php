@@ -1,6 +1,7 @@
 <div id="footer">
 <p>
-Copyright 2011<?php bloginfo('name'); ?>
+Tel - 718.463.2313   |  133045 Roosevelt Ave.   |  Flushing NY<br>
+Site contents 2011 Roosevelt sportsbar
 </p>
 </div>
 
