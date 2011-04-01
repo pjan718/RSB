@@ -11,7 +11,7 @@ Template Name: Snarfer
     <!--<div class="rotatorArea"></div>-->
     
 	   <div class="logoArea"></div>
-	    <div class="barInfo">
+	    <!--<div class="barInfo">-->
     
 </div>
 

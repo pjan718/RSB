@@ -94,7 +94,7 @@ class Wickett_Twitter_Widget extends WP_Widget {
 		$account = trim( urlencode( $instance['account'] ) );
 		if ( empty($account) ) return;
 		$title = apply_filters('widget_title', $instance['title']);
-		if ( empty($title) ) $title = __( '' );
+		if ( empty($title) ) $title = __( 'Twitter Updates' );
 		$show = absint( $instance['show'] );  // # of Updates to show
 		if ( $show > 200 ) // Twitter paginates at 200 max tweets. update() should not have accepted greater than 20
 			$show = 200;

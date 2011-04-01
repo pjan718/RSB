@@ -112,7 +112,6 @@ a:hover{
 	min-height: 1%; 
 	float: left;
 	width: 556px;
-
 	margin:0 0 0 0; padding: 0 0 0 0;
 	width:1000px;
 }
@@ -139,14 +138,15 @@ div.logoArea {
 
 }
 
-.sidebar ul{
-	clear:left;
-	width: 240px;
-	background: #eeeeee;
-	margin: 100px 0 0 10px;
-	display: inline;
-	
+div.logoArea_inner {
+	float:left;
+	background: url('images/logos.gif') no-repeat top;
+	height:178px; width:200px;
+	margin:180px 0 0 0; padding:0 0 0 180px;
+
 }
+
+
 
 .sidebar{
 	float: left;
@@ -157,6 +157,16 @@ div.logoArea {
 	
 }
 
+.singleSidebar{
+	float: left;
+	width: 300px;
+	
+	margin:  0 0 0 0; padding: 0 0 0 20px;
+	display: inline;
+	
+}
+
+
 div.eventHead {
 	margin:20px 0 0 40px; padding: 0 0 0 0;
 	background:url('images/event_head.gif') no-repeat;
@@ -166,13 +176,40 @@ div.eventHead {
 }
 
 div.sideContent {
-	margin:0 0 0 40px; padding: 0 0 0 40px;
+	margin:0 0 0 40px; padding: 20px 0 0 25px;
 	background:url('images/event_bg.gif') repeat-y;
 }
 
+.sideContent ul{
+	clear:left;
+	width: 260px;
+	background: #eeeeee;
+	margin: 120px 0 0 px; padding:40px 0 0 0;
+	display: inline;
+	
+}
+
+.sidebar li{
+	clear:left;
+	
+	margin: 20px 0 20px 0;
+
+	
+}
+
+.sidebar ul a{
+	clear:left;
+	color:#cdcbcc;
+	
+}
+
+.sidebar a.timesince {display:none;}
+.sidebar h4 {display:none;}
+
 .tweets li {
-	margin: 0 0 0 0; padding:0 0 20px 0;
-	width:170px;
+	margin: 0 0 0 0; padding:10px 0 10px 0;
+	width:210px;
+	border-bottom:1px solid #666;
 }
 
 div.eventBottom{
@@ -188,7 +225,7 @@ div.eventBottom{
 
 
 #mainNavigation{
-	margin: 0 0 0 0; padding: 0 0 0 100px;
+	margin: 0 0 0 0; padding: 5px 0 0 100px;
 	float:left;
 	
 }
@@ -199,6 +236,17 @@ div.eventBottom{
 }
 
 #mainNavigation a {color:white; text-decoration:none;}
+
+#mainNavigation li.menuItem {
+	
+	margin:0 0 0 0; padding: 0 20px 0 10px;
+	background:url('images/nav_diamond.gif') right no-repeat;
+}
+
+div.menuItemSelected {
+	background-color:red;
+	
+}
 
 /*//////////ROTATION AREA//////////*/
 
@@ -253,26 +301,44 @@ div.post{
 	margin: 0 0 10px 100px; padding: 0 0 0 0;
 	width:500px;
 	background-color:#191919;
-	color:white;
+	color:#999;
 }
 
-div.post a {color:red;}
+div.post a {color:fff200;}
 
 div.post h2{
-	margin: 0 0 0 0; padding:20px 0 20px 20px;
+	margin: 0 0 0 0; padding:20px 0 10px 20px;
 	text-decoration:none;
 	background-color:#191919;
+	color:#cdcbcc;
 }
 
 div.post h2 a {
 	font:1.3em arial,helvetica,san-serif;
 	font-weight:bold;
-	color:#fff;
+	color:#cdcbcc;
 }
 
 div.entry {
 	margin:0 0 0 0; padding:0 20px 20px 20px;
 	
+}
+
+.moreText a{
+   
+   color:#fff200;
+   padding: 20px 0 0 0;
+   float:right;
+		
+}
+
+div.postmetadata {
+	clear:left;
+	margin:40px 0 0 0; padding: 0 0 0 0;
+}
+
+div.postmetadata a{
+	color:#cdcbcc;
 }
 .comments-template{
 	margin: 10px 0 0;
@@ -312,20 +378,32 @@ div.entry {
 }
 
 @font-face {
-    font-family: DeliciousRoman;
-    src: url(http://www.font-face.com/fonts/delicious/Delicious-Roman.otf);
-    font-weight:400;
+	font-family: DeliciousRoman;
+	src: url(http://www.font-face.com/fonts/delicious/Delicious-Roman.otf);
+	font-weight:400;
 }
 
 div.fontfaceTest {
-    font-family: DeliciousRoman;
-	 font-size:2em;
+	font-family: DeliciousRoman;
+	font-size:2em;
 }
 
 /*///////////PHOTO STYLES/////////////////*/
 
 div.photoSection {
 	background:url('images/pics_header.gif') no-repeat top center ;
-	margin:0 0 0 100px; padding:50px 0 0 25px;
+	margin:50px 0 0 100px; padding:50px 0 0 25px;
 }
+
+/*///////////FOOTER STYLES/////////////////*/
+
+#footer {
+	margin:0 0 0 0; padding:0 0 0 0;
+	text-align:left;
+}
+
+#footer p {
+	margin: 0 0 0 0; padding: 260px 0 0 140px;
+}
+
 
