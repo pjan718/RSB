@@ -94,7 +94,7 @@ a:hover{
 }
 
 #header{
-	margin: 0 0 0 0; padding: 0 0 90px 0;
+	margin: 0 0 0 0; padding: 0 0 80px 0;
 	float: left;
 	width: 1000px;
 }
@@ -151,7 +151,7 @@ div.logoArea_inner {
 .sidebar{
 	float: left;
 	width: 300px;
-	margin:  0 0 0 0; padding: 0 0 0 4px;
+	margin:  80px 0 0 0; padding: 0 0 0 4px;
 	display: inline;
 	
 }
@@ -272,8 +272,9 @@ div.barInfo {
 }
 
 div.socialMedia {
-	margin:0 0 20px 150px; padding:0 0 0 0;
+	margin:20px 0 20px 40px; padding:0 0 0 0;
 	float:left;
+	width:200px;
 }
 
 
@@ -285,12 +286,13 @@ div.socialMedia h3 {
 
 
 div.socialMedia li {
-	margin:0 0 0 0; padding:0 28px 0 0;
+	margin:0 0 0 0; padding:0 2px 0 0;
 	float:left;
 }
 
 div.mainContent {
 	float:left;
+	margin:80px 0 0 0; padding: 0 0 0 0;
 }
 
 
