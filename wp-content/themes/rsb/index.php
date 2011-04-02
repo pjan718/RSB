@@ -14,10 +14,9 @@
   
 	 </div>
             <div class="logoArea"></div>
-            <div class="barInfo"></div>
+            <div class="bannerArea">Tel - 718.463.2313  |  133-45 Roosevelt Ave.  |  Flushing N.Y.</div>
 
-            
-
+              
 <div class="mainContent">
 	 
 	<div class="newsHeader"></div>
@@ -27,7 +26,7 @@
     <div class="post" id="post-<?php the_ID(); ?>">
     <h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
     <div class="entry">
-        <?php the_content('<span class="moreText">Read More></span>'); ?>
+        <?php the_content('<p class="moreText">Read More></p>'); ?>
  
          
             <div class="postmetadata">
