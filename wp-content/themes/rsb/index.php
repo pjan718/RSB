@@ -19,10 +19,11 @@
             <div class="socialMedia">
                 <h3>Follow Us On</h3>
                 <ul>
-                    <li><a href="http://www.facebook.com/pages/Roosevelt-Sports-Bar/275226830136" ><img src="<?php bloginfo('template_directory'); ?>/images/social_media_fb.gif"
-                    alt="Flushing Sports Bar" ></a></li>
-                    <li><img src="<?php bloginfo('template_directory'); ?>/images/social_media_twitter.gif" alt="Roosevelt Twitter" ></li>
-                    <li><img src="<?php bloginfo('template_directory'); ?>/images/social_media_flickr.gif" alt="Roosevelt Flickr" ></li>
+                    <li><a href="http://www.facebook.com/pages/Roosevelt-Sports-Bar/275226830136">
+                    <img src="<?php bloginfo('template_directory'); ?>/images/social_media_fb.gif" alt="Flushing Sports Bar" ></img></a></li>
+                    <li><img src="<?php bloginfo('template_directory'); ?>/images/social_media_twitter.gif" alt="Roosevelt Twitter" ></img></li>
+                    <li><a href="http://www.flickr.com/photos/38506077@N04" rel="external"><img src="<?php bloginfo('template_directory'); ?>/images/social_media_flickr.gif"
+                    alt="Roosevelt Flickr" ></img></a></li>
                 </ul>
             </div>
 
@@ -35,7 +36,7 @@
     <div class="post" id="post-<?php the_ID(); ?>">
     <h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
     <div class="entry">
-        <?php the_content('<p class="moreText">Read More></p>'); ?>
+        <?php the_content('<span class="moreText">Read More></span>'); ?>
  
          
             <div class="postmetadata">
