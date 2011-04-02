@@ -160,7 +160,6 @@ div.logoArea_inner {
 .singleSidebar{
 	float: left;
 	width: 300px;
-	
 	margin:  0 0 0 0; padding: 0 0 0 20px;
 	display: inline;
 	
@@ -170,31 +169,28 @@ div.logoArea_inner {
 div.eventHead {
 	margin:20px 0 0 40px; padding: 0 0 0 0;
 	background:url('images/event_head.gif') no-repeat;
-	height:53px;
-	width:261px;
+	height:80px;
+	width:257px;
 	
 }
 
 div.sideContent {
-	margin:0 0 0 40px; padding: 20px 0 0 25px;
+	margin:0 0 0 40px; padding: 0 0 40px 25px;
+	width:257px;
 	background:url('images/event_bg.gif') repeat-y;
 }
 
 .sideContent ul{
 	clear:left;
 	width: 260px;
-	background: #eeeeee;
-	margin: 120px 0 0 px; padding:40px 0 0 0;
+	margin: 0 0 0 0; padding:0 0 0 0;
 	display: inline;
 	
 }
 
 .sidebar li{
 	clear:left;
-	
-	margin: 20px 0 20px 0;
-
-	
+	margin: 0 0 0 0;
 }
 
 .sidebar ul a{
@@ -209,14 +205,17 @@ div.sideContent {
 .tweets li {
 	margin: 0 0 0 0; padding:10px 0 10px 0;
 	width:210px;
-	border-bottom:1px solid #666;
+	border-bottom:1px solid #5f1023;
+	font:1em arial,helvetica,san-serif;
+	font-weight:bold;
+	color:#5f1023;
 }
 
 div.eventBottom{
 	margin:0 0 0 40px; padding: 0 0 0 0;
-	background:url('images/map_bottom.gif') no-repeat;
-	height:185px;
-	width:258px;
+	background:url('images/event_bottom.gif') no-repeat;
+	height:152px;
+	width:257px;
 	
 }
 
@@ -290,9 +289,9 @@ div.mainContent {
 
 
 div.newsHeader{
-	margin: 20px 0 0 100px; padding:0 0 0 0;
+	margin: 20px 0 0 100px; padding:0 0 10px 0;
 	background: url('images/news_header.gif') no-repeat ;
-	height:39px; width:500px;
+	height:37px; width:500px;
 }
 
 /*////////// POST STYLES /////////////*/
