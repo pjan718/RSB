@@ -17,10 +17,12 @@
             <div class="barInfo"></div>
 
             <div class="socialMedia">
+                <h3>Follow Us On</h3>
                 <ul>
-                    <li><a href="http://www.facebook.com/pages/Roosevelt-Sports-Bar/275226830136" ><img src="<?php bloginfo('template_directory'); ?>/images/facebook.gif"
+                    <li><a href="http://www.facebook.com/pages/Roosevelt-Sports-Bar/275226830136" ><img src="<?php bloginfo('template_directory'); ?>/images/social_media_fb.gif"
                     alt="Flushing Sports Bar" ></a></li>
-                    <li><img src="<?php bloginfo('template_directory'); ?>/images/twitter.gif" alt="Roosevelt Twitter" ></li>
+                    <li><img src="<?php bloginfo('template_directory'); ?>/images/social_media_twitter.gif" alt="Roosevelt Twitter" ></li>
+                    <li><img src="<?php bloginfo('template_directory'); ?>/images/social_media_flickr.gif" alt="Roosevelt Flickr" ></li>
                 </ul>
             </div>
 

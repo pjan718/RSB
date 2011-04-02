@@ -151,8 +151,7 @@ div.logoArea_inner {
 .sidebar{
 	float: left;
 	width: 300px;
-	
-	margin:  0 0 0 0; padding: 0 0 0 0;
+	margin:  0 0 0 0; padding: 0 0 0 4px;
 	display: inline;
 	
 }
@@ -250,7 +249,7 @@ div.menuItemSelected {
 /*//////////ROTATION AREA//////////*/
 
 div.rotatorArea {
-	margin: 0 0 0 0; padding: 0 0 40px 100px;
+	margin: 0 0 0 0; padding: 0 0 20px 100px;
 	float:left;
 	
 }
@@ -273,12 +272,20 @@ div.barInfo {
 }
 
 div.socialMedia {
-	margin:0 0 0 150px; padding:0 0 0 0;
+	margin:0 0 20px 150px; padding:0 0 0 0;
 	float:left;
 }
 
+
+div.socialMedia h3 {
+	margin:0 0 10px 0; padding: 0 0 0 0;
+	font:1.2em rockwell,arial,san-serif;
+	color:#fff200;
+}
+
+
 div.socialMedia li {
-	margin:0 0 0 0; padding:0 10px 0 0;
+	margin:0 0 0 0; padding:0 28px 0 0;
 	float:left;
 }
 
