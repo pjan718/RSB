@@ -3,30 +3,39 @@
 /**
  * Template tag: Boxed Style Paging
  *
- * @arg string $before
- * @arg string $after
- * @arg string|array $options Used to overwrite options set in WP-Admin -> Settings -> PageNavi
+ * @param array $args:
+ *	'before': (string)
+ *	'after': (string)
+ *	'options': (string|array) Used to overwrite options set in WP-Admin -> Settings -> PageNavi
+ *	'query': (object) A WP_Query instance
  */
-function wp_pagenavi( $before = '', $after = '', $options = array() ) {
-	global $wp_query;
+function wp_pagenavi( $args = array() ) {
+	if ( !is_array( $args ) ) {
+		$argv = func_get_args();
+		list( $before, $after, $options ) = $argv;
+		$query = $GLOBALS['wp_query'];
+	} else {
+		$args = wp_parse_args( $args, array(
+			'before' => '',
+			'after' => '',
+			'options' => array(),
+			'query' => $GLOBALS['wp_query']
+		) );
+
+		extract( $args, EXTR_SKIP );
+	}
 
 	$options = wp_parse_args( $options, PageNavi_Core::$options->get() );
 
-	$posts_per_page = intval( get_query_var( 'posts_per_page' ) );
-
-	$paged = absint( get_query_var( 'paged' ) );
-	if ( !$paged )
-		$paged = 1;
-
-	$total_pages = absint( $wp_query->max_num_pages );
-	if ( !$total_pages )
-		$total_pages = 1;
+	$posts_per_page = intval( $query->get( 'posts_per_page' ) );
+	$paged = max( 1, absint( $query->get( 'paged' ) ) );
+	$total_pages = max( 1, absint( $query->max_num_pages ) );
 
 	if ( 1 == $total_pages && !$options['always_show'] )
 		return;
 
-	$request = $wp_query->request;
-	$numposts = $wp_query->found_posts;
+	$request = $query->request;
+	$numposts = $query->found_posts;
 
 	$pages_to_show = absint( $options['num_pages'] );
 	$larger_page_to_show = absint( $options['num_larger_page_numbers'] );
@@ -49,7 +58,7 @@ function wp_pagenavi( $before = '', $after = '', $options = array() ) {
 		$end_page = $total_pages;
 	}
 
-	if ( $start_page <= 0 )
+	if ( $start_page < 1 )
 		$start_page = 1;
 
 	$out = '';
@@ -88,12 +97,14 @@ function wp_pagenavi( $before = '', $after = '', $options = array() ) {
 			if ( !empty( $options['prev_text'] ) )
 				$out .= get_previous_posts_link( $options['prev_text'] );
 
+			$timeline = 'smaller';
 			foreach ( range( $start_page, $end_page ) as $i ) {
 				if ( $i == $paged && !empty( $options['current_text'] ) ) {
 					$current_page_text = str_replace( '%PAGE_NUMBER%', number_format_i18n( $i ), $options['current_text'] );
 					$out .= "<span class='current'>$current_page_text</span>";
+					$timeline = 'larger';
 				} else {
-					$out .= _wp_pagenavi_single( $i, 'page', $options['page_text'] );
+					$out .= _wp_pagenavi_single( $i, "page $timeline", $options['page_text'] );
 				}
 			}
 

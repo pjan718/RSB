@@ -1,10 +1,10 @@
 === WP-PageNavi ===
 Contributors: GamerZ, scribu
-Donate link: http://lesterchan.net/wordpress
+Donate link: http://lesterchan.net/site/donation/
 Tags: navigation, pagination, paging, pages
 Requires at least: 2.8
-Tested up to: 3.0
-Stable tag: 2.73
+Tested up to: 3.1
+Stable tag: 2.74
 
 Adds a more advanced paging navigation to your WordPress site.
 
@@ -56,15 +56,25 @@ Make sure your host is running PHP 5. The only foolproof way to do this is to ad
 `var_dump(PHP_VERSION);`
 <br>
 
-= Doesn't work with query_posts() =
+= Doesn't work with query_posts() or custom query =
 
-Read [The Right Way To Use query_posts()](http://scribu.net/wordpress/right-way-to-use-query_posts.html)
+Read [this tutorial](http://scribu.net/wordpress/wp-pagenavi/wpn-2-74.html)
 
-== Upgrade Notice ==
+= How do I ignore the options page? =
 
-Read before upgrading: http://scribu.net/wordpress/wp-pagenavi/wp-2-70.html
+If you are running a multi-language plugin, you will probably want to ignore the strings in the options page.
+
+You can do that like so:
+
+`<?php wp_pagenavi( array( 'options' => PageNavi_Core::$options->get_defaults() ) ); ?>`
 
 == Changelog ==
+
+= 2.74 (2011-02-17) =
+* added 'smaller' and 'larger' classes
+* added $query arg to wp_pagenavi()
+* updated translations
+* [more info](http://scribu.net/wordpress/wp-pagenavi/wpn-2-74.html)
 
 = 2.73 (2010-08-17) =
 * added $options arg to wp_pagenavi()
