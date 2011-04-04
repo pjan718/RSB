@@ -1,8 +1,8 @@
 <div id="footer">
-<p>
-Tel - 718.463.2313   |  133045 Roosevelt Ave.   |  Flushing NY<br>
+<h3>
+Tel - 718.463.2313   |  133045 Roosevelt Ave.   |  Flushing NY<br />
 Site contents 2011 Roosevelt sportsbar
-</p>
+</h3>
 </div>
 
 </div>
@@ -16,5 +16,19 @@ Site contents 2011 Roosevelt sportsbar
 
 	wp_footer();
 ?>
+
+<script type="text/javascript">  
+
+	Cufon.replace('h1', { rockwell: 'normal' }); 
+	Cufon.replace('h2 strong', { rockwell: 'strong' }); 
+	Cufon.replace('h3');
+	Cufon.replace('h4');
+	Cufon.replace('h5');
+	Cufon.replace('h6');
+	Cufon.replace('.callout_landing');
+	Cufon.replace('.disclaimer');
+	Cufon.replace('.alphanav');
+</script>
+
 </body>
 </html>

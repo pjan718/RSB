@@ -329,7 +329,7 @@ function wp_content_slider()
 	
 	
 echo '</div>';
-echo '<div id="wpcs_link_love"><a href="http://www.snilesh.com" target="_blank">Wordpress Developer</a></div></div>';
+echo '<div id="wpcs_link_love"><a href="http://www.snilesh.com" rel="external">Wordpress Developer</a></div></div>';
 	?>
 <?php
 	
