@@ -4,17 +4,12 @@
 <div id="box">
     <div class="rotatorArea">
     <div class="rotatorHead"></div>
-        <?php if(function_exists('wp_content_slider')) { wp_content_slider(); } ?>
-            <?php if (function_exists('rotating_header_draw')) {
-            rotating_header_draw();
-            } else { ?>
-         <div id="splash"></div>
-        <?php } ?>
+		  
+       <?php if (function_exists('vSlider')) { vSlider(); }?>
         
-  
 	 </div>
-            <div class="logoArea"></div>
-            <div class="bannerArea"><h3>Tel - 718.463.2313  |  133-45 Roosevelt Ave.  |  Flushing N.Y.</h3></div>
+				<div class="logoArea"></div>
+				<div class="bannerArea"><h3>Tel - 718.463.2313  |  133-45 Roosevelt Ave.  |  Flushing N.Y.</h3></div>
 
               
 <div class="mainContent">
@@ -27,38 +22,38 @@
     <h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
     <div class="entry">
         <?php the_content('<p class="moreText">Read More></p>'); ?>
-          <div class="postmetadata">
+				<div class="postmetadata">
                <?php _e('Filed under&#58;'); ?> <?php the_category(', ') ?> <?php _e('by'); ?> <?php  the_author(); ?><br />
                <?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?> <?php edit_post_link('Edit', ' &#124; ', ''); ?>
                
                <?php
                /* If we are on a page, then hide comments */
-            if (is_page('contact','about')) {
-            /* do nothing */
-            } else {
-            comments_popup_link('No Comments È', '1 Comment È', '% Comments È');
-            comments_template();
-            }
-            ?>
-          </div>
+					 if (is_page('contact','about')) {
+					 /* do nothing */
+					 } else {
+					 comments_popup_link('No Comments È', '1 Comment È', '% Comments È');
+					 comments_template();
+					 }
+					 ?>
+				</div>
     </div>
 </div>
     <?php endwhile; ?>
      <div class="navigation">
 	    <?php posts_nav_link(); ?>
-	</div>
+	 </div>
     <?php endif; ?>
     
     <div class="photoSection">
-         <h1><strong>RSB Flickr</strong></h1>
+        <h1><strong>RSB Flickr</strong></h1>
     </div>
-      <div class="flickrStream">
+    <div class="flickrStream">
         <?php if ( !function_exists('dynamic_sidebar')
         || !dynamic_sidebar('sidebar2') ) : ?>
         <?php endif; ?>
+	 </div>
     </div>
-    </div>
- <?php get_sidebar(); ?>
+	 <?php get_sidebar(); ?>
 </div>
 
 
