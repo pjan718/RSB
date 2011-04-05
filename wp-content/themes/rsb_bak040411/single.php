@@ -4,13 +4,6 @@
 Template Name: Snarfer
 */
 ?>
-
-<?php
-
-/*
-Template Name: Snarfer
-*/
-?>
 <?php get_header(); ?>
 
 
@@ -21,14 +14,14 @@ Template Name: Snarfer
 
 <div class="mainContent">
 	 
-	<div class="newsHeader"><h1><?php wp_title(''); ?></h1> </div>
+	<div class="newsHeader"><?php bloginfo('name'); ?> </div>
 
 			<?php
 			/* Run the loop to output the post.
 			 * If you want to overload this in a child theme then include a file
 			 * called loop-single.php and that will be used instead.
 			 */
-			get_template_part( 'loop', 'single');
+			get_template_part( 'loop', 'single' );
 			?>
 
 		
@@ -41,9 +34,3 @@ Template Name: Snarfer
 
 
 <?php get_footer(); ?>
-
-<?php get_header(); ?>
-
-
-
-	

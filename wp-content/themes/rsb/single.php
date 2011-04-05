@@ -14,7 +14,9 @@ Template Name: Snarfer
 
 <div class="mainContent">
 	 
+
 	<div class="newsHeader"><h1>" . get_the_title() . "</h1></div>
+
 
 			<?php
 			/* Run the loop to output the post.
