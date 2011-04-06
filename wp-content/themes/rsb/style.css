@@ -145,13 +145,13 @@ div.menuItemSelected {
 /*//////////ROTATION AREA//////////*/
 
 div.rotatorArea {
-	margin: 0 0 0 0; padding: 0 0 20px 100px;
+	margin: 0 0 0 0; padding: 55px 0 20px 120px;
 	float:left;
 	
 }
 
 div.rotatorHead {
-	background: url('images/rotator_header.png') no-repeat top;
+	
 	height:78px; width:557px;
 	
 }
@@ -159,8 +159,16 @@ div.rotatorHead {
 
 /*//////////MAIN CONTENT AREA//////////*/
 
+div.logoArea {
+	clear:left;
+	background: url('images/logos.gif') no-repeat top;
+	height:60px; width:600px;
+	margin:90px 0 0 0; padding:0 0 0 400px;
+
+}
+
 div.bannerArea {
-	margin: 20px 0 0 0;padding:100px 0 0 0;
+	margin: 10px 0 0 0;padding:100px 0 0 0;
 	background: url('images/banner.jpg') no-repeat ;
 	width:1000px;
 	float:left;
@@ -377,13 +385,7 @@ div.flickrStream{
 
 /*//////////SIDEBAR AREA//////////*/
 
-div.logoArea {
-	float:left;
-	background: url('images/logos.gif') no-repeat top;
-	height:178px; width:200px;
-	margin:190px 0 0 0; padding:0 0 0 80px;
 
-}
 
 div.logoArea_inner {
 	float:left;
