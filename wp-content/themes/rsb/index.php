@@ -3,13 +3,8 @@
 
 <div id="box">
     <div class="rotatorArea">
-    <div class="rotatorHead"></div>
-        <?php if(function_exists('wp_content_slider')) { wp_content_slider(); } ?>
-            <?php if (function_exists('rotating_header_draw')) {
-            rotating_header_draw();
-            } else { ?>
-         <div id="splash"></div>
-        <?php } ?>
+    
+        <?php if (function_exists('vSlider')) { vSlider(); }?>
         
   
 	 </div>
