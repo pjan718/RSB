@@ -3,14 +3,11 @@
 
 <div id="box">
     <div class="rotatorArea">
-<<<<<<< HEAD
+
     <div class="rotatorHead"></div>
 		  
        <?php if (function_exists('vSlider')) { vSlider(); }?>
-=======
-    
-        <?php if (function_exists('vSlider')) { vSlider(); }?>
->>>>>>> 60b13463fecdd1e2948e0107a40df03664e77198
+
         
 	 </div>
 				<div class="logoArea"></div>
