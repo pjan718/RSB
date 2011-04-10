@@ -13,36 +13,97 @@ Template Name: Snarfer
 ?>
 <?php get_header(); ?>
 
+<?php
 
-<div id="box">
-    <!--<div class="barInfo">
-    
-</div>-->
+/*
+Template Name: Snarfer
+*/
+?>
 
-<div class="mainContent">
-	 
-	<div class="newsHeader"><h1><?php wp_title(''); ?></h1> </div>
+<?php
 
-			<?php
-			/* Run the loop to output the post.
-			 * If you want to overload this in a child theme then include a file
-			 * called loop-single.php and that will be used instead.
-			 */
-			get_template_part( 'loop', 'single');
-			?>
+/*
+Template Name: Snarfer
+*/
+?>
+<?php get_header(); ?>
 
-		
-	<div class="logoArea_inner"></div>
-	<div class="singleSidebar">
-	    <?php get_sidebar(); ?>
-	</div>
+<div id="wrapperSingle">
+
+<div id="header">
+<!--NAVIGATION START-->	
+<div id="mainNavigation">
+<!--<ul>
+   <li><a href="http://localhost:8888/rsb/?page_id=47">Home</a></li>
+   <li>About</li>
+   <li><a href="http://localhost:8888/rsb/?page_id=49">Contact</a></li>
+</ul>-->
+<?php
+foreach (bjoerne_get_navigation_nodes(0) as $node) {
+	$navItemSelected = ($node->is_selected() || $node->is_on_selected_path());
+	if (bjoerne_is_node_visible($node)) {
+	    bjoerne_println('<li class="menuItem'.($navItemSelected ? ' menuItemSelected' : '').'">');
+		bjoerne_print_link($node);
+		bjoerne_println('</li>');
+	}
+}
+?>
+
+<!--NAVIGATION END-->
 </div>
+</div>
+
+<div id="boxSingle">
+     
+      
+      <div class="mainContent">
+         <div class="contentHeader"><h1><strong>RSB News</strong></h1></div>
+            <?php if(have_posts()) : ?><?php while(have_posts()) : the_post(); ?>
+         
+         <div class="postHead"></div>
+      
+      <div class="post" id="post-<?php the_ID(); ?>">
+      <h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
+      <div class="entry">
+        <?php the_content('<span class="moreText">Read More></span>'); ?>
+          <div class="postmetadata">
+               POSTED: <?php the_time('m/j/y g:i A') ?><br />
+               FILED AS: <?php the_category(', ') ?><br />
+               COMMENTS FEED: <?php comments_rss_link('RSS 2.0'); ?>
+          </div>
+      </div>
+    
+</div>
+    <div class="postBot"></div>
+    <?php endwhile; ?>
+     <div class="navigation">
+	    <?php posts_nav_link(); ?>
+	</div>
+    
+    <?php endif; ?>
+    
+    
+    
+      
+    </div>
+ <?php get_sidebar(); ?>
+</div>
+
+
+
+
+	
+
 
 
 
 <?php get_footer(); ?>
 
-<?php get_header(); ?>
+
+
+
+	
+
 
 
 
