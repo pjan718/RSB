@@ -10,6 +10,7 @@
    <li>About</li>
    <li><a href="http://localhost:8888/rsb/?page_id=49">Contact</a></li>
 </ul>-->
+<ul>
 <?php
 foreach (bjoerne_get_navigation_nodes(0) as $node) {
 	$navItemSelected = ($node->is_selected() || $node->is_on_selected_path());
@@ -20,13 +21,13 @@ foreach (bjoerne_get_navigation_nodes(0) as $node) {
 	}
 }
 ?>
-
+</ul>
 <!--NAVIGATION END-->
 </div>
 </div>
 
 <div id="box">
-<<<<<<< HEAD
+
       <div class="rotatorArea">
          <?php if (function_exists('vSlider')) { vSlider(); }?>
       </div>
@@ -50,7 +51,7 @@ foreach (bjoerne_get_navigation_nodes(0) as $node) {
           </div>
       </div>
     
-=======
+
     <div class="rotatorArea">
 
     <div class="rotatorHead"></div>
@@ -88,24 +89,24 @@ foreach (bjoerne_get_navigation_nodes(0) as $node) {
 						  ?>
 					 </div>
 		  </div>
->>>>>>> 226cc8d8c10f7111b93733a0de549c42a9e076cb
+
 </div>
     <div class="postBot"></div>
     <?php endwhile; ?>
      <div class="navigation">
 	    <?php posts_nav_link(); ?>
-<<<<<<< HEAD
+
 	</div>
     
-=======
+
 	 </div>
->>>>>>> 226cc8d8c10f7111b93733a0de549c42a9e076cb
+
     <?php endif; ?>
     
     <div class="photoSection">
         <h1><strong>RSB Flickr</strong></h1>
     </div>
-<<<<<<< HEAD
+
       <div class="postHead_photo"></div>
       <div class="flickrStream">
         <div class="flickrThumbs">
@@ -117,7 +118,7 @@ foreach (bjoerne_get_navigation_nodes(0) as $node) {
       <div class="postBot"></div>
     </div>
  <?php get_sidebar(); ?>
-=======
+
     <div class="flickrStream">
         <?php if ( !function_exists('dynamic_sidebar')
         || !dynamic_sidebar('sidebar2') ) : ?>
@@ -125,7 +126,7 @@ foreach (bjoerne_get_navigation_nodes(0) as $node) {
 	 </div>
     </div>
 	 <?php get_sidebar(); ?>
->>>>>>> 226cc8d8c10f7111b93733a0de549c42a9e076cb
+
 </div>
 
 

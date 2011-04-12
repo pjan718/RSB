@@ -25,9 +25,9 @@ Site contents 2011 Roosevelt sportsbar
 	Cufon.replace('h4');
 	Cufon.replace('h5');
 	Cufon.replace('h6');
-	Cufon.replace('.callout_landing');
+	/*Cufon.replace('.callout_landing');
 	Cufon.replace('.disclaimer');
-	Cufon.replace('.alphanav');
+	Cufon.replace('.alphanav');*/
 </script>
 
 </body>
