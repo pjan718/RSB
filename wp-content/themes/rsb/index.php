@@ -22,7 +22,7 @@ foreach (bjoerne_get_navigation_nodes(0) as $node) {
 }
 ?>
 </ul>
-<!--NAVIGATION END-->
+
 </div>
 </div>
 
@@ -38,11 +38,12 @@ foreach (bjoerne_get_navigation_nodes(0) as $node) {
          <div class="contentHeader"><h1><strong>RSB News</strong></h1></div>
             <?php if(have_posts()) : ?><?php while(have_posts()) : the_post(); ?>
          
-         <div class="postHead"></div>
+      <div class="postHead"></div>
       
       <div class="post" id="post-<?php the_ID(); ?>">
-      <h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
-      <div class="entry">
+		 <h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
+      
+	  <div class="entry">
         <?php the_content('<span class="moreText">Read More></span>'); ?>
           <div class="postmetadata">
                POSTED: <?php the_time('m/j/y g:i A') ?><br />
@@ -50,8 +51,36 @@ foreach (bjoerne_get_navigation_nodes(0) as $node) {
                COMMENTS FEED: <?php comments_rss_link('RSS 2.0'); ?>
           </div>
       </div>
+<<<<<<< HEAD
     
 
+=======
+
+
+   
+</div>
+    <div class="postBot"></div>
+    <?php endwhile; ?>
+     <div class="navigation">
+	    <?php posts_nav_link(); ?>
+
+	</div>
+    
+
+    <?php endif; ?>
+
+    
+</div>
+		 <div class="postBot"></div>
+			<?php endwhile; ?>
+		 
+		 <div class="navigation">
+			<?php posts_nav_link(); ?>
+		 </div>
+    
+	
+	<?php endif; ?>
+>>>>>>> 2d1c7f162b31dd4c27581121920f3498cb5e33c1
 
     
     <div class="photoSection">
@@ -60,23 +89,15 @@ foreach (bjoerne_get_navigation_nodes(0) as $node) {
 
       <div class="postHead_photo"></div>
       <div class="flickrStream">
-        <div class="flickrThumbs">
-        <?php if ( !function_exists('dynamic_sidebar')
-        || !dynamic_sidebar('sidebar2') ) : ?>
-        <?php endif; ?>
-        </div>
-    </div>
+		 <div class="flickrThumbs">
+		 <?php if ( !function_exists('dynamic_sidebar')
+		 || !dynamic_sidebar('sidebar2') ) : ?>
+		 <?php endif; ?>
+		 </div>
+	  </div>
       <div class="postBot"></div>
     </div>
  <?php get_sidebar(); ?>
-
-    <div class="flickrStream">
-        <?php if ( !function_exists('dynamic_sidebar')
-        || !dynamic_sidebar('sidebar2') ) : ?>
-        <?php endif; ?>
-	 </div>
-    </div>
-	 <?php get_sidebar(); ?>
 
 </div>
 

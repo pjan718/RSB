@@ -1,7 +1,7 @@
 <div id="footer">
 <h3>
 
-Site contents 2011 Roosevelt sportsbar
+Site contents 2010 &copy; Roosevelt sportsbar
 </h3>
 </div>
 

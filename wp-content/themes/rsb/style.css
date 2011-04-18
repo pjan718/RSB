@@ -162,16 +162,17 @@ div.logoArea {
 }
 
 div.bannerArea {
-	margin: 10px 0 0 0;padding:100px 0 0 0;
+	margin: 10px 0 0 25px;padding:100px 0 0 0;
 	background: url('images/banner.jpg') no-repeat ;
 	width:1000px;
 	float:left;
-	text-align:center;
 	font:1.1em arial,helvetica,san-serif;
 	color:#fff200;
 	height:57px;
 	
 }
+
+div.bannerArea h3 { margin:0 0 0 0; padding:0 0 0 225px;}
 
 
 
@@ -216,7 +217,7 @@ div.post{
 }
 
 div.post a {
-	color:fff200;
+	color:#5f1023;
 	
 }
 
@@ -224,23 +225,23 @@ div.post h2{
 	margin: 0 0 0 0; padding:0 0 10px 60px;
 	text-decoration:none;
 	background:url('images/post_mid.jpg') repeat-y;
-	color:#cdcbcc;
+	color:#5f1023;
 	
 }
 
-div.post h2 a { font:.8em; font-weight:bold; color:#661e1e; }
-div.post h2 a:hover {color:#fff;}
+div.post h2 a { font:.8em; font-weight:bold; color:#5f1023; }
+div.post h2 a:hover {color:#935161;}
 
 
 div.entry {
 	margin:0 0 0 0; padding:0 60px 0 60px;
 	font:.8em arial,helvetica,san-serif;
-	color:#661e1e;
+	color:#5f1023;
 	
 }
 
 span.moreText {
-   margin:22px 0 0 0; padding:5px 5px 0 5px;
+   margin:15px 0 0 0; padding:5px 5px 0 5px;
    height:20px;
    width:85px;
    background-color:#5F1023;
@@ -527,7 +528,7 @@ div.sidebar div.socialMedia li{
 #footer h3 {
 	text-align:left;
 	color:black;
-	margin: 0 0 0 0; padding: 260px 0 0 500px;
+	margin: 0 0 0 0; padding: 270px 0 0 520px;
 }
 
 /*/////////// PAGE STYLES/////////////////*/
@@ -549,12 +550,10 @@ div.sidebar div.socialMedia li{
 	width:1000px;
 }
 
-#boxSingle:after {
-	display: block;
-	clear: both;
-	content: " ";
-	height: 0;
-	overflow: hidden;
+#boxSingle:after { display: block; clear: both; content: " "; height: 0; overflow: hidden;}
+
+#boxSingle div.contentHeader{
+	margin: 0 0 0 100px; padding:0 0 0 0;
 }
 
 
