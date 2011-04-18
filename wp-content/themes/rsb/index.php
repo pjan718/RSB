@@ -23,7 +23,6 @@ foreach (bjoerne_get_navigation_nodes(0) as $node) {
 ?>
 </ul>
 
-<!--NAVIGATION END-->
 </div>
 </div>
 
@@ -53,7 +52,6 @@ foreach (bjoerne_get_navigation_nodes(0) as $node) {
           </div>
       </div>
     
-
 </div>
 		 <div class="postBot"></div>
 			<?php endwhile; ?>
@@ -62,9 +60,8 @@ foreach (bjoerne_get_navigation_nodes(0) as $node) {
 			<?php posts_nav_link(); ?>
 		 </div>
     
-
-
-    <?php endif; ?>
+	
+	<?php endif; ?>
     
     <div class="photoSection">
         <h1><strong>RSB Flickr</strong></h1>
@@ -81,6 +78,7 @@ foreach (bjoerne_get_navigation_nodes(0) as $node) {
       <div class="postBot"></div>
     </div>
  <?php get_sidebar(); ?>
+
 
 </div>
 
