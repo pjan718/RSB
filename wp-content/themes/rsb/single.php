@@ -23,6 +23,7 @@ Template Name: Snarfer
    <li>About</li>
    <li><a href="http://localhost:8888/rsb/?page_id=49">Contact</a></li>
 </ul>-->
+<ul>
 <?php
 foreach (bjoerne_get_navigation_nodes(0) as $node) {
 	$navItemSelected = ($node->is_selected() || $node->is_on_selected_path());
@@ -33,7 +34,7 @@ foreach (bjoerne_get_navigation_nodes(0) as $node) {
 	}
 }
 ?>
-
+</ul>
 <!--NAVIGATION END-->
 </div>
 </div>

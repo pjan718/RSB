@@ -4,28 +4,6 @@
 Template Name: Snarfer
 */
 ?>
-
-<?php
-
-/*
-Template Name: Snarfer
-*/
-?>
-<?php get_header(); ?>
-
-<?php
-
-/*
-Template Name: Snarfer
-*/
-?>
-
-<?php
-
-/*
-Template Name: Snarfer
-*/
-?>
 <?php get_header(); ?>
 
 <div id="wrapperSingle">
@@ -33,11 +11,7 @@ Template Name: Snarfer
 <div id="header">
 <!--NAVIGATION START-->	
 <div id="mainNavigation">
-<!--<ul>
-   <li><a href="http://localhost:8888/rsb/?page_id=47">Home</a></li>
-   <li>About</li>
-   <li><a href="http://localhost:8888/rsb/?page_id=49">Contact</a></li>
-</ul>-->
+<ul>
 <?php
 foreach (bjoerne_get_navigation_nodes(0) as $node) {
 	$navItemSelected = ($node->is_selected() || $node->is_on_selected_path());
@@ -48,7 +22,7 @@ foreach (bjoerne_get_navigation_nodes(0) as $node) {
 	}
 }
 ?>
-
+</ul>
 <!--NAVIGATION END-->
 </div>
 </div>
@@ -88,13 +62,6 @@ foreach (bjoerne_get_navigation_nodes(0) as $node) {
     </div>
  <?php get_sidebar(); ?>
 </div>
-
-
-
-
-	
-
-
 
 
 <?php get_footer(); ?>

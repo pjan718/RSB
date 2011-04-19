@@ -16,14 +16,19 @@
         <div class="socialMedia">
                 <h3>Follow Us On</h3>
                 <ul>
-                    <li><a href="http://www.flickr.com/photos/38506077@N04" rel="external"><img src="<?php bloginfo('template_directory'); ?>/images/social_media_flickr.gif"
-                    alt="Roosevelt Flickr" ></a>
+                    <li>
+                        <a href="http://www.flickr.com/photos/38506077@N04" rel="external"><img src="<?php bloginfo('template_directory'); ?>/images/social_media_flickr.gif"
+                        alt="Roosevelt Flickr" /></a>
                     </li>
-                    <li><a href="http://twitter.com/#search?q=rsb718" rel="external"><img src="<?php bloginfo('template_directory'); ?>/images/social_media_twitter.gif" alt="Roosevelt Twitter" ></a>
+                    <li>
+                         <a href="ttp://twitter.com/#search?q=rsb718" rel="external"><img src="<?php bloginfo('template_directory'); ?>/images/social_media_twitter.gif"
+                        alt="Roosevelt Twitter" /></a>
+                        
+                       
                     </li>
                     <li>
                         <a href="http://www.facebook.com/pages/Roosevelt-Sports-Bar/275226830136" rel="external">
-                        <img src="<?php bloginfo('template_directory'); ?>/images/social_media_fb.gif" alt="Flushing Sports Bar" >
+                        <img src="<?php bloginfo('template_directory'); ?>/images/social_media_fb.gif" alt="Flushing Sports Bar" />
                         </a>
                     </li>
                 </ul>

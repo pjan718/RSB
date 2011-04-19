@@ -357,7 +357,7 @@ select {
    border: 1px solid #666;
    color:white;
    font: .9em arial,helvetica,san-serif;
-   overflow:none;
+   
 }
 
 small.whythis {
@@ -558,5 +558,13 @@ div.sidebar div.socialMedia li{
 }
 
 #boxSingle h2 {font-weight:bold;}
+
+#boxSingle div.eventHead {
+   margin:0 0 0 40px; padding: 0 0 0 0;
+   background:url('images/event_head_inner.gif') no-repeat;
+   height:80px;
+   width:257px;
+   
+}
 
 
