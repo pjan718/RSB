@@ -42,7 +42,7 @@ foreach (bjoerne_get_navigation_nodes(0) as $node) {
      
       
       <div class="mainContent">
-         <div class="contentHeader"><h1><strong><?php the_title(); ?></strong></h1></div>
+         <div class="contentHeader"><h1><strong>RSB News</strong></h1></div>
             <?php if(have_posts()) : ?><?php while(have_posts()) : the_post(); ?>
          
          <div class="postHead"></div>
