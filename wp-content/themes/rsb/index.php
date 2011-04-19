@@ -51,36 +51,17 @@ foreach (bjoerne_get_navigation_nodes(0) as $node) {
                COMMENTS FEED: <?php comments_rss_link('RSS 2.0'); ?>
           </div>
       </div>
-<<<<<<< HEAD
-    
-
-=======
-
-
-   
 </div>
-    <div class="postBot"></div>
-    <?php endwhile; ?>
-     <div class="navigation">
-	    <?php posts_nav_link(); ?>
-
-	</div>
-    
-
-    <?php endif; ?>
-
-    
-</div>
-		 <div class="postBot"></div>
-			<?php endwhile; ?>
+		  <div class="postBot"></div>
+				<?php endwhile; ?>
 		 
-		 <div class="navigation">
+		  <div class="navigation">
 			<?php posts_nav_link(); ?>
-		 </div>
+		  </div>
     
 	
 	<?php endif; ?>
->>>>>>> 2d1c7f162b31dd4c27581121920f3498cb5e33c1
+
 
     
     <div class="photoSection">
