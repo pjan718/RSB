@@ -51,8 +51,8 @@ foreach (bjoerne_get_navigation_nodes(0) as $node) {
                COMMENTS FEED: <?php comments_rss_link('RSS 2.0'); ?>
           </div>
       </div>
-    
-</div>
+
+    </div>
 		 <div class="postBot"></div>
 			<?php endwhile; ?>
 		 
@@ -62,6 +62,7 @@ foreach (bjoerne_get_navigation_nodes(0) as $node) {
     
 	
 	<?php endif; ?>
+
     
     <div class="photoSection">
         <h1><strong>RSB Flickr</strong></h1>
