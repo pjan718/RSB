@@ -4,28 +4,6 @@
 Template Name: Snarfer
 */
 ?>
-
-<?php
-
-/*
-Template Name: Snarfer
-*/
-?>
-<?php get_header(); ?>
-
-<?php
-
-/*
-Template Name: Snarfer
-*/
-?>
-
-<?php
-
-/*
-Template Name: Snarfer
-*/
-?>
 <?php get_header(); ?>
 
 <div id="wrapperSingle">
@@ -33,11 +11,7 @@ Template Name: Snarfer
 <div id="header">
 <!--NAVIGATION START-->	
 <div id="mainNavigation">
-<!--<ul>
-   <li><a href="http://localhost:8888/rsb/?page_id=47">Home</a></li>
-   <li>About</li>
-   <li><a href="http://localhost:8888/rsb/?page_id=49">Contact</a></li>
-</ul>-->
+<ul>
 <?php
 foreach (bjoerne_get_navigation_nodes(0) as $node) {
 	$navItemSelected = ($node->is_selected() || $node->is_on_selected_path());
@@ -48,7 +22,7 @@ foreach (bjoerne_get_navigation_nodes(0) as $node) {
 	}
 }
 ?>
-
+</ul>
 <!--NAVIGATION END-->
 </div>
 </div>
@@ -57,13 +31,13 @@ foreach (bjoerne_get_navigation_nodes(0) as $node) {
      
       
       <div class="mainContent">
-         <div class="contentHeader"><h1><strong>RSB News</strong></h1></div>
+         <div class="contentHeader"><h1><strong><?php the_title(); ?></strong></h1></div>
             <?php if(have_posts()) : ?><?php while(have_posts()) : the_post(); ?>
          
          <div class="postHead"></div>
       
       <div class="post" id="post-<?php the_ID(); ?>">
-      <h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
+    
       <div class="entry">
         <?php the_content('<span class="moreText">Read More></span>'); ?>
           <div class="postmetadata">
@@ -88,13 +62,6 @@ foreach (bjoerne_get_navigation_nodes(0) as $node) {
     </div>
  <?php get_sidebar(); ?>
 </div>
-
-
-
-
-	
-
-
 
 
 <?php get_footer(); ?>
