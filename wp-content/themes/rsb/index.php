@@ -28,6 +28,7 @@ foreach (bjoerne_get_navigation_nodes(0) as $node) {
 
 <div id="box">
 
+
       <div class="rotatorArea">
          <?php if (function_exists('vSlider')) { vSlider(); }?>
       </div>
@@ -65,20 +66,7 @@ foreach (bjoerne_get_navigation_nodes(0) as $node) {
 
     <?php endif; ?>
 
-    
-</div>
-		 <div class="postBot"></div>
-			<?php endwhile; ?>
-		 
-		 <div class="navigation">
-			<?php posts_nav_link(); ?>
-		 </div>
-    
-	
-	<?php endif; ?>
-
-    
-    <div class="photoSection">
+   <div class="photoSection">
         <h1><strong>RSB Flickr</strong></h1>
     </div>
 
