@@ -67,7 +67,7 @@ a:hover{
 
 h1 { color:white; font-weight:400; }
 h1 strong{ color:white; font-weight:700; }
-h2 {}
+p {margin:0 0 0 0; padding: 0 0 20px 0;}
 
 
 /*//////////MAIN ELEMENTS//////////*/
@@ -124,11 +124,14 @@ h2 {}
 #mainNavigation li {
 	float: left;
 	margin-right: 25px;
-	font:.9em arial,helvetica,san-serif;
+	font:.9em georgia,serif;
+	font-weight:bold;
+
+	
 }
 
 #mainNavigation a {color:white; text-decoration:none;}
-
+#mainNavigation a:hover {color:#f5d6de; text-decoration:none;}
 #mainNavigation li.menuItem {
 	
 	margin:0 0 0 0; padding: 0 50px 0 50px;
@@ -229,19 +232,20 @@ div.post h2{
 	
 }
 
-div.post h2 a { font:.8em; font-weight:bold; color:#5f1023; }
-div.post h2 a:hover {color:#935161;}
+div.post h2 a { font-size:1.1em; font-weight:bold; color:#5f1023; }
+div.post h2 a:hover {color:#9c1b3a; font-size:1.1em; font-weight:bold; color:#5f1023; }
 
 
 div.entry {
 	margin:0 0 0 0; padding:0 60px 0 60px;
-	font:.8em arial,helvetica,san-serif;
+	font:.8em georgia,serif;
+	line-height:1.2;
 	color:#5f1023;
 	
 }
 
 span.moreText {
-   margin:15px 0 0 0; padding:5px 5px 0 5px;
+   margin:20px 0 0 0; padding:5px 5px 0 5px;
    height:20px;
    width:85px;
    background-color:#5F1023;
@@ -419,12 +423,17 @@ div.flickrStream{
 }
 
 div.flickrThumbs {
-   margin: 0 0 0 0; padding:0 0 0 40px;
-   width:400px;
+   margin: 0 0 0 0; padding:0 0 0 8px;
+   width:460px;
  
    overflow:none;
 }
 
+
+div.flickrThumbs img{
+   width:88px;
+   height:88px;
+}
 
 /*//////////SIDEBAR AREA//////////*/
 
@@ -486,18 +495,32 @@ div.sideContent {
 	margin: 0 0 0 0; padding:10px 0 10px 0;
 	width:210px;
 	border-bottom:1px solid #5f1023;
-	font:.8em arial,helvetica,san-serif;
+	font:.8em georgia,serif;
 	font-weight:bold;
 	color:#5f1023;
 }
 
-div.eventBottom{
-	margin:0 0 0 32px; padding: 0 0 0 0;
-	background:url('images/event_bottom.gif') no-repeat;
-	height:164px;
-	width:270px;
-	
+div.eventBottom{ margin:0 0 0 32px; padding: 0 0 0 0;}
+
+#eventBottomLink {
+   background:url('images/event_bottom.gif') no-repeat;
+   height:164px;
+   width:270px;
+   display:block;
+   text-indent:-9999px;
+   
 }
+
+#eventBottomLink:hover {
+   background:url('images/event_bottom_roll.gif') no-repeat;
+   height:164px;
+   width:270px;
+   display:block;
+   text-indent:-9999px;
+   
+}
+
+
 
 div.socialMedia {
 	margin:20px 0 20px 40px; padding:0 0 0 0;
@@ -528,8 +551,8 @@ div.sidebar div.socialMedia li{
 
 #footer h3 {
 	text-align:left;
-	color:black;
-	margin: 0 0 0 0; padding: 270px 0 0 520px;
+	color:#5f1023;
+	margin: 0 0 0 0; padding: 275px 0 0 540px;
 }
 
 /*/////////// PAGE STYLES/////////////////*/
@@ -557,7 +580,7 @@ div.sidebar div.socialMedia li{
 	margin: 0 0 0 100px; padding:0 0 0 0;
 }
 
-#boxSingle h2 {font-weight:bold;}
+#boxSingle h2 {font-weight:bold; font-size:1.1em; padding:0 0 10px 60px;}
 
 #boxSingle div.eventHead {
    margin:0 0 0 40px; padding: 0 0 0 0;

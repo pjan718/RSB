@@ -1,7 +1,7 @@
 <div id="footer">
 <h3>
 
-Site contents 2010 &copy; Roosevelt sportsbar
+Site contents 2011 &copy; Roosevelt sportsbar
 </h3>
 </div>
 
@@ -20,7 +20,7 @@ Site contents 2010 &copy; Roosevelt sportsbar
 <script type="text/javascript">  
 
 	Cufon.replace('h1', { rockwell: 'normal' }); 
-	Cufon.replace('h2 strong', { rockwell: 'strong' }); 
+	Cufon.replace('.post h2', { rockwell: 'strong' }); 
 	Cufon.replace('h3');
 	Cufon.replace('h4');
 	Cufon.replace('h5');
