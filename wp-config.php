@@ -19,7 +19,7 @@
 define('DB_NAME', 'rsb');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'admin');
 
 /** MySQL database password */
 define('DB_PASSWORD', 'flushingsb3st');
