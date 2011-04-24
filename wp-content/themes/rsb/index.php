@@ -54,13 +54,10 @@ foreach (bjoerne_get_navigation_nodes(0) as $node) {
       </div>
 
 </div>
-		  <div class="postBot"></div>
+		 <div class="postBot"></div>
 				<?php endwhile; ?>
-
-
-
 		 
-		  <div class="navigation">
+		 <div class="navigation">
 			<?php posts_nav_link(); ?>
 		  </div>
     

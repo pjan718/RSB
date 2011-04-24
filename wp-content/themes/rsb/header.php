@@ -14,11 +14,13 @@
 	 <link rel="alternate" type="text/xml" title="RSS .92" href="<?php bloginfo('rss_url'); ?>" />
 	 <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="<?php bloginfo('atom_url'); ?>" />
 	 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+	 
+	 <!--[if IE 6]> <link rel="stylesheet" href="http://www.rooseveltsports.com.com/wp-content/themes/rsb/css/ie6.css" type="text/css" media="screen" /> <![endif]-->
 
 	 <?php wp_get_archives('type=monthly&format=link'); ?>
 	 <?php //comments_popup_script(); // off by default ?>
 	 <?php wp_head(); ?>
-	
+	 
 	 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/global.js"></script>
 	 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/cufon-yui.js"></script>
 	 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/rockwell_400-rockwell_700-rockwell_italic_400-rockwell_italic_700.font.js"></script>

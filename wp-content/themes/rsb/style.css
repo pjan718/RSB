@@ -52,7 +52,7 @@ body{
 	text-align: center;
 	vertical-align: top;
 	color: #fff;
-	background:#000 url('images/top_bar.jpg') repeat-x top;}
+	background:#000 url('images/top_bar.jpg') repeat-x top;
 }
 
 a:link, a:visited{
@@ -124,8 +124,8 @@ p {margin:0 0 0 0; padding: 0 0 20px 0;}
 #mainNavigation li {
 	float: left;
 	margin-right: 25px;
-	font:.9em georgia,serif;
-	font-weight:bold;
+	font:1em georgia,serif;
+	font-weight:normal;
 
 	
 }
@@ -500,18 +500,9 @@ div.sideContent {
 	color:#5f1023;
 }
 
-div.eventBottom{ margin:0 0 0 32px; padding: 0 0 0 0;}
+div.eventBottom{ margin:0 0 0 32px; padding: 0 0 0 0; }
 
 #eventBottomLink {
-   background:url('images/event_bottom.gif') no-repeat;
-   height:164px;
-   width:270px;
-   display:block;
-   text-indent:-9999px;
-   
-}
-
-#eventBottomLink:hover {
    background:url('images/event_bottom_roll.gif') no-repeat;
    height:164px;
    width:270px;
@@ -520,21 +511,28 @@ div.eventBottom{ margin:0 0 0 32px; padding: 0 0 0 0;}
    
 }
 
+#eventBottomLink:hover {
+   background-position: 0 -164px;
+	}
+   
+}
+
 
 
 div.socialMedia {
-	margin:20px 0 20px 40px; padding:0 0 0 0;
-	background-color:red;
+	margin:0 0 0 0; padding:0 0 0 0;
+
+	
 }
 
 div.socialMedia h3 {
-	margin:0 0 10px 0; padding: 0 0 0 0;
+	margin:0 0 10px 0; padding: 20px 0 0 40px;
 	font:1.2em rockwell,arial,san-serif;
 	color:#fff200;
 	float:left;
 }
 
-div.socialMedia ul{ float:left;}
+div.socialMedia ul{ float:left; padding: 0 0 20px 40px;}
 
 div.sidebar div.socialMedia li{
 	margin:0 0 0 0; padding:0 20px 0 0;
